@@ -1,0 +1,14 @@
+# Allways forward http to https
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+</IfModule>
+
+# Error
+ErrorDocument 404 https://uwe-arzt.de/404
+
+# Old links used from the outside world
+Redirect 301 /20120613.html /2012/06/13/pinheader-breadboard-adapter/
+Redirect 301 /uwe-arzt.rss /post/index.xml
+

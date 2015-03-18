@@ -1,0 +1,14 @@
+baseurl = "https://uwe-arzt.de"
+title = "Uwes Blog"
+languageCode = "en-us"
+MetaDataFormat = "toml"
+
+[params]
+    Author = "Uwe Arzt"
+    subtitle = "Electronics, Robotics and me"
+
+[Taxonomies]
+    category = "categories"
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"

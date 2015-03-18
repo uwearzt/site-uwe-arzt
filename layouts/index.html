@@ -1,0 +1,17 @@
+{{ partial "page_head_start.html" . }}
+
+    <title>{{ .Site.Title }} | Electronics, Robotics and me</title>
+    {{ partial "head_include.html" . }}
+
+{{ partial "page_head_end_body_start.html" . }}
+
+<!-- content start -->
+  {{ range first 5 (where .Data.Pages "Section" "post") }}
+    <div class="blog-post">
+      <h1 class="blog-post-title">{{.Title}}</h1>
+      {{ .Render "summary"}}
+    </div>
+  {{ end }}
+<!-- content end -->
+
+{{ partial "page_body_end.html" . }}

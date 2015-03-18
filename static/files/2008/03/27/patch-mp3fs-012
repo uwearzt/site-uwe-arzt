@@ -1,0 +1,2337 @@
+Binary files mp3fs-0.12.org/build/Debug/mp3fs and mp3fs/build/Debug/mp3fs differ
+Binary files mp3fs-0.12.org/build/Release/mp3fs and mp3fs/build/Release/mp3fs differ
+diff -ruN mp3fs-0.12.org/build/Release/mp3fs.dSYM/Contents/Info.plist mp3fs/build/Release/mp3fs.dSYM/Contents/Info.plist
+--- mp3fs-0.12.org/build/Release/mp3fs.dSYM/Contents/Info.plist	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/Release/mp3fs.dSYM/Contents/Info.plist	2008-04-02 17:18:44.000000000 +0200
+@@ -0,0 +1,25 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++	<dict>
++		<key>CFBundleDevelopmentRegion</key>
++		<string>English</string>
++		<key>CFBundleIdentifier</key>
++		<string>com.apple.xcode.dsym.mp3fs</string>
++		<key>CFBundleInfoDictionaryVersion</key>
++		<string>6.0</string>
++		<key>CFBundlePackageType</key>
++		<string>dSYM</string>
++		<key>CFBundleShortVersionString</key>
++		<string>1.0</string>
++		<key>CFBundleSignature</key>
++		<string>????</string>
++		<key>CFBundleVersion</key>
++		<string>1.0</string>
++		<key>dSYM_UUID</key>
++		<dict>
++			<key>i386</key>
++			<string>97 89 7d 9a 65 53 84 14  1c 6c 27 49 47 23 72 30</string>
++		</dict>
++	</dict>
++</plist>
+Binary files mp3fs-0.12.org/build/Release/mp3fs.dSYM/Contents/Resources/DWARF/mp3fs and mp3fs/build/Release/mp3fs.dSYM/Contents/Resources/DWARF/mp3fs differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/class.o and mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/class.o differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList
+--- mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList	2008-03-28 20:34:23.000000000 +0100
+@@ -0,0 +1,5 @@
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/class.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/stringio.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/talloc.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/transcode.o
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.o and mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/stringio.o and mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/stringio.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/talloc.o and mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/talloc.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/transcode.o and mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/transcode.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs-all-target-headers.hmap and mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs-all-target-headers.hmap differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs-generated-files.hmap and mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs-generated-files.hmap differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs-own-target-headers.hmap and mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs-own-target-headers.hmap differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs-project-headers.hmap and mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs-project-headers.hmap differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs.dep mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs.dep
+--- mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs.dep	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs.dep	2008-04-02 17:18:21.000000000 +0200
+@@ -0,0 +1,6 @@
++00000000005bc3540000000000004186 95ece2e4a38e3c16bccaa17b594fde4d ffffffffffffffffffffffffffffffff 28724 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/transcode.o
++0000000047e0aa2b0000000000001294 d282d3521d5e6a1a8f8e01f1e2ff08a8 ffffffffffffffffffffffffffffffff 22448 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/talloc.o
++000000000053ebe0000000000000653a 9f4ba0d055d1f2777c5a5a4c20ddc996 ffffffffffffffffffffffffffffffff 12364 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/stringio.o
++00000000003e781800000000000058cf c6afa1f980071e567f6084fb11ec0118 ffffffffffffffffffffffffffffffff 20892 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.o
++0000000047b341f30000000000007c83 0855301b0b26f9dfb7bf7458c42264b2 ffffffffffffffffffffffffffffffff 3100 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/class.o
++16df008427c034ae87c10a654ea65d7d 0379ba04c439e04b6f071c017c63b91c ffffffffffffffffffffffffffffffff 35740 /Users/uwe/mp3fs/mp3fs/build/Debug/mp3fs
+Binary files mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs.hmap and mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs.hmap differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs~.dep mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs~.dep
+--- mp3fs-0.12.org/build/mp3fs.build/Debug/mp3fs.build/mp3fs~.dep	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Debug/mp3fs.build/mp3fs~.dep	2008-03-28 20:36:51.000000000 +0100
+@@ -0,0 +1,6 @@
++16df008427c034ae87c10a654ea65d7d 0379ba04c439e04b6f071c017c63b91c ffffffffffffffffffffffffffffffff 35740 /Users/uwe/mp3fs/mp3fs/build/Debug/mp3fs
++00000000005bc3540000000000004186 95ece2e4a38e3c16bccaa17b594fde4d ffffffffffffffffffffffffffffffff 28724 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/transcode.o
++0000000047e0aa2b0000000000001294 d282d3521d5e6a1a8f8e01f1e2ff08a8 ffffffffffffffffffffffffffffffff 22448 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/talloc.o
++000000000053ebe0000000000000653a 9f4ba0d055d1f2777c5a5a4c20ddc996 ffffffffffffffffffffffffffffffff 12364 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/stringio.o
++00000000003e781800000000000058cf c6afa1f980071e567f6084fb11ec0118 ffffffffffffffffffffffffffffffff 20892 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/mp3fs.o
++0000000047b341f30000000000007c83 0855301b0b26f9dfb7bf7458c42264b2 ffffffffffffffffffffffffffffffff 3100 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Debug/mp3fs.build/Objects-normal/i386/class.o
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/class.o and mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/class.o differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList
+--- mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.LinkFileList	2008-04-02 17:18:43.000000000 +0200
+@@ -0,0 +1,5 @@
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/class.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/stringio.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/talloc.o
++/Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/transcode.o
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.o and mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/stringio.o and mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/stringio.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/talloc.o and mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/talloc.o differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/transcode.o and mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/transcode.o differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs-LinkMap-normal-i386.txt mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs-LinkMap-normal-i386.txt
+--- mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs-LinkMap-normal-i386.txt	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs-LinkMap-normal-i386.txt	2008-04-02 17:18:44.000000000 +0200
+@@ -0,0 +1,234 @@
++# Path: /Users/uwe/mp3fs/mp3fs/build/Release/mp3fs
++# Arch: i386
++# UUID:  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
++# Object files:
++[  0] linker synthesized
++[  1] /Developer/SDKs/MacOSX10.5.sdk/usr/lib/crt1.10.5.o
++[  2] /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/class.o
++[  3] /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.o
++[  4] /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/stringio.o
++[  5] /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/talloc.o
++[  6] /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/transcode.o
++# Sections:
++# Address	Size    	Segment	Section
++0x00001960	0x000024CD	__TEXT	__text
++0x00003E30	0x0000019E	__TEXT	__cstring
++0x00003FD0	0x00000020	__TEXT	__const
++0x00003FF0	0x00000010	__TEXT	__literal8
++0x00004000	0x000000F4	__DATA	__data
++0x000040F4	0x0000001C	__DATA	__dyld
++0x00004120	0x00006D70	__DATA	__common
++0x0000AE90	0x00000008	__DATA	__bss
++0x0000B000	0x00000010	__IMPORT	__pointers
++0x0000B040	0x0000015E	__IMPORT	__jump_table
++# Symbols:
++# Address	Size    	File  Name
++0x00001960	0x00000040	[  1] start
++0x000019A0	0x00000014	[  1] dyld_stub_binding_helper
++0x000019B4	0x0000000E	[  1] __dyld_func_lookup
++0x000019C2	0x00000015	[  2] _Object_Alloc
++0x000019D7	0x0000002A	[  2] _issubclass
++0x00001A01	0x00000019	[  2] _Object_init
++0x00001A1A	0x000000B1	[  3] _mp3fs_readlink
++0x00001ACB	0x000001FF	[  3] _mp3fs_readdir
++0x00001CCA	0x00000139	[  3] _mp3fs_getattr
++0x00001E03	0x00000117	[  3] _mp3fs_open
++0x00001F1A	0x00000135	[  3] _mp3fs_read
++0x0000204F	0x000000A1	[  3] _mp3fs_statfs
++0x000020F0	0x0000002A	[  3] _mp3fs_release
++0x0000211A	0x00000032	[  3] _usage
++0x0000214C	0x000000D9	[  3] _main
++0x00002225	0x0000003B	[  4] _StringIO_constructor
++0x00002260	0x00000060	[  4] _StringIO_write
++0x000022C0	0x00000092	[  4] _StringIO_sprintf
++0x00002352	0x0000004D	[  4] _StringIO_read
++0x0000239F	0x00000064	[  4] _StringIO_read_stream
++0x00002403	0x00000015	[  4] _StringIO_write_stream
++0x00002418	0x00000065	[  4] _StringIO_seek
++0x0000247D	0x00000014	[  4] _StringIO_eof
++0x00002491	0x0000001E	[  4] _StringIO_get_buffer
++0x000024AF	0x00000016	[  4] _StringIO_truncate
++0x000024C5	0x00000044	[  4] _StringIO_skip
++0x00002509	0x0000003B	[  4] _StringIO_find
++0x00002544	0x00000067	[  4] _StringIO_ifind
++0x000025AB	0x00000022	[  4] _StringIO_destroy
++0x000025CD	0x000000A9	[  4] _StringIO_Alloc
++0x00002676	0x00000028	[  4] _StringIO_init
++0x0000269E	0x0000001B	[  5] _talloc_chunk_from_ptr
++0x000026B9	0x000000B7	[  5] __talloc
++0x00002770	0x00000016	[  5] _talloc_set_destructor
++0x00002786	0x00000168	[  5] _talloc_steal
++0x000028EE	0x00000005	[  5] _talloc_set_name
++0x000028F3	0x00000005	[  5] _talloc_set_name_const
++0x000028F8	0x00000007	[  5] _talloc_named
++0x000028FF	0x00000007	[  5] _talloc_get_name
++0x00002906	0x00000007	[  5] _talloc_check_name
++0x0000290D	0x0000002A	[  5] _talloc_init
++0x00002937	0x0000004D	[  5] _talloc_total_size
++0x00002984	0x0000003E	[  5] _talloc_total_blocks
++0x000029C2	0x00000042	[  5] __talloc_zero
++0x00002A04	0x00000041	[  5] __talloc_memdup
++0x00002A45	0x0000003E	[  5] __talloc_array
++0x00002A83	0x00000050	[  5] __talloc_zero_array
++0x00002AD3	0x0000003B	[  5] _talloc_autofree_context
++0x00002B0E	0x0000003A	[  5] _talloc_strdup
++0x00002B48	0x0000005A	[  5] _talloc_strndup
++0x00002BA2	0x00000073	[  5] _talloc_vasprintf
++0x00002C15	0x00000024	[  5] _talloc_asprintf
++0x00002C39	0x0000001F	[  5] _talloc_parent
++0x00002C58	0x0000015A	[  5] _talloc_free
++0x00002DB2	0x0000001F	[  5] _talloc_autofree
++0x00002DD1	0x000000B4	[  5] __talloc_realloc
++0x00002E85	0x00000029	[  5] _talloc_realloc_fn
++0x00002EAE	0x00000056	[  5] __talloc_realloc_array
++0x00002F04	0x000000C9	[  5] _talloc_asprintf_append
++0x00002FCD	0x00000079	[  5] _talloc_reference_destructor
++0x00003046	0x00000084	[  5] _talloc_reference
++0x000030CA	0x0000001C	[  5] _talloc_increase_ref_count
++0x000030E6	0x000000B4	[  5] _talloc_unreference
++0x0000319A	0x000000CF	[  5] _talloc_unlink
++0x00003269	0x00000086	[  6] _make_frame
++0x000032EF	0x0000004F	[  6] _get_tag
++0x0000333E	0x0000004E	[  6] _set_tag
++0x0000338C	0x0000003E	[  6] _calcsize
++0x000033CA	0x00000005	[  6] _lame_error
++0x000033CF	0x00000005	[  6] _error_cb
++0x000033D4	0x00000097	[  6] _write_cb
++0x0000346B	0x00000304	[  6] _meta_cb
++0x0000376F	0x000000BA	[  6] _FileTranscoder_Finish
++0x00003829	0x00000128	[  6] _FileTranscoder_Read
++0x00003951	0x00000065	[  6] _FileTranscoder_Alloc
++0x000039B6	0x00000029	[  6] _FileTranscoder_init
++0x000039DF	0x0000044E	[  6] _FileTranscoder_Con
++0x00003E30	0x00000006	[  3] ".flac"
++0x00003E36	0x00000001	[  3] ""
++0x00003E38	0x00000035	[  3] "\nUSAGE: %s flacdir,bitrate mountpoint [-o fuseopts]\n"
++0x00003E70	0x00000040	[  3] "  acceptable bitrates are 96, 112, 128, 160, 192, 224, 256, 320"
++0x00003EB0	0x00000036	[  3] "  for a list of fuse options use -h after mountpoint\n"
++0x00003EE6	0x00000017	[  3] "No bit rate specified\n"
++0x00003EFD	0x00000005	[  5] "char"
++0x00003F02	0x00000003	[  6] "%d"
++0x00003F05	0x00000005	[  6] "TLEN"
++0x00003F0A	0x00000006	[  6] "TITLE"
++0x00003F10	0x00000005	[  6] "TIT2"
++0x00003F15	0x00000007	[  6] "ARTIST"
++0x00003F1C	0x00000005	[  6] "TPE1"
++0x00003F21	0x00000006	[  6] "ALBUM"
++0x00003F27	0x00000005	[  6] "TALB"
++0x00003F2C	0x00000006	[  6] "GENRE"
++0x00003F32	0x00000005	[  6] "TCON"
++0x00003F37	0x00000005	[  6] "DATE"
++0x00003F3C	0x00000005	[  6] "TDRC"
++0x00003F41	0x0000000C	[  6] "DESCRIPTION"
++0x00003F4D	0x00000005	[  6] "COMM"
++0x00003F52	0x00000009	[  6] "COMPOSER"
++0x00003F5B	0x00000005	[  6] "TCOM"
++0x00003F60	0x0000000A	[  6] "PERFORMER"
++0x00003F6A	0x00000005	[  6] "TOPE"
++0x00003F6F	0x0000000A	[  6] "COPYRIGHT"
++0x00003F79	0x00000005	[  6] "TCOP"
++0x00003F7E	0x00000008	[  6] "LICENSE"
++0x00003F86	0x00000005	[  6] "WXXX"
++0x00003F8B	0x0000000B	[  6] "ENCODED_BY"
++0x00003F96	0x00000005	[  6] "TENC"
++0x00003F9B	0x0000000C	[  6] "TRACKNUMBER"
++0x00003FA7	0x00000003	[  6] "%s"
++0x00003FAA	0x0000000B	[  6] "TRACKTOTAL"
++0x00003FB5	0x00000004	[  6] "/%s"
++0x00003FB9	0x00000005	[  6] "TRCK"
++0x00003FBE	0x00000006	[  6] "MP3FS"
++0x00003FC4	0x00000005	[  6] "TSSE"
++0x00003FC9	0x00000005	[  6] ".mp3"
++0x00003FD0	0x00000020	[  6] __const@0
++0x00003FF0	0x00000008	[  6] 8-byte-literal=0x4081FC0000000000
++0x00003FF8	0x00000008	[  6] 8-byte-literal=0x4092000000000000
++0x00004000	0x00000004	[  1] ___progname
++0x00004004	0x00000004	[  1] _environ
++0x00004008	0x00000004	[  1] _NXArgv
++0x0000400C	0x00000008	[  1] _NXArgc
++0x00004014	0x00000014	[  2] ___Object
++0x00004040	0x000000A0	[  3] _mp3fs_ops
++0x000040E0	0x00000008	[  4] ___StringIO_initialised
++0x000040E8	0x0000000C	[  6] ___FileTranscoder_initialised
++0x000040F4	0x0000001C	[  1] __dyld@0
++0x00004120	0x00000060	[  4] ___StringIO
++0x00004180	0x00006D04	[  6] ___FileTranscoder
++0x0000AE84	0x00000004	[  6] _basepath
++0x0000AE88	0x00000004	[  6] _bitrate
++0x0000AE8C	0x00000004	[  6] _logfd
++0x0000AE90	0x00000004	[  5] _null_context
++0x0000AE94	0x00000004	[  5] _cleanup_context
++0x0000B000	0x00000004	[  3] ___stderrp$non_lazy_ptr
++0x0000B004	0x00000004	[  3] ___FileTranscoder$non_lazy_ptr
++0x0000B008	0x00000004	[  4] ___Object$non_lazy_ptr
++0x0000B00C	0x00000004	[  6] ___StringIO$non_lazy_ptr
++0x0000B040	0x00000005	[  0] _FLAC__metadata_object_vorbiscomment_find_entry_from$stub
++0x0000B045	0x00000005	[  0] _FLAC__stream_decoder_delete$stub
++0x0000B04A	0x00000005	[  0] _FLAC__stream_decoder_finish$stub
++0x0000B04F	0x00000005	[  0] _FLAC__stream_decoder_get_state$stub
++0x0000B054	0x00000005	[  0] _FLAC__stream_decoder_init_file$stub
++0x0000B059	0x00000005	[  0] _FLAC__stream_decoder_new$stub
++0x0000B05E	0x00000005	[  0] _FLAC__stream_decoder_process_single$stub
++0x0000B063	0x00000005	[  0] _FLAC__stream_decoder_process_until_end_of_metadata$stub
++0x0000B068	0x00000005	[  0] _FLAC__stream_decoder_set_metadata_respond$stub
++0x0000B06D	0x00000005	[  0] ___error$stub
++0x0000B072	0x00000005	[  0] ___udivdi3$stub
++0x0000B077	0x00000005	[  0] _abort$stub
++0x0000B07C	0x00000005	[  0] cache-line-crossing-stub
++0x0000B081	0x00000005	[  0] _atexit$stub
++0x0000B086	0x00000005	[  0] _atoi$stub
++0x0000B08B	0x00000005	[  0] _close$UNIX2003$stub
++0x0000B090	0x00000005	[  0] _closedir$UNIX2003$stub
++0x0000B095	0x00000005	[  0] _exit$stub
++0x0000B09A	0x00000005	[  0] _free$stub
++0x0000B09F	0x00000005	[  0] _fuse_main_real$stub
++0x0000B0A4	0x00000005	[  0] _fwrite$UNIX2003$stub
++0x0000B0A9	0x00000005	[  0] _id3_field_setstrings$stub
++0x0000B0AE	0x00000005	[  0] _id3_field_settextencoding$stub
++0x0000B0B3	0x00000005	[  0] _id3_frame_new$stub
++0x0000B0B8	0x00000005	[  0] _id3_tag_attachframe$stub
++0x0000B0BD	0x00000005	[  0] cache-line-crossing-stub
++0x0000B0C2	0x00000005	[  0] _id3_tag_delete$stub
++0x0000B0C7	0x00000005	[  0] _id3_tag_new$stub
++0x0000B0CC	0x00000005	[  0] _id3_tag_options$stub
++0x0000B0D1	0x00000005	[  0] _id3_tag_render$stub
++0x0000B0D6	0x00000005	[  0] _id3_utf8_decode$stub
++0x0000B0DB	0x00000005	[  0] _id3_utf8_length$stub
++0x0000B0E0	0x00000005	[  0] _lame_close$stub
++0x0000B0E5	0x00000005	[  0] _lame_encode_buffer$stub
++0x0000B0EA	0x00000005	[  0] _lame_encode_flush$stub
++0x0000B0EF	0x00000005	[  0] _lame_get_size_mp3buffer$stub
++0x0000B0F4	0x00000005	[  0] _lame_init$stub
++0x0000B0F9	0x00000005	[  0] _lame_init_params$stub
++0x0000B0FE	0x00000005	[  0] cache-line-crossing-stub
++0x0000B103	0x00000005	[  0] _lame_set_bWriteVbrTag$stub
++0x0000B108	0x00000005	[  0] _lame_set_brate$stub
++0x0000B10D	0x00000005	[  0] _lame_set_debugf$stub
++0x0000B112	0x00000005	[  0] _lame_set_errorf$stub
++0x0000B117	0x00000005	[  0] _lame_set_in_samplerate$stub
++0x0000B11C	0x00000005	[  0] _lame_set_msgf$stub
++0x0000B121	0x00000005	[  0] _lame_set_num_channels$stub
++0x0000B126	0x00000005	[  0] _lame_set_num_samples$stub
++0x0000B12B	0x00000005	[  0] _lame_set_quality$stub
++0x0000B130	0x00000005	[  0] _lstat$stub
++0x0000B135	0x00000005	[  0] _malloc$stub
++0x0000B13A	0x00000005	[  0] _memcpy$stub
++0x0000B13F	0x00000005	[  0] cache-line-crossing-stub
++0x0000B144	0x00000005	[  0] _memmove$stub
++0x0000B149	0x00000005	[  0] _memset$stub
++0x0000B14E	0x00000005	[  0] _open$UNIX2003$stub
++0x0000B153	0x00000005	[  0] _opendir$UNIX2003$stub
++0x0000B158	0x00000005	[  0] _pread$UNIX2003$stub
++0x0000B15D	0x00000005	[  0] _printf$stub
++0x0000B162	0x00000005	[  0] _puts$stub
++0x0000B167	0x00000005	[  0] _readdir$stub
++0x0000B16C	0x00000005	[  0] _readlink$stub
++0x0000B171	0x00000005	[  0] _realloc$stub
++0x0000B176	0x00000005	[  0] _statvfs$stub
++0x0000B17B	0x00000005	[  0] _strchr$stub
++0x0000B180	0x00000005	[  0] _strlen$stub
++0x0000B185	0x00000005	[  0] _strncasecmp$stub
++0x0000B18A	0x00000005	[  0] _strncat$stub
++0x0000B18F	0x00000005	[  0] _strncpy$stub
++0x0000B194	0x00000005	[  0] _strstr$stub
++0x0000B199	0x00000005	[  0] _vsnprintf$stub
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs-all-target-headers.hmap and mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs-all-target-headers.hmap differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs-generated-files.hmap and mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs-generated-files.hmap differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs-own-target-headers.hmap and mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs-own-target-headers.hmap differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs-project-headers.hmap and mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs-project-headers.hmap differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs.dep mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs.dep
+--- mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs.dep	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs.dep	2008-05-08 08:14:09.000000000 +0200
+@@ -0,0 +1,7 @@
++00000000005bc3540000000000004186 a0b500fde018f48d5d6380808690d9b4 ffffffffffffffffffffffffffffffff 29152 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/transcode.o
++0000000047e0aa2b0000000000001294 553472573ec078d20bf42b0249a62f84 ffffffffffffffffffffffffffffffff 24972 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/talloc.o
++000000000053ebe0000000000000653a 44043cc5d0e35c4309de93cea0a2fc43 ffffffffffffffffffffffffffffffff 12760 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/stringio.o
++00000000003e781800000000000058cf 994be7e9b159b878480036b95bf0b4ee ffffffffffffffffffffffffffffffff 20856 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.o
++0000000047b341f30000000000007c83 6fc1a1e1aecefa8e7b5901f1107d232c ffffffffffffffffffffffffffffffff 3152 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/class.o
++00000000000000000000000000000000 2fd224af461bc914dbc6832215497a02 ffffffffffffffffffffffffffffffff 102 /Users/uwe/mp3fs/mp3fs/build/Release/mp3fs.dSYM
++470f0867564ce5b66c100f04241cba15 f936664f49776b97744e8951fbdc64ea ffffffffffffffffffffffffffffffff 31272 /Users/uwe/mp3fs/mp3fs/build/Release/mp3fs
+Binary files mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs.hmap and mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs.hmap differ
+diff -ruN mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs~.dep mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs~.dep
+--- mp3fs-0.12.org/build/mp3fs.build/Release/mp3fs.build/mp3fs~.dep	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/build/mp3fs.build/Release/mp3fs.build/mp3fs~.dep	2008-04-02 17:21:13.000000000 +0200
+@@ -0,0 +1,7 @@
++00000000005bc3540000000000004186 a0b500fde018f48d5d6380808690d9b4 ffffffffffffffffffffffffffffffff 29152 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/transcode.o
++0000000047e0aa2b0000000000001294 553472573ec078d20bf42b0249a62f84 ffffffffffffffffffffffffffffffff 24972 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/talloc.o
++000000000053ebe0000000000000653a 44043cc5d0e35c4309de93cea0a2fc43 ffffffffffffffffffffffffffffffff 12760 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/stringio.o
++00000000003e781800000000000058cf 994be7e9b159b878480036b95bf0b4ee ffffffffffffffffffffffffffffffff 20856 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/mp3fs.o
++0000000047b341f30000000000007c83 6fc1a1e1aecefa8e7b5901f1107d232c ffffffffffffffffffffffffffffffff 3152 /Users/uwe/mp3fs/mp3fs/build/mp3fs.build/Release/mp3fs.build/Objects-normal/i386/class.o
++00000000000000000000000000000000 2fd224af461bc914dbc6832215497a02 ffffffffffffffffffffffffffffffff 102 /Users/uwe/mp3fs/mp3fs/build/Release/mp3fs.dSYM
++470f0867564ce5b66c100f04241cba15 f936664f49776b97744e8951fbdc64ea ffffffffffffffffffffffffffffffff 31272 /Users/uwe/mp3fs/mp3fs/build/Release/mp3fs
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/categories.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/categories.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/cdecls.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/cdecls.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/decls.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/decls.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/files.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/files.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/imports.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/imports.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/pbxindex.header and mp3fs/build/mp3fs.build/mp3fs.pbxindex/pbxindex.header differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/protocols.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/protocols.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/refs.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/refs.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/strings.pbxstrings/control and mp3fs/build/mp3fs.build/mp3fs.pbxindex/strings.pbxstrings/control differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/strings.pbxstrings/strings and mp3fs/build/mp3fs.build/mp3fs.pbxindex/strings.pbxstrings/strings differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/subclasses.pbxbtree and mp3fs/build/mp3fs.build/mp3fs.pbxindex/subclasses.pbxbtree differ
+Binary files mp3fs-0.12.org/build/mp3fs.build/mp3fs.pbxindex/symbols0.pbxsymbols and mp3fs/build/mp3fs.build/mp3fs.pbxindex/symbols0.pbxsymbols differ
+diff -ruN mp3fs-0.12.org/mp3fs.xcodeproj/project.pbxproj mp3fs/mp3fs.xcodeproj/project.pbxproj
+--- mp3fs-0.12.org/mp3fs.xcodeproj/project.pbxproj	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/mp3fs.xcodeproj/project.pbxproj	2008-05-08 08:14:09.000000000 +0200
+@@ -0,0 +1,263 @@
++// !$*UTF8*$!
++{
++	archiveVersion = 1;
++	classes = {
++	};
++	objectVersion = 44;
++	objects = {
++
++/* Begin PBXBuildFile section */
++		C67BBAF00D9ACF8200BA0C5C /* libFLAC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BBAEF0D9ACF8200BA0C5C /* libFLAC.dylib */; };
++		C68292660D9A80FA00D63EBC /* libfuse.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C68292650D9A80FA00D63EBC /* libfuse.dylib */; };
++		C68292720D9A995500D63EBC /* libmp3lame.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C68292710D9A995500D63EBC /* libmp3lame.dylib */; };
++		C68292740D9A996400D63EBC /* libid3tag.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C68292730D9A996400D63EBC /* libid3tag.dylib */; };
++		C6A668BC0D99AB7000078781 /* class.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B30D99AB7000078781 /* class.c */; };
++		C6A668BD0D99AB7000078781 /* mp3fs.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B50D99AB7000078781 /* mp3fs.c */; };
++		C6A668BE0D99AB7000078781 /* stringio.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B60D99AB7000078781 /* stringio.c */; };
++		C6A668BF0D99AB7000078781 /* talloc.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A668B80D99AB7000078781 /* talloc.c */; };
++		C6A668C00D99AB7000078781 /* transcode.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A668BA0D99AB7000078781 /* transcode.c */; };
++/* End PBXBuildFile section */
++
++/* Begin PBXCopyFilesBuildPhase section */
++		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
++			isa = PBXCopyFilesBuildPhase;
++			buildActionMask = 8;
++			dstPath = /usr/share/man/man1/;
++			dstSubfolderSpec = 0;
++			files = (
++			);
++			runOnlyForDeploymentPostprocessing = 1;
++		};
++/* End PBXCopyFilesBuildPhase section */
++
++/* Begin PBXFileReference section */
++		8DD76FB20486AB0100D96B5E /* mp3fs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mp3fs; sourceTree = BUILT_PRODUCTS_DIR; };
++		C67BBAEF0D9ACF8200BA0C5C /* libFLAC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libFLAC.dylib; path = /opt/local/lib/libFLAC.dylib; sourceTree = "<absolute>"; };
++		C68292650D9A80FA00D63EBC /* libfuse.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfuse.dylib; path = /usr/local/lib/libfuse.dylib; sourceTree = "<absolute>"; };
++		C68292710D9A995500D63EBC /* libmp3lame.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmp3lame.dylib; path = /opt/local/lib/libmp3lame.dylib; sourceTree = "<absolute>"; };
++		C68292730D9A996400D63EBC /* libid3tag.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libid3tag.dylib; path = /opt/local/lib/libid3tag.dylib; sourceTree = "<absolute>"; };
++		C6A668B30D99AB7000078781 /* class.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = class.c; path = src/class.c; sourceTree = "<group>"; };
++		C6A668B40D99AB7000078781 /* class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = class.h; path = src/class.h; sourceTree = "<group>"; };
++		C6A668B50D99AB7000078781 /* mp3fs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mp3fs.c; path = src/mp3fs.c; sourceTree = "<group>"; };
++		C6A668B60D99AB7000078781 /* stringio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stringio.c; path = src/stringio.c; sourceTree = "<group>"; };
++		C6A668B70D99AB7000078781 /* stringio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stringio.h; path = src/stringio.h; sourceTree = "<group>"; };
++		C6A668B80D99AB7000078781 /* talloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = talloc.c; path = src/talloc.c; sourceTree = "<group>"; };
++		C6A668B90D99AB7000078781 /* talloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = talloc.h; path = src/talloc.h; sourceTree = "<group>"; };
++		C6A668BA0D99AB7000078781 /* transcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transcode.c; path = src/transcode.c; sourceTree = "<group>"; };
++		C6A668BB0D99AB7000078781 /* transcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transcode.h; path = src/transcode.h; sourceTree = "<group>"; };
++/* End PBXFileReference section */
++
++/* Begin PBXFrameworksBuildPhase section */
++		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
++			isa = PBXFrameworksBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				C68292660D9A80FA00D63EBC /* libfuse.dylib in Frameworks */,
++				C68292720D9A995500D63EBC /* libmp3lame.dylib in Frameworks */,
++				C68292740D9A996400D63EBC /* libid3tag.dylib in Frameworks */,
++				C67BBAF00D9ACF8200BA0C5C /* libFLAC.dylib in Frameworks */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++/* End PBXFrameworksBuildPhase section */
++
++/* Begin PBXGroup section */
++		08FB7794FE84155DC02AAC07 /* mp3fs */ = {
++			isa = PBXGroup;
++			children = (
++				C68292650D9A80FA00D63EBC /* libfuse.dylib */,
++				C67BBAEF0D9ACF8200BA0C5C /* libFLAC.dylib */,
++				C68292730D9A996400D63EBC /* libid3tag.dylib */,
++				C68292710D9A995500D63EBC /* libmp3lame.dylib */,
++				08FB7795FE84155DC02AAC07 /* Source */,
++				C6A0FF2B0290797F04C91782 /* Documentation */,
++				1AB674ADFE9D54B511CA2CBB /* Products */,
++			);
++			name = mp3fs;
++			sourceTree = "<group>";
++		};
++		08FB7795FE84155DC02AAC07 /* Source */ = {
++			isa = PBXGroup;
++			children = (
++				C6A668B30D99AB7000078781 /* class.c */,
++				C6A668B40D99AB7000078781 /* class.h */,
++				C6A668B50D99AB7000078781 /* mp3fs.c */,
++				C6A668B60D99AB7000078781 /* stringio.c */,
++				C6A668B70D99AB7000078781 /* stringio.h */,
++				C6A668B80D99AB7000078781 /* talloc.c */,
++				C6A668B90D99AB7000078781 /* talloc.h */,
++				C6A668BA0D99AB7000078781 /* transcode.c */,
++				C6A668BB0D99AB7000078781 /* transcode.h */,
++			);
++			name = Source;
++			sourceTree = "<group>";
++		};
++		1AB674ADFE9D54B511CA2CBB /* Products */ = {
++			isa = PBXGroup;
++			children = (
++				8DD76FB20486AB0100D96B5E /* mp3fs */,
++			);
++			name = Products;
++			sourceTree = "<group>";
++		};
++		C6A0FF2B0290797F04C91782 /* Documentation */ = {
++			isa = PBXGroup;
++			children = (
++			);
++			name = Documentation;
++			sourceTree = "<group>";
++		};
++/* End PBXGroup section */
++
++/* Begin PBXNativeTarget section */
++		8DD76FA90486AB0100D96B5E /* mp3fs */ = {
++			isa = PBXNativeTarget;
++			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "mp3fs" */;
++			buildPhases = (
++				8DD76FAB0486AB0100D96B5E /* Sources */,
++				8DD76FAD0486AB0100D96B5E /* Frameworks */,
++				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
++			);
++			buildRules = (
++			);
++			dependencies = (
++			);
++			name = mp3fs;
++			productInstallPath = "$(HOME)/bin";
++			productName = mp3fs;
++			productReference = 8DD76FB20486AB0100D96B5E /* mp3fs */;
++			productType = "com.apple.product-type.tool";
++		};
++/* End PBXNativeTarget section */
++
++/* Begin PBXProject section */
++		08FB7793FE84155DC02AAC07 /* Project object */ = {
++			isa = PBXProject;
++			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "mp3fs" */;
++			compatibilityVersion = "Xcode 3.0";
++			hasScannedForEncodings = 1;
++			mainGroup = 08FB7794FE84155DC02AAC07 /* mp3fs */;
++			projectDirPath = "";
++			projectRoot = "";
++			targets = (
++				8DD76FA90486AB0100D96B5E /* mp3fs */,
++			);
++		};
++/* End PBXProject section */
++
++/* Begin PBXSourcesBuildPhase section */
++		8DD76FAB0486AB0100D96B5E /* Sources */ = {
++			isa = PBXSourcesBuildPhase;
++			buildActionMask = 2147483647;
++			files = (
++				C6A668BC0D99AB7000078781 /* class.c in Sources */,
++				C6A668BD0D99AB7000078781 /* mp3fs.c in Sources */,
++				C6A668BE0D99AB7000078781 /* stringio.c in Sources */,
++				C6A668BF0D99AB7000078781 /* talloc.c in Sources */,
++				C6A668C00D99AB7000078781 /* transcode.c in Sources */,
++			);
++			runOnlyForDeploymentPostprocessing = 0;
++		};
++/* End PBXSourcesBuildPhase section */
++
++/* Begin XCBuildConfiguration section */
++		1DEB928608733DD80010E9CD /* Debug */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				COPY_PHASE_STRIP = NO;
++				GCC_DYNAMIC_NO_PIC = NO;
++				GCC_ENABLE_FIX_AND_CONTINUE = YES;
++				GCC_MODEL_TUNING = G5;
++				GCC_OPTIMIZATION_LEVEL = 0;
++				INSTALL_PATH = /usr/local/bin;
++				LIBRARY_SEARCH_PATHS = /opt/local/lib;
++				PRODUCT_NAME = mp3fs;
++			};
++			name = Debug;
++		};
++		1DEB928708733DD80010E9CD /* Release */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
++				GCC_MODEL_TUNING = G5;
++				INSTALL_PATH = /usr/local/bin;
++				LIBRARY_SEARCH_PATHS = /opt/local/lib;
++				ONLY_ACTIVE_ARCH = YES;
++				PRODUCT_NAME = mp3fs;
++			};
++			name = Release;
++		};
++		1DEB928A08733DD80010E9CD /* Debug */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
++				GCC_OPTIMIZATION_LEVEL = 0;
++				GCC_WARN_ABOUT_RETURN_TYPE = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				HEADER_SEARCH_PATHS = (
++					/usr/local/include/fuse,
++					/opt/local/include,
++				);
++				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
++				OTHER_CFLAGS = (
++					"-D_FILE_OFFSET_BITS=64",
++					"-D__FreeBSD__=10",
++				);
++				PREBINDING = NO;
++				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
++			};
++			name = Debug;
++		};
++		1DEB928B08733DD80010E9CD /* Release */ = {
++			isa = XCBuildConfiguration;
++			buildSettings = {
++				ALWAYS_SEARCH_USER_PATHS = NO;
++				ARCHS = "$(NATIVE_ARCH)";
++				GCC_WARN_ABOUT_RETURN_TYPE = YES;
++				GCC_WARN_UNUSED_VARIABLE = YES;
++				HEADER_SEARCH_PATHS = (
++					/usr/local/include/fuse,
++					/opt/local/include,
++				);
++				LD_GENERATE_MAP_FILE = YES;
++				LIBRARY_SEARCH_PATHS = (
++					/opt/local/lib,
++					/usr/local/lib,
++				);
++				OTHER_CFLAGS = (
++					"-D_FILE_OFFSET_BITS=64",
++					"-D__FreeBSD__=10",
++				);
++				PREBINDING = NO;
++				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
++			};
++			name = Release;
++		};
++/* End XCBuildConfiguration section */
++
++/* Begin XCConfigurationList section */
++		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "mp3fs" */ = {
++			isa = XCConfigurationList;
++			buildConfigurations = (
++				1DEB928608733DD80010E9CD /* Debug */,
++				1DEB928708733DD80010E9CD /* Release */,
++			);
++			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
++		};
++		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "mp3fs" */ = {
++			isa = XCConfigurationList;
++			buildConfigurations = (
++				1DEB928A08733DD80010E9CD /* Debug */,
++				1DEB928B08733DD80010E9CD /* Release */,
++			);
++			defaultConfigurationIsVisible = 0;
++			defaultConfigurationName = Release;
++		};
++/* End XCConfigurationList section */
++	};
++	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
++}
+diff -ruN mp3fs-0.12.org/mp3fs.xcodeproj/uwe.mode1v3 mp3fs/mp3fs.xcodeproj/uwe.mode1v3
+--- mp3fs-0.12.org/mp3fs.xcodeproj/uwe.mode1v3	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/mp3fs.xcodeproj/uwe.mode1v3	2008-05-08 08:14:09.000000000 +0200
+@@ -0,0 +1,1391 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>ActivePerspectiveName</key>
++	<string>Project</string>
++	<key>AllowedModules</key>
++	<array>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXSmartGroupTreeModule</string>
++			<key>Name</key>
++			<string>Groups and Files Outline View</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXNavigatorGroup</string>
++			<key>Name</key>
++			<string>Editor</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>XCTaskListModule</string>
++			<key>Name</key>
++			<string>Task List</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>XCDetailModule</string>
++			<key>Name</key>
++			<string>File and Smart Group Detail Viewer</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>1</string>
++			<key>Module</key>
++			<string>PBXBuildResultsModule</string>
++			<key>Name</key>
++			<string>Detailed Build Results Viewer</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>1</string>
++			<key>Module</key>
++			<string>PBXProjectFindModule</string>
++			<key>Name</key>
++			<string>Project Batch Find Tool</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>XCProjectFormatConflictsModule</string>
++			<key>Name</key>
++			<string>Project Format Conflicts List</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXBookmarksModule</string>
++			<key>Name</key>
++			<string>Bookmarks Tool</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXClassBrowserModule</string>
++			<key>Name</key>
++			<string>Class Browser</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXCVSModule</string>
++			<key>Name</key>
++			<string>Source Code Control Tool</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXDebugBreakpointsModule</string>
++			<key>Name</key>
++			<string>Debug Breakpoints Tool</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>XCDockableInspector</string>
++			<key>Name</key>
++			<string>Inspector</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>PBXOpenQuicklyModule</string>
++			<key>Name</key>
++			<string>Open Quickly Tool</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>1</string>
++			<key>Module</key>
++			<string>PBXDebugSessionModule</string>
++			<key>Name</key>
++			<string>Debugger</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>1</string>
++			<key>Module</key>
++			<string>PBXDebugCLIModule</string>
++			<key>Name</key>
++			<string>Debug Console</string>
++		</dict>
++		<dict>
++			<key>BundleLoadPath</key>
++			<string></string>
++			<key>MaxInstances</key>
++			<string>n</string>
++			<key>Module</key>
++			<string>XCSnapshotModule</string>
++			<key>Name</key>
++			<string>Snapshots Tool</string>
++		</dict>
++	</array>
++	<key>BundlePath</key>
++	<string>/Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources</string>
++	<key>Description</key>
++	<string>DefaultDescriptionKey</string>
++	<key>DockingSystemVisible</key>
++	<false/>
++	<key>Extension</key>
++	<string>mode1v3</string>
++	<key>FavBarConfig</key>
++	<dict>
++		<key>PBXProjectModuleGUID</key>
++		<string>C6A668AE0D99AAEF00078781</string>
++		<key>XCBarModuleItemNames</key>
++		<dict/>
++		<key>XCBarModuleItems</key>
++		<array/>
++	</dict>
++	<key>FirstTimeWindowDisplayed</key>
++	<false/>
++	<key>Identifier</key>
++	<string>com.apple.perspectives.project.mode1v3</string>
++	<key>MajorVersion</key>
++	<integer>33</integer>
++	<key>MinorVersion</key>
++	<integer>0</integer>
++	<key>Name</key>
++	<string>Default</string>
++	<key>Notifications</key>
++	<array/>
++	<key>OpenEditors</key>
++	<array/>
++	<key>PerspectiveWidths</key>
++	<array>
++		<integer>-1</integer>
++		<integer>-1</integer>
++	</array>
++	<key>Perspectives</key>
++	<array>
++		<dict>
++			<key>ChosenToolbarItems</key>
++			<array>
++				<string>active-target-popup</string>
++				<string>active-buildstyle-popup</string>
++				<string>action</string>
++				<string>NSToolbarFlexibleSpaceItem</string>
++				<string>buildOrClean</string>
++				<string>build-and-goOrGo</string>
++				<string>com.apple.ide.PBXToolbarStopButton</string>
++				<string>get-info</string>
++				<string>toggle-editor</string>
++				<string>NSToolbarFlexibleSpaceItem</string>
++				<string>com.apple.pbx.toolbar.searchfield</string>
++			</array>
++			<key>ControllerClassBaseName</key>
++			<string></string>
++			<key>IconName</key>
++			<string>WindowOfProjectWithEditor</string>
++			<key>Identifier</key>
++			<string>perspective.project</string>
++			<key>IsVertical</key>
++			<false/>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>BecomeActive</key>
++					<true/>
++					<key>ContentConfiguration</key>
++					<dict>
++						<key>PBXBottomSmartGroupGIDs</key>
++						<array>
++							<string>1C37FBAC04509CD000000102</string>
++							<string>1C37FAAC04509CD000000102</string>
++							<string>1C08E77C0454961000C914BD</string>
++							<string>1C37FABC05509CD000000102</string>
++							<string>1C37FABC05539CD112110102</string>
++							<string>E2644B35053B69B200211256</string>
++							<string>1C37FABC04509CD000100104</string>
++							<string>1CC0EA4004350EF90044410B</string>
++							<string>1CC0EA4004350EF90041110B</string>
++						</array>
++						<key>PBXProjectModuleGUID</key>
++						<string>1CE0B1FE06471DED0097A5F4</string>
++						<key>PBXProjectModuleLabel</key>
++						<string>Files</string>
++						<key>PBXProjectStructureProvided</key>
++						<string>yes</string>
++						<key>PBXSmartGroupTreeModuleColumnData</key>
++						<dict>
++							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
++							<array>
++								<real>186</real>
++							</array>
++							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
++							<array>
++								<string>MainColumn</string>
++							</array>
++						</dict>
++						<key>PBXSmartGroupTreeModuleOutlineStateKey_v7</key>
++						<dict>
++							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
++							<array>
++								<string>1C37FBAC04509CD000000102</string>
++								<string>1C37FAAC04509CD000000102</string>
++								<string>1C08E77C0454961000C914BD</string>
++								<string>1C37FABC05509CD000000102</string>
++								<string>1CC0EA4004350EF90044410B</string>
++							</array>
++							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
++							<array>
++								<array>
++									<integer>0</integer>
++								</array>
++							</array>
++							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
++							<string>{{0, 0}, {186, 626}}</string>
++						</dict>
++						<key>PBXTopSmartGroupGIDs</key>
++						<array/>
++						<key>XCIncludePerspectivesSwitch</key>
++						<true/>
++						<key>XCSharingToken</key>
++						<string>com.apple.Xcode.GFSharingToken</string>
++					</dict>
++					<key>GeometryConfiguration</key>
++					<dict>
++						<key>Frame</key>
++						<string>{{0, 0}, {203, 644}}</string>
++						<key>GroupTreeTableConfiguration</key>
++						<array>
++							<string>MainColumn</string>
++							<real>186</real>
++						</array>
++						<key>RubberWindowFrame</key>
++						<string>133 87 1243 685 0 0 1440 878 </string>
++					</dict>
++					<key>Module</key>
++					<string>PBXSmartGroupTreeModule</string>
++					<key>Proportion</key>
++					<string>203pt</string>
++				</dict>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CE0B20306471E060097A5F4</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>class.c</string>
++								<key>PBXSplitModuleInNavigatorKey</key>
++								<dict>
++									<key>Split0</key>
++									<dict>
++										<key>PBXProjectModuleGUID</key>
++										<string>1CE0B20406471E060097A5F4</string>
++										<key>PBXProjectModuleLabel</key>
++										<string>class.c</string>
++										<key>_historyCapacity</key>
++										<integer>0</integer>
++										<key>bookmark</key>
++										<string>C6268C9C0DD2D1B100AF17EF</string>
++										<key>history</key>
++										<array>
++											<string>C6E5600B0DC6148A00D32BBE</string>
++										</array>
++									</dict>
++									<key>SplitCount</key>
++									<string>1</string>
++								</dict>
++								<key>StatusBarVisibility</key>
++								<true/>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 0}, {1035, 0}}</string>
++								<key>RubberWindowFrame</key>
++								<string>133 87 1243 685 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXNavigatorGroup</string>
++							<key>Proportion</key>
++							<string>0pt</string>
++						</dict>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CE0B20506471E060097A5F4</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Detail</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 5}, {1035, 639}}</string>
++								<key>RubberWindowFrame</key>
++								<string>133 87 1243 685 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>XCDetailModule</string>
++							<key>Proportion</key>
++							<string>639pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>1035pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Project</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>XCModuleDock</string>
++				<string>PBXSmartGroupTreeModule</string>
++				<string>XCModuleDock</string>
++				<string>PBXNavigatorGroup</string>
++				<string>XCDetailModule</string>
++			</array>
++			<key>TableOfContents</key>
++			<array>
++				<string>C6268C9D0DD2D1B100AF17EF</string>
++				<string>1CE0B1FE06471DED0097A5F4</string>
++				<string>C6268C9E0DD2D1B100AF17EF</string>
++				<string>1CE0B20306471E060097A5F4</string>
++				<string>1CE0B20506471E060097A5F4</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.defaultV3</string>
++		</dict>
++		<dict>
++			<key>ControllerClassBaseName</key>
++			<string></string>
++			<key>IconName</key>
++			<string>WindowOfProject</string>
++			<key>Identifier</key>
++			<string>perspective.morph</string>
++			<key>IsVertical</key>
++			<integer>0</integer>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>BecomeActive</key>
++					<integer>1</integer>
++					<key>ContentConfiguration</key>
++					<dict>
++						<key>PBXBottomSmartGroupGIDs</key>
++						<array>
++							<string>1C37FBAC04509CD000000102</string>
++							<string>1C37FAAC04509CD000000102</string>
++							<string>1C08E77C0454961000C914BD</string>
++							<string>1C37FABC05509CD000000102</string>
++							<string>1C37FABC05539CD112110102</string>
++							<string>E2644B35053B69B200211256</string>
++							<string>1C37FABC04509CD000100104</string>
++							<string>1CC0EA4004350EF90044410B</string>
++							<string>1CC0EA4004350EF90041110B</string>
++						</array>
++						<key>PBXProjectModuleGUID</key>
++						<string>11E0B1FE06471DED0097A5F4</string>
++						<key>PBXProjectModuleLabel</key>
++						<string>Files</string>
++						<key>PBXProjectStructureProvided</key>
++						<string>yes</string>
++						<key>PBXSmartGroupTreeModuleColumnData</key>
++						<dict>
++							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
++							<array>
++								<real>186</real>
++							</array>
++							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
++							<array>
++								<string>MainColumn</string>
++							</array>
++						</dict>
++						<key>PBXSmartGroupTreeModuleOutlineStateKey_v7</key>
++						<dict>
++							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
++							<array>
++								<string>29B97314FDCFA39411CA2CEA</string>
++								<string>1C37FABC05509CD000000102</string>
++							</array>
++							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
++							<array>
++								<array>
++									<integer>0</integer>
++								</array>
++							</array>
++							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
++							<string>{{0, 0}, {186, 337}}</string>
++						</dict>
++						<key>PBXTopSmartGroupGIDs</key>
++						<array/>
++						<key>XCIncludePerspectivesSwitch</key>
++						<integer>1</integer>
++						<key>XCSharingToken</key>
++						<string>com.apple.Xcode.GFSharingToken</string>
++					</dict>
++					<key>GeometryConfiguration</key>
++					<dict>
++						<key>Frame</key>
++						<string>{{0, 0}, {203, 355}}</string>
++						<key>GroupTreeTableConfiguration</key>
++						<array>
++							<string>MainColumn</string>
++							<real>186</real>
++						</array>
++						<key>RubberWindowFrame</key>
++						<string>373 269 690 397 0 0 1440 878 </string>
++					</dict>
++					<key>Module</key>
++					<string>PBXSmartGroupTreeModule</string>
++					<key>Proportion</key>
++					<string>100%</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Morph</string>
++			<key>PreferredWidth</key>
++			<integer>300</integer>
++			<key>ServiceClasses</key>
++			<array>
++				<string>XCModuleDock</string>
++				<string>PBXSmartGroupTreeModule</string>
++			</array>
++			<key>TableOfContents</key>
++			<array>
++				<string>11E0B1FE06471DED0097A5F4</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.default.shortV3</string>
++		</dict>
++	</array>
++	<key>PerspectivesBarVisible</key>
++	<false/>
++	<key>ShelfIsVisible</key>
++	<false/>
++	<key>SourceDescription</key>
++	<string>file at '/Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Resources/XCPerspectivesSpecificationMode1.xcperspec'</string>
++	<key>StatusbarIsVisible</key>
++	<true/>
++	<key>TimeStamp</key>
++	<real>0.0</real>
++	<key>ToolbarDisplayMode</key>
++	<integer>1</integer>
++	<key>ToolbarIsVisible</key>
++	<true/>
++	<key>ToolbarSizeMode</key>
++	<integer>1</integer>
++	<key>Type</key>
++	<string>Perspectives</string>
++	<key>UpdateMessage</key>
++	<string>The Default Workspace in this version of Xcode now includes support to hide and show the detail view (what has been referred to as the "Metro-Morph" feature).  You must discard your current Default Workspace settings and update to the latest Default Workspace in order to gain this feature.  Do you wish to update to the latest Workspace defaults for project '%@'?</string>
++	<key>WindowJustification</key>
++	<integer>5</integer>
++	<key>WindowOrderList</key>
++	<array>
++		<string>1CD10A99069EF8BA00B06720</string>
++		<string>/Users/uwe/mp3fs/mp3fs/mp3fs.xcodeproj</string>
++	</array>
++	<key>WindowString</key>
++	<string>133 87 1243 685 0 0 1440 878 </string>
++	<key>WindowToolsV3</key>
++	<array>
++		<dict>
++			<key>FirstTimeWindowDisplayed</key>
++			<false/>
++			<key>Identifier</key>
++			<string>windowTool.build</string>
++			<key>IsVertical</key>
++			<true/>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CD0528F0623707200166675</string>
++								<key>PBXProjectModuleLabel</key>
++								<string></string>
++								<key>StatusBarVisibility</key>
++								<true/>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 0}, {500, 218}}</string>
++								<key>RubberWindowFrame</key>
++								<string>396 263 500 500 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXNavigatorGroup</string>
++							<key>Proportion</key>
++							<string>218pt</string>
++						</dict>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>XCMainBuildResultsModuleGUID</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Build</string>
++								<key>XCBuildResultsTrigger_Collapse</key>
++								<integer>1021</integer>
++								<key>XCBuildResultsTrigger_Open</key>
++								<integer>1011</integer>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 223}, {500, 236}}</string>
++								<key>RubberWindowFrame</key>
++								<string>396 263 500 500 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXBuildResultsModule</string>
++							<key>Proportion</key>
++							<string>236pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>459pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Build Results</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXBuildResultsModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<true/>
++			<key>TableOfContents</key>
++			<array>
++				<string>C6A668C70D99AB9700078781</string>
++				<string>C68A312D0DA3DBE800C159E9</string>
++				<string>1CD0528F0623707200166675</string>
++				<string>XCMainBuildResultsModuleGUID</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.buildV3</string>
++			<key>WindowString</key>
++			<string>396 263 500 500 0 0 1440 878 </string>
++			<key>WindowToolGUID</key>
++			<string>C6A668C70D99AB9700078781</string>
++			<key>WindowToolIsVisible</key>
++			<false/>
++		</dict>
++		<dict>
++			<key>FirstTimeWindowDisplayed</key>
++			<false/>
++			<key>Identifier</key>
++			<string>windowTool.debugger</string>
++			<key>IsVertical</key>
++			<true/>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>Debugger</key>
++								<dict>
++									<key>HorizontalSplitView</key>
++									<dict>
++										<key>_collapsingFrameDimension</key>
++										<real>0.0</real>
++										<key>_indexOfCollapsedView</key>
++										<integer>0</integer>
++										<key>_percentageOfCollapsedView</key>
++										<real>0.0</real>
++										<key>isCollapsed</key>
++										<string>yes</string>
++										<key>sizes</key>
++										<array>
++											<string>{{0, 0}, {316, 203}}</string>
++											<string>{{316, 0}, {378, 203}}</string>
++										</array>
++									</dict>
++									<key>VerticalSplitView</key>
++									<dict>
++										<key>_collapsingFrameDimension</key>
++										<real>0.0</real>
++										<key>_indexOfCollapsedView</key>
++										<integer>0</integer>
++										<key>_percentageOfCollapsedView</key>
++										<real>0.0</real>
++										<key>isCollapsed</key>
++										<string>yes</string>
++										<key>sizes</key>
++										<array>
++											<string>{{0, 0}, {694, 203}}</string>
++											<string>{{0, 203}, {694, 178}}</string>
++										</array>
++									</dict>
++								</dict>
++								<key>LauncherConfigVersion</key>
++								<string>8</string>
++								<key>PBXProjectModuleGUID</key>
++								<string>1C162984064C10D400B95A72</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Debug - GLUTExamples (Underwater)</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>DebugConsoleVisible</key>
++								<string>None</string>
++								<key>DebugConsoleWindowFrame</key>
++								<string>{{200, 200}, {500, 300}}</string>
++								<key>DebugSTDIOWindowFrame</key>
++								<string>{{200, 200}, {500, 300}}</string>
++								<key>Frame</key>
++								<string>{{0, 0}, {694, 381}}</string>
++								<key>PBXDebugSessionStackFrameViewKey</key>
++								<dict>
++									<key>DebugVariablesTableConfiguration</key>
++									<array>
++										<string>Name</string>
++										<real>120</real>
++										<string>Value</string>
++										<real>85</real>
++										<string>Summary</string>
++										<real>148</real>
++									</array>
++									<key>Frame</key>
++									<string>{{316, 0}, {378, 203}}</string>
++									<key>RubberWindowFrame</key>
++									<string>58 433 694 422 0 0 1440 878 </string>
++								</dict>
++								<key>RubberWindowFrame</key>
++								<string>58 433 694 422 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXDebugSessionModule</string>
++							<key>Proportion</key>
++							<string>381pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>381pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Debugger</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXDebugSessionModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<true/>
++			<key>TableOfContents</key>
++			<array>
++				<string>1CD10A99069EF8BA00B06720</string>
++				<string>C6268C9F0DD2D1B100AF17EF</string>
++				<string>1C162984064C10D400B95A72</string>
++				<string>C6268CA00DD2D1B100AF17EF</string>
++				<string>C6268CA10DD2D1B100AF17EF</string>
++				<string>C6268CA20DD2D1B100AF17EF</string>
++				<string>C6268CA30DD2D1B100AF17EF</string>
++				<string>C6268CA40DD2D1B100AF17EF</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.debugV3</string>
++			<key>WindowString</key>
++			<string>58 433 694 422 0 0 1440 878 </string>
++			<key>WindowToolGUID</key>
++			<string>1CD10A99069EF8BA00B06720</string>
++			<key>WindowToolIsVisible</key>
++			<false/>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.find</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>Dock</key>
++							<array>
++								<dict>
++									<key>ContentConfiguration</key>
++									<dict>
++										<key>PBXProjectModuleGUID</key>
++										<string>1CDD528C0622207200134675</string>
++										<key>PBXProjectModuleLabel</key>
++										<string>&lt;No Editor&gt;</string>
++										<key>PBXSplitModuleInNavigatorKey</key>
++										<dict>
++											<key>Split0</key>
++											<dict>
++												<key>PBXProjectModuleGUID</key>
++												<string>1CD0528D0623707200166675</string>
++											</dict>
++											<key>SplitCount</key>
++											<string>1</string>
++										</dict>
++										<key>StatusBarVisibility</key>
++										<integer>1</integer>
++									</dict>
++									<key>GeometryConfiguration</key>
++									<dict>
++										<key>Frame</key>
++										<string>{{0, 0}, {781, 167}}</string>
++										<key>RubberWindowFrame</key>
++										<string>62 385 781 470 0 0 1440 878 </string>
++									</dict>
++									<key>Module</key>
++									<string>PBXNavigatorGroup</string>
++									<key>Proportion</key>
++									<string>781pt</string>
++								</dict>
++							</array>
++							<key>Proportion</key>
++							<string>50%</string>
++						</dict>
++						<dict>
++							<key>BecomeActive</key>
++							<integer>1</integer>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CD0528E0623707200166675</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Project Find</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{8, 0}, {773, 254}}</string>
++								<key>RubberWindowFrame</key>
++								<string>62 385 781 470 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXProjectFindModule</string>
++							<key>Proportion</key>
++							<string>50%</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>428pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Project Find</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXProjectFindModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>1</integer>
++			<key>TableOfContents</key>
++			<array>
++				<string>1C530D57069F1CE1000CFCEE</string>
++				<string>1C530D58069F1CE1000CFCEE</string>
++				<string>1C530D59069F1CE1000CFCEE</string>
++				<string>1CDD528C0622207200134675</string>
++				<string>1C530D5A069F1CE1000CFCEE</string>
++				<string>1CE0B1FE06471DED0097A5F4</string>
++				<string>1CD0528E0623707200166675</string>
++			</array>
++			<key>WindowString</key>
++			<string>62 385 781 470 0 0 1440 878 </string>
++			<key>WindowToolGUID</key>
++			<string>1C530D57069F1CE1000CFCEE</string>
++			<key>WindowToolIsVisible</key>
++			<integer>0</integer>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>MENUSEPARATOR</string>
++		</dict>
++		<dict>
++			<key>FirstTimeWindowDisplayed</key>
++			<false/>
++			<key>Identifier</key>
++			<string>windowTool.debuggerConsole</string>
++			<key>IsVertical</key>
++			<true/>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>BecomeActive</key>
++							<true/>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1C78EAAC065D492600B07095</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Debugger Console</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 0}, {650, 209}}</string>
++								<key>RubberWindowFrame</key>
++								<string>792 270 650 250 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXDebugCLIModule</string>
++							<key>Proportion</key>
++							<string>209pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>209pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Debugger Console</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXDebugCLIModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<true/>
++			<key>TableOfContents</key>
++			<array>
++				<string>1C78EAAD065D492600B07095</string>
++				<string>C68A31340DA3DBE800C159E9</string>
++				<string>1C78EAAC065D492600B07095</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.consoleV3</string>
++			<key>WindowString</key>
++			<string>792 270 650 250 0 0 1440 878 </string>
++			<key>WindowToolGUID</key>
++			<string>1C78EAAD065D492600B07095</string>
++			<key>WindowToolIsVisible</key>
++			<false/>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.snapshots</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>Module</key>
++							<string>XCSnapshotModule</string>
++							<key>Proportion</key>
++							<string>100%</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>100%</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Snapshots</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>XCSnapshotModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<string>Yes</string>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.snapshots</string>
++			<key>WindowString</key>
++			<string>315 824 300 550 0 0 1440 878 </string>
++			<key>WindowToolIsVisible</key>
++			<string>Yes</string>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.scm</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1C78EAB2065D492600B07095</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>&lt;No Editor&gt;</string>
++								<key>PBXSplitModuleInNavigatorKey</key>
++								<dict>
++									<key>Split0</key>
++									<dict>
++										<key>PBXProjectModuleGUID</key>
++										<string>1C78EAB3065D492600B07095</string>
++									</dict>
++									<key>SplitCount</key>
++									<string>1</string>
++								</dict>
++								<key>StatusBarVisibility</key>
++								<integer>1</integer>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 0}, {452, 0}}</string>
++								<key>RubberWindowFrame</key>
++								<string>743 379 452 308 0 0 1280 1002 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXNavigatorGroup</string>
++							<key>Proportion</key>
++							<string>0pt</string>
++						</dict>
++						<dict>
++							<key>BecomeActive</key>
++							<integer>1</integer>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CD052920623707200166675</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>SCM</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>ConsoleFrame</key>
++								<string>{{0, 259}, {452, 0}}</string>
++								<key>Frame</key>
++								<string>{{0, 7}, {452, 259}}</string>
++								<key>RubberWindowFrame</key>
++								<string>743 379 452 308 0 0 1280 1002 </string>
++								<key>TableConfiguration</key>
++								<array>
++									<string>Status</string>
++									<real>30</real>
++									<string>FileName</string>
++									<real>199</real>
++									<string>Path</string>
++									<real>197.09500122070312</real>
++								</array>
++								<key>TableFrame</key>
++								<string>{{0, 0}, {452, 250}}</string>
++							</dict>
++							<key>Module</key>
++							<string>PBXCVSModule</string>
++							<key>Proportion</key>
++							<string>262pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>266pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>SCM</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXCVSModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>1</integer>
++			<key>TableOfContents</key>
++			<array>
++				<string>1C78EAB4065D492600B07095</string>
++				<string>1C78EAB5065D492600B07095</string>
++				<string>1C78EAB2065D492600B07095</string>
++				<string>1CD052920623707200166675</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.scm</string>
++			<key>WindowString</key>
++			<string>743 379 452 308 0 0 1280 1002 </string>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.breakpoints</string>
++			<key>IsVertical</key>
++			<integer>0</integer>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>BecomeActive</key>
++							<integer>1</integer>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXBottomSmartGroupGIDs</key>
++								<array>
++									<string>1C77FABC04509CD000000102</string>
++								</array>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CE0B1FE06471DED0097A5F4</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Files</string>
++								<key>PBXProjectStructureProvided</key>
++								<string>no</string>
++								<key>PBXSmartGroupTreeModuleColumnData</key>
++								<dict>
++									<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
++									<array>
++										<real>168</real>
++									</array>
++									<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
++									<array>
++										<string>MainColumn</string>
++									</array>
++								</dict>
++								<key>PBXSmartGroupTreeModuleOutlineStateKey_v7</key>
++								<dict>
++									<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
++									<array>
++										<string>1C77FABC04509CD000000102</string>
++									</array>
++									<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
++									<array>
++										<array>
++											<integer>0</integer>
++										</array>
++									</array>
++									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
++									<string>{{0, 0}, {168, 350}}</string>
++								</dict>
++								<key>PBXTopSmartGroupGIDs</key>
++								<array/>
++								<key>XCIncludePerspectivesSwitch</key>
++								<integer>0</integer>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{0, 0}, {185, 368}}</string>
++								<key>GroupTreeTableConfiguration</key>
++								<array>
++									<string>MainColumn</string>
++									<real>168</real>
++								</array>
++								<key>RubberWindowFrame</key>
++								<string>315 424 744 409 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXSmartGroupTreeModule</string>
++							<key>Proportion</key>
++							<string>185pt</string>
++						</dict>
++						<dict>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CA1AED706398EBD00589147</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Detail</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{{190, 0}, {554, 368}}</string>
++								<key>RubberWindowFrame</key>
++								<string>315 424 744 409 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>XCDetailModule</string>
++							<key>Proportion</key>
++							<string>554pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>368pt</string>
++				</dict>
++			</array>
++			<key>MajorVersion</key>
++			<integer>3</integer>
++			<key>MinorVersion</key>
++			<integer>0</integer>
++			<key>Name</key>
++			<string>Breakpoints</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXSmartGroupTreeModule</string>
++				<string>XCDetailModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>1</integer>
++			<key>TableOfContents</key>
++			<array>
++				<string>1CDDB66807F98D9800BB5817</string>
++				<string>1CDDB66907F98D9800BB5817</string>
++				<string>1CE0B1FE06471DED0097A5F4</string>
++				<string>1CA1AED706398EBD00589147</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.breakpointsV3</string>
++			<key>WindowString</key>
++			<string>315 424 744 409 0 0 1440 878 </string>
++			<key>WindowToolGUID</key>
++			<string>1CDDB66807F98D9800BB5817</string>
++			<key>WindowToolIsVisible</key>
++			<integer>1</integer>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.debugAnimator</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>Module</key>
++							<string>PBXNavigatorGroup</string>
++							<key>Proportion</key>
++							<string>100%</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>100%</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Debug Visualizer</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXNavigatorGroup</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>1</integer>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.debugAnimatorV3</string>
++			<key>WindowString</key>
++			<string>100 100 700 500 0 0 1280 1002 </string>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.bookmarks</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>Module</key>
++							<string>PBXBookmarksModule</string>
++							<key>Proportion</key>
++							<string>100%</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>100%</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Bookmarks</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXBookmarksModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>0</integer>
++			<key>WindowString</key>
++			<string>538 42 401 187 0 0 1280 1002 </string>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.projectFormatConflicts</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>Module</key>
++							<string>XCProjectFormatConflictsModule</string>
++							<key>Proportion</key>
++							<string>100%</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>100%</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Project Format Conflicts</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>XCProjectFormatConflictsModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>0</integer>
++			<key>WindowContentMinSize</key>
++			<string>450 300</string>
++			<key>WindowString</key>
++			<string>50 850 472 307 0 0 1440 877</string>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.classBrowser</string>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>BecomeActive</key>
++							<integer>1</integer>
++							<key>ContentConfiguration</key>
++							<dict>
++								<key>OptionsSetName</key>
++								<string>Hierarchy, all classes</string>
++								<key>PBXProjectModuleGUID</key>
++								<string>1CA6456E063B45B4001379D8</string>
++								<key>PBXProjectModuleLabel</key>
++								<string>Class Browser - NSObject</string>
++							</dict>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>ClassesFrame</key>
++								<string>{{0, 0}, {374, 96}}</string>
++								<key>ClassesTreeTableConfiguration</key>
++								<array>
++									<string>PBXClassNameColumnIdentifier</string>
++									<real>208</real>
++									<string>PBXClassBookColumnIdentifier</string>
++									<real>22</real>
++								</array>
++								<key>Frame</key>
++								<string>{{0, 0}, {630, 331}}</string>
++								<key>MembersFrame</key>
++								<string>{{0, 105}, {374, 395}}</string>
++								<key>MembersTreeTableConfiguration</key>
++								<array>
++									<string>PBXMemberTypeIconColumnIdentifier</string>
++									<real>22</real>
++									<string>PBXMemberNameColumnIdentifier</string>
++									<real>216</real>
++									<string>PBXMemberTypeColumnIdentifier</string>
++									<real>97</real>
++									<string>PBXMemberBookColumnIdentifier</string>
++									<real>22</real>
++								</array>
++								<key>PBXModuleWindowStatusBarHidden2</key>
++								<integer>1</integer>
++								<key>RubberWindowFrame</key>
++								<string>385 179 630 352 0 0 1440 878 </string>
++							</dict>
++							<key>Module</key>
++							<string>PBXClassBrowserModule</string>
++							<key>Proportion</key>
++							<string>332pt</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>332pt</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Class Browser</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>PBXClassBrowserModule</string>
++			</array>
++			<key>StatusbarIsVisible</key>
++			<integer>0</integer>
++			<key>TableOfContents</key>
++			<array>
++				<string>1C0AD2AF069F1E9B00FABCE6</string>
++				<string>1C0AD2B0069F1E9B00FABCE6</string>
++				<string>1CA6456E063B45B4001379D8</string>
++			</array>
++			<key>ToolbarConfiguration</key>
++			<string>xcode.toolbar.config.classbrowser</string>
++			<key>WindowString</key>
++			<string>385 179 630 352 0 0 1440 878 </string>
++			<key>WindowToolGUID</key>
++			<string>1C0AD2AF069F1E9B00FABCE6</string>
++			<key>WindowToolIsVisible</key>
++			<integer>0</integer>
++		</dict>
++		<dict>
++			<key>Identifier</key>
++			<string>windowTool.refactoring</string>
++			<key>IncludeInToolsMenu</key>
++			<integer>0</integer>
++			<key>Layout</key>
++			<array>
++				<dict>
++					<key>Dock</key>
++					<array>
++						<dict>
++							<key>BecomeActive</key>
++							<integer>1</integer>
++							<key>GeometryConfiguration</key>
++							<dict>
++								<key>Frame</key>
++								<string>{0, 0}, {500, 335}</string>
++								<key>RubberWindowFrame</key>
++								<string>{0, 0}, {500, 335}</string>
++							</dict>
++							<key>Module</key>
++							<string>XCRefactoringModule</string>
++							<key>Proportion</key>
++							<string>100%</string>
++						</dict>
++					</array>
++					<key>Proportion</key>
++					<string>100%</string>
++				</dict>
++			</array>
++			<key>Name</key>
++			<string>Refactoring</string>
++			<key>ServiceClasses</key>
++			<array>
++				<string>XCRefactoringModule</string>
++			</array>
++			<key>WindowString</key>
++			<string>200 200 500 356 0 0 1920 1200 </string>
++		</dict>
++	</array>
++</dict>
++</plist>
+diff -ruN mp3fs-0.12.org/mp3fs.xcodeproj/uwe.pbxuser mp3fs/mp3fs.xcodeproj/uwe.pbxuser
+--- mp3fs-0.12.org/mp3fs.xcodeproj/uwe.pbxuser	1970-01-01 01:00:00.000000000 +0100
++++ mp3fs/mp3fs.xcodeproj/uwe.pbxuser	2008-05-08 08:14:09.000000000 +0200
+@@ -0,0 +1,241 @@
++// !$*UTF8*$!
++{
++	08FB7793FE84155DC02AAC07 /* Project object */ = {
++		activeArchitecture = i386;
++		activeBuildConfigurationName = Release;
++		activeExecutable = C6A668A90D99AAE800078781 /* mp3fs */;
++		activeTarget = 8DD76FA90486AB0100D96B5E /* mp3fs */;
++		addToTargets = (
++			8DD76FA90486AB0100D96B5E /* mp3fs */,
++		);
++		codeSenseManager = C6A668B00D99AAEF00078781 /* Code sense */;
++		executables = (
++			C6A668A90D99AAE800078781 /* mp3fs */,
++		);
++		perUserDictionary = {
++			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					200,
++					200,
++					273,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXBookmarksDataSource_LocationID,
++					PBXBookmarksDataSource_NameID,
++					PBXBookmarksDataSource_CommentsID,
++				);
++			};
++			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					20,
++					449,
++					537,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXErrorsWarningsDataSource_TypeID,
++					PBXErrorsWarningsDataSource_MessageID,
++					PBXErrorsWarningsDataSource_LocationID,
++				);
++			};
++			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					22,
++					300,
++					684,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXExecutablesDataSource_ActiveFlagID,
++					PBXExecutablesDataSource_NameID,
++					PBXExecutablesDataSource_CommentsID,
++				);
++			};
++			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					20,
++					796,
++					20,
++					48,
++					43,
++					43,
++					20,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXFileDataSource_FiletypeID,
++					PBXFileDataSource_Filename_ColumnID,
++					PBXFileDataSource_Built_ColumnID,
++					PBXFileDataSource_ObjectSize_ColumnID,
++					PBXFileDataSource_Errors_ColumnID,
++					PBXFileDataSource_Warnings_ColumnID,
++					PBXFileDataSource_Target_ColumnID,
++				);
++			};
++			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					200,
++					477,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXFindDataSource_MessageID,
++					PBXFindDataSource_LocationID,
++				);
++			};
++			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					16,
++					200,
++					50,
++					403,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXSymbolsDataSource_SymbolTypeIconID,
++					PBXSymbolsDataSource_SymbolNameID,
++					PBXSymbolsDataSource_SymbolTypeID,
++					PBXSymbolsDataSource_ReferenceNameID,
++				);
++			};
++			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					20,
++					20,
++					439,
++					20,
++					48.16259765625,
++					43,
++					43,
++					20,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXFileDataSource_SCM_ColumnID,
++					PBXFileDataSource_FiletypeID,
++					PBXFileDataSource_Filename_ColumnID,
++					PBXFileDataSource_Built_ColumnID,
++					PBXFileDataSource_ObjectSize_ColumnID,
++					PBXFileDataSource_Errors_ColumnID,
++					PBXFileDataSource_Warnings_ColumnID,
++					PBXFileDataSource_Target_ColumnID,
++				);
++			};
++			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
++				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
++				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
++				PBXFileTableDataSourceColumnWidthsKey = (
++					20,
++					756,
++					60,
++					20,
++					48,
++					43,
++					43,
++				);
++				PBXFileTableDataSourceColumnsKey = (
++					PBXFileDataSource_FiletypeID,
++					PBXFileDataSource_Filename_ColumnID,
++					PBXTargetDataSource_PrimaryAttribute,
++					PBXFileDataSource_Built_ColumnID,
++					PBXFileDataSource_ObjectSize_ColumnID,
++					PBXFileDataSource_Errors_ColumnID,
++					PBXFileDataSource_Warnings_ColumnID,
++				);
++			};
++			PBXPerProjectTemplateStateSaveDate = 231919459;
++			PBXWorkspaceStateSaveDate = 231919459;
++		};
++		perUserProjectItems = {
++			C6268C9C0DD2D1B100AF17EF /* PBXTextBookmark */ = C6268C9C0DD2D1B100AF17EF /* PBXTextBookmark */;
++			C6E5600B0DC6148A00D32BBE /* PBXTextBookmark */ = C6E5600B0DC6148A00D32BBE /* PBXTextBookmark */;
++		};
++		sourceControlManager = C6A668AF0D99AAEF00078781 /* Source Control */;
++		userBuildSettings = {
++		};
++	};
++	8DD76FA90486AB0100D96B5E /* mp3fs */ = {
++		activeExec = 0;
++		executables = (
++			C6A668A90D99AAE800078781 /* mp3fs */,
++		);
++	};
++	C6268C9C0DD2D1B100AF17EF /* PBXTextBookmark */ = {
++		isa = PBXTextBookmark;
++		fRef = C6A668B30D99AB7000078781 /* class.c */;
++		name = "class.c: 1";
++		rLen = 0;
++		rLoc = 0;
++		rType = 0;
++		vrLen = 0;
++		vrLoc = 0;
++	};
++	C6A668A90D99AAE800078781 /* mp3fs */ = {
++		isa = PBXExecutable;
++		activeArgIndices = (
++		);
++		argumentStrings = (
++		);
++		autoAttachOnCrash = 1;
++		breakpointsEnabled = 0;
++		configStateDict = {
++		};
++		customDataFormattersEnabled = 1;
++		debuggerPlugin = GDBDebugging;
++		disassemblyDisplayState = 0;
++		dylibVariantSuffix = "";
++		enableDebugStr = 1;
++		environmentEntries = (
++		);
++		executableSystemSymbolLevel = 0;
++		executableUserSymbolLevel = 0;
++		libgmallocEnabled = 0;
++		name = mp3fs;
++		sourceDirectories = (
++		);
++	};
++	C6A668AF0D99AAEF00078781 /* Source Control */ = {
++		isa = PBXSourceControlManager;
++		fallbackIsa = XCSourceControlManager;
++		isSCMEnabled = 0;
++		scmConfiguration = {
++		};
++	};
++	C6A668B00D99AAEF00078781 /* Code sense */ = {
++		isa = PBXCodeSenseManager;
++		indexTemplatePath = "";
++	};
++	C6A668B30D99AB7000078781 /* class.c */ = {
++		uiCtxt = {
++			sepNavIntBoundsRect = "{{0, 0}, {974, 336}}";
++			sepNavSelRange = "{0, 0}";
++			sepNavVisRange = "{0, 0}";
++		};
++	};
++	C6A668B50D99AB7000078781 /* mp3fs.c */ = {
++		uiCtxt = {
++			sepNavIntBoundsRect = "{{0, 0}, {1118, 3570}}";
++			sepNavSelRange = "{945, 0}";
++			sepNavVisRange = "{0, 1355}";
++			sepNavWindowFrame = "{{38, 112}, {1177, 740}}";
++		};
++	};
++	C6E5600B0DC6148A00D32BBE /* PBXTextBookmark */ = {
++		isa = PBXTextBookmark;
++		fRef = C6A668B30D99AB7000078781 /* class.c */;
++		name = "class.c: 1";
++		rLen = 0;
++		rLoc = 0;
++		rType = 0;
++		vrLen = 0;
++		vrLoc = 0;
++	};
++}
+diff -ruN mp3fs-0.12.org/src/mp3fs.c mp3fs/src/mp3fs.c
+--- mp3fs-0.12.org/src/mp3fs.c	2007-12-22 06:44:42.000000000 +0100
++++ mp3fs/src/mp3fs.c	2008-03-25 23:04:51.000000000 +0100
+@@ -20,7 +20,7 @@
+   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ */
+ 
+-#define FUSE_USE_VERSION 22
++#define FUSE_USE_VERSION 26
+ 
+ #include <fuse.h>
+ #include <stdio.h>
+@@ -30,7 +30,12 @@
+ #include <fcntl.h>
+ #include <dirent.h>
+ #include <errno.h>
++#ifdef __APPLE__
++     #include <sys/param.h>
++     #include <sys/mount.h>
++#else
+ #include <sys/statfs.h>
++#endif
+ 
+ #include "transcode.h"
+ #include "talloc.h"
+@@ -191,7 +196,7 @@
+   return f->Read(f, buf, offset, size);
+ }
+ 
+-static int mp3fs_statfs(const char *path, struct statfs *stbuf) {
++static int mp3fs_statfs(const char *path, struct statvfs *stbuf) {
+   int res;
+   char name[256];
+ 
+@@ -200,7 +205,7 @@
+   strncpy(name, basepath, sizeof(name));
+   strncat(name, path, sizeof(name) - strlen(name));
+ 
+-  res = statfs(name, stbuf);
++  res = statvfs(name, stbuf);
+   if(res == -1)
+     return -errno;
+   
+@@ -265,7 +270,7 @@
+ #endif
+   
+   // start FUSE
+-  fuse_main(argc-1, argv+1, &mp3fs_ops);
++  fuse_main(argc-1, argv+1, &mp3fs_ops, NULL);
+   
+ #ifdef __DEBUG__
+   fclose(logfd);
+diff -ruN mp3fs-0.12.org/src/transcode.c mp3fs/src/transcode.c
+--- mp3fs-0.12.org/src/transcode.c	2008-03-08 05:32:43.000000000 +0100
++++ mp3fs/src/transcode.c	2008-03-25 23:06:04.000000000 +0100
+@@ -24,7 +24,12 @@
+ #include <fcntl.h>
+ #include <dirent.h>
+ #include <errno.h>
++#ifdef __APPLE__
++	#include <sys/param.h>
++	#include <sys/mount.h>
++#else
+ #include <sys/statfs.h>
++#endif
+ 
+ #include <FLAC/metadata.h>
+ #ifdef LEGACY_FLAC

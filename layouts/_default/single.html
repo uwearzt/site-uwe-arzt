@@ -1,0 +1,17 @@
+{{ partial "page_head_start.html" . }}
+
+  <title>{{ .Site.Title }} - {{ .Title }}</title>
+  {{ partial "head_include.html" . }}
+
+{{ partial "page_head_end_body_start.html" . }}
+
+<!-- content start -->
+<div class="blog-post">
+  <h1 itemprop="name" id="title">{{ .Title }}</h1>
+    {{ .Content }}
+</div>
+<!-- content end -->
+
+{{ partial "create_comment.html" . }}
+
+{{ partial "page_body_end.html" . }}

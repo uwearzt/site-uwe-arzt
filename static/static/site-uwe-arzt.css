@@ -1,0 +1,213 @@
+/*
+ * Globals
+ */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+  background-color: #fafafa;
+}
+
+.container {
+  background-color: white;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+img, .img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+table, th, td {
+  border-width:1px;
+  border-style:solid;
+  border-color: #aaa;
+  padding: 5px;
+}
+
+/*
+ * Masthead for nav
+ */
+.blog-masthead {
+}
+
+/*
+ * Nav links
+ */
+.blog-nav {
+  background-color: #428bca;
+  margin-top: 12px;
+  border-radius: 5px;
+}
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Blog name and description
+ */
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 0;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+.blog-main {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/*
+ * Sidebar modules for boxing content
+ */
+.sidebar-module {
+/*  padding: 15px; */
+  margin: 0 -15px 20px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/*
+ * Comments
+ */
+.comments {
+  margin-top: 20px;
+}
+.comments-ruler {
+}
+.comments-level-1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 8px;
+}
+.comments-level-2 {
+  margin-left: 30px;
+}
+.comments-author {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.comments-date {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+/*
+ * Comment creation
+ */
+.comment {
+}
+.form-comment {
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-comment .form-comment-heading,
+.form-comment {
+  margin-bottom: 10px;
+}
+.form-comment .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-comment .form-comment-label {
+  margin-top: 10px;
+}
+.form-comment .form-comment-button {
+  margin-top: 10px;
+}
+
+
+/*
+ * Pagination
+ */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+.blog-footer {
+  margin-bottom: 15px;
+  padding: 5px;
+  color: #999;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+.blog-footer p:last-child {
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+{{ partial "page_head_start.html" . }}
+
+  <title>{{ .Site.Title }} - Posts</title>
+  {{ partial "head_include.html" . }}
+
+{{ partial "page_head_end_body_start.html" . }}
+
+<!-- content start -->
+  <div>
+    <h1 id="title">{{ .Title }}</h1>
+    {{ range .Data.Pages.GroupByDate "2006" }}
+      <h3>{{ .Key }}</h3>
+      <ul id="list">
+      {{ range .Pages }}
+        {{ .Render "li"}}
+      {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+<!-- content end -->
+
+{{ partial "page_body_end.html" . }}

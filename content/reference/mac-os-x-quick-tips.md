@@ -1,0 +1,68 @@
++++
+title = "Mac OS X Quick Tips"
+date  = "2013-03-02"
+type = "page"
++++
+
+Here is a collection of Mac Quick Tips, i use often. It will be supplemented, every time i find a new Tip.
+
+### hidden files in Finder on/off
+
+~~~~
+defaults write com.apple.finder AppleShowAllFiles -boolean true; killall Finder
+defaults write com.apple.finder AppleShowAllFiles -boolean false; killall Finder
+~~~~
+
+### show content of the ~/Library folder
+
+~~~~
+chflags nohidden ~/Library
+~~~~
+
+
+### quit Application in Task Switch
+press Q when the task is selected
+
+### create/burn ISO Image from cmdline
+
+~~~~
+hdiutil create -format UDTO -srcdevice /dev/disk2s0 cd.cdr
+mv cd.cdr cd.iso
+
+hdutil burn cd.iso
+~~~~
+
+### boot time key functions
+
+| key | function |
+|-----|----------|
+| alt | boot different OS |
+| C | boot from CD |
+| N | boot from netboot disk |
+| T | start in target disk mode |
+| mouse button | eject CD |
+| cmd-v | verbose mode |
+
+### clipboard and comandline
+
+With pbcopy and pbpaste the clipboard is accesible from the comandline. For example with
+
+~~~~
+ls | pbcopy
+~~~~
+
+you get an directory listing in the clipboard.
+
+### limit size of backup.sparsebundle on server
+
+~~~~
+hdiutil resize -size 200g -shrinkonly machine.sparseimage
+~~~~
+
+### screen shots
+
+| key | function |
+|-----|----------|
+| cmd + shift + 3 | entire screen |
+| cmd + shift + 4 | portion of screen |
+| cmd + shift + 4 &#8594; space | entire window |

@@ -1,0 +1,64 @@
+<!-- start navigation_include.html -->
+<nav>
+  <div class="sidebar-module">
+  <h4>Projects</h4>
+  <ol class="list-unstyled">
+    {{ range where .Site.Pages "Section" "project" }}
+      <li><a href="{{ .RelPermalink}}">{{ .Title}}</a></li>
+    {{ end }}
+  </ol>
+  </div>
+
+  <div class="sidebar-module">
+  <h4>Reference</h4>
+  <ol class="list-unstyled">
+    {{ range where .Site.Pages "Section" "reference" }}
+      <li><a href="{{ .RelPermalink}}">{{ .Title}}</a></li>
+    {{ end }}
+  </ol>
+  </div>
+
+  <div class="sidebar-module">
+  <h4>Other pages</h4>
+  <ol class="list-unstyled">
+    <li><a href="https://github.com/uwearzt">GitHub</a></li>
+    <li><a href="https://twitter.com/uwearzt">Twitter</a></li>
+    <li><a href="https://www.youtube.com/user/uwearzt">YouTube</a></li>
+    <li><a href="https://www.xing.com/profile/Uwe_Arzt">XING Profile</a></li>
+    <li><a href="https://de.linkedin.com/in/uwearzt">LinkedIn Profile</a></li>
+    <li><a href="https://www.amazon.de/gp/registry/3RK71EFT5L1WS">Amazon Wish List</a></li>
+  </ol>
+  </div>
+
+  <div class="sidebar-module">
+  <h4>Links</h4>
+  <ol class="list-unstyled">
+    <li><a href="https://www.eevblog.com">EEVBlog</a></li>
+    <li><a href="https://www.youtube.com/user/mikeselectricstuff">Mike's Electric Stuff</a></li>
+    <li><a href="http://freakshow.fm">Freak Show (German)</a></li>
+  </ol>
+  </div>
+
+  <div class="sidebar-module">
+  <h4>Recent Posts</h4>
+  <ol class="list-unstyled">
+    {{ range first 5 (where .Site.Pages "Section" "post") }}
+      <li><a href="{{ .RelPermalink}}">{{ .Title}}</a></li>
+    {{ end }}
+  </ol>
+  </div>
+
+  <div class="sidebar-module">
+  <h4>Categories</h4>
+  {{ partial "navigation_categories_include.html" . }}
+  </div>
+
+  <div class="sidebar-module">
+  <h4>RSS</h4>
+  <ol class="list-unstyled">
+    <li><a href="https://uwe-arzt.de/uwe-arzt.rss" type="application/atom+xml" title="{{ .Site.Title }}">{{ .Site.Title }}</a></li>
+  </ol>
+  </div>
+
+</nav>
+<!-- end navigation_include.html -->
