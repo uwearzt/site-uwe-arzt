@@ -1,8 +1,45 @@
 #!/usr/bin/python
 import cgi
+import cgitb
 import os
 import time
+import urllib
+import urllib2
 
+###################################################################################
+# Settings
+captchahost      = "https://www.google.com/recaptcha/api/siteverify"
+redirect_url_OK  = "https://uwe-arzt.de/comment/"
+redirect_url_bot = "https://uwe-arzt.de/bot-comment/"
+
+###################################################################################
+deb = open('debug.log', 'a')
+deb.write("-----------------------------------------------\n")
+
+# cgitb.enable()
+
+###################################################################################
+# write comment to file
+def append_to_file(filename):
+  f = open(filename, 'a')
+  f.write("-----------------------------------------------\n")
+  f.write(time.strftime("%d.%m.%Y %H:%M:%S") + "\n")
+  f.write(page + "\n")
+  f.write(name + "\n")
+  f.write(email + "\n")
+  f.write(comment + "\n")
+  f.flush()
+  f.close()
+
+###################################################################################
+# encoding helper
+def encode_if_necessary(s):
+  if isinstance(s, unicode):
+    return s.encode('utf-8')
+  else:
+    return s
+
+###################################################################################
 # get the needed fields
 comment_form = cgi.FieldStorage()
 
@@ -12,21 +49,63 @@ comment = str(comment_form.getvalue("comment"))
 
 page    = str(os.getenv('HTTP_REFERER', ''))
 
-# write to file
-f = open('comments', 'a')
-f.write("-----------------------------------------------\n")
-f.write(time.strftime("%d.%m.%Y %H:%M:%S") + "\n")
-f.write(page + "\n")
-f.write(name + "\n")
-f.write(email + "\n")
-f.write(comment + "\n")
-f.flush()
-f.close()
+recaptcha = str(comment_form.getvalue("g-recaptcha-response"))
+ip        = str(os.getenv('REMOTE_ADDR', ''))
 
+deb.write("captcha: " + recaptcha + "\n")
+deb.write("ip:     " + ip + "\n")
 
+###################################################################################
+# check if the comment was from a bot
+spam=False
+if recaptcha == "None":
+  spam=True
+  deb.write("marked as spam -> no recaptcha\n")
+else:
+  # check with google
+  keyfile = open("private-key", 'r')
+  private_key = keyfile.readline()
+  keyfile.close()
 
-# Forward to page "comment received"
-redirect_url = "http://uwe-arzt.de/comment/"
+  params = urllib.urlencode ({
+    'secret': encode_if_necessary(private_key),
+    'remoteip':   encode_if_necessary(ip),
+    # 'challenge':  encode_if_necessary(recaptcha_challenge_field),
+    'response':   encode_if_necessary(recaptcha)})
+
+  request = urllib2.Request(url = captchahost,
+                            data = params,
+                            headers = { "Content-type": "application/x-www-form-urlencoded",
+                                        "User-agent": "site-uwe-arzt" })
+
+  httpresp = urllib2.urlopen(request)
+
+  google_response = httpresp.read()
+  deb.write("-- google response --\n")
+  deb.write(google_response + "\n")
+  deb.write("-- google response --\n")
+
+  httpresp.close();
+
+  # check return from google
+  if(google_response.find('true') != 0):
+    spam=False
+    deb.write("comment received\n")
+  else:
+    spam=True
+    deb.write("marked as spam -> negative resonse from google\n")
+
+###################################################################################
+# Write to file and respond
+if spam:
+  append_to_file("spam.log")
+  redirect_url = redirect_url_bot
+else:
+  append_to_file("comment.log")
+  redirect_url = redirect_url_OK
+
 print "Status: 302 Moved"
 print "Location: %s" % redirect_url
 print
+
+deb.close()

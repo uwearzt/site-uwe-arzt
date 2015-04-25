@@ -156,6 +156,7 @@ table, th, td {
   box-sizing: border-box;
   padding: 10px;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 .form-comment .form-comment-label {
   margin-top: 10px;
