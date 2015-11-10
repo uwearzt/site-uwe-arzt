@@ -9,7 +9,7 @@ Additional benefit is that all types of iThings can be loaded with the Adaptor. 
 
 The device in action:
 
-![Usage of LaborUSB](files/2013/09/21/LaborUSB_Usage.jpg)
+![Usage of LaborUSB](files/project/laborusb/LaborUSB_Usage.jpg)
 
 Find all the files necessary to build your own on [GitHub](https://github.com/uwearzt/LaborUSB.git).
 
@@ -23,17 +23,17 @@ I have a few boards available, if you like to build your own, contact me.
 
 The design is really simple and consists of only 4 resistors and 8 jacks. The real work was to make the mechanical dimensions fit for easy and fast assembly.
 
-![Schematic](files/2013/09/21/LaborUSB_Schematic.png)
+![Schematic](files/project/laborusb/LaborUSB_Schematic.png)
 
 ### Board
 
 Can be easily done by every board house.
 
-![Board](files/2013/09/21/LaborUSB_Board.png)
+![Board](files/project/laborusb/LaborUSB_Board.png)
 
 ## Bill of materials
 
-![Parts](files/2013/09/21/LaborUSB_Parts.jpg)
+![Parts](files/project/laborusb/LaborUSB_Parts.jpg)
 
 | **Count** | **Description** | **Source** |
 |---:|:---|:---|
@@ -55,10 +55,10 @@ Can be easily done by every board house.
 
 ### Solder Resistors
 
-![Resistors](files/2013/09/21/LaborUSB_Resistors.jpg)
+![Resistors](files/project/laborusb/LaborUSB_Resistors.jpg)
 
 ### Prepare Front Panel
-![Front](files/2013/09/21/LaborUSB_Front.jpg)
+![Front](files/project/laborusb/LaborUSB_Front.jpg)
 
 Place the banana jacks in the front panel and secure them with the additional 6mm fine thread nuts. Add one of the delivered 6mm fine thread nuts to every banana plug.
 
@@ -66,31 +66,27 @@ Add the 12mm standoff to the front panel with the M3 10mm screws. If you do not 
 
 ### Add board to front panel
 
-![Mounting](files/2013/09/21/LaborUSB_BoardMount1.jpg)
+![Mounting](files/project/laborusb/LaborUSB_BoardMount1.jpg)
 
 Place the board on the 12 mm standoff and secure it with the 5mm standoffs.
 
-![Mounting](files/2013/09/21/LaborUSB_BoardMount2.jpg)
+![Mounting](files/project/laborusb/LaborUSB_BoardMount2.jpg)
 
 Screw the 6mm nut up until the board is reached.
 
-![Mounting](files/2013/09/21/LaborUSB_BoardMount3.jpg)
+![Mounting](files/project/laborusb/LaborUSB_BoardMount3.jpg)
 
 Take the remaining 6mm fine threaded nuts and secure the banana plugs on the board.
 
 ### Add USB Jacks
 
-![USB Jacks](files/2013/09/21/LaborUSB_USBJack.jpg)
+![USB Jacks](files/project/laborusb/LaborUSB_USBJack.jpg)
 
 With the USB jacks from Reichelt, you need to first straighten the outer pins as seen on the left jack. Otherwise they will not fit through the front panel.
 
-![Backplate](files/2013/09/21/LaborUSB_Backplate.jpg)
+![Backplate](files/project/laborusb/LaborUSB_Backplate.jpg)
 
-Place all 4 USB Jacks in the front panel.
-
-![Soldered](files/2013/09/21/LaborUSB_Soldered.jpg)
-
-And solder them to the board.
+Place all 4 USB Jacks in the front panel and solder them to the board.
 
 ### Add back panel
 
