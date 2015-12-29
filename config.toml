@@ -5,7 +5,7 @@ MetaDataFormat = "toml"
 
 [params]
     Author = "Uwe Arzt"
-    subtitle = "Electronics, Robotics and me"
+    subtitle = "Projects, thoughts and more"
 
 [Taxonomies]
     category = "categories"
