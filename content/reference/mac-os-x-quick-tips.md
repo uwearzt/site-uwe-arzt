@@ -1,6 +1,6 @@
 +++
 title = "Mac OS X Quick Tips"
-date  = "2013-03-02"
+date  = "2016-02-08"
 type = "page"
 +++
 
@@ -19,6 +19,23 @@ defaults write com.apple.finder AppleShowAllFiles -boolean false; killall Finder
 chflags nohidden ~/Library
 ~~~~
 
+### use screen as serial terminal
+
+~~~~
+screen /dev/cu.SERIAL 9600
+~~~~
+
+### special characters on german keyboard
+
+| Character | Key combination           |
+|-----------|---------------------------|
+| &#x007c;  | Alt + 7                   |
+| ~         | Alt + n                   |
+| {         | Alt + (                   |
+| }         | Alt + )                   |
+| &#x005c;  | Alt + Shift + 7 (Alt + /) |
+| [         | Alt + 5                   |
+| ]         | Alt + 6                   |
 
 ### quit Application in Task Switch
 press Q when the task is selected
