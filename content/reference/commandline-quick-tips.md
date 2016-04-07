@@ -30,6 +30,7 @@ Here is a collection of Commandline Quick Tips, i use often. It will be suppleme
 | -S [name] | start session with [name] |
 | -list | list all sessions |
 | -r [name] | reattach session [name] |
+| -D -r [name] | reattach session [name] after connection lost |
 
 ### git commands
 
