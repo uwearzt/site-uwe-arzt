@@ -19,12 +19,6 @@ defaults write com.apple.finder AppleShowAllFiles -boolean false; killall Finder
 chflags nohidden ~/Library
 ~~~~
 
-### use screen as serial terminal
-
-~~~~
-screen /dev/cu.SERIAL 9600
-~~~~
-
 ### special characters on german keyboard
 
 | Character | Key combination           |

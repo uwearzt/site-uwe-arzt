@@ -31,6 +31,8 @@ Here is a collection of Commandline Quick Tips, i use often. It will be suppleme
 | -list | list all sessions |
 | -r [name] | reattach session [name] |
 | -D -r [name] | reattach session [name] after connection lost |
+| -D -r [name] | reattach session [name] after connection lost |
+| /dev/cu.serial [speed]| attach to serial port |
 
 ### git commands
 
