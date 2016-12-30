@@ -95,3 +95,15 @@ https://community.ubnt.com/t5/EdgeMAX/WAN-dropped-DHCP-renew-fixes-it/td-p/78066
 </p>
 </div>
 </div>
+
+<div class="comments">
+<div class="comments-level-1">
+<p class="comments-author">Timo says</p>
+<!-- timo@kosig.net -->
+<p class="comments-date">2016/12/29</p>
+<p>
+Thanks for the article, I needed to set up the daily reconnect as well and it provided a place for me to call curl to update my dynamic DNS entries after a reconnect.
+</p>
+</p>
+</div>
+</div>
