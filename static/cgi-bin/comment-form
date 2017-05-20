@@ -16,10 +16,15 @@ redirect_url_bot = "https://uwe-arzt.de/bot-comment/"
 ###################################################################################
 deb = open('debug.log', 'a')
 deb.write("-----------------------------------------------\n")
-deb.writelines(sys.argv[1:])
-deb.write("\n-----------------------------------------------\n")
+for line in sys.stdin:
+  deb.write(line)
+
+deb.flush()
+deb.close()
+sys.exit(0)
 
 # cgitb.enable()
+cgitb.enable(display=0, logdir="./cgitb.log")
 
 ###################################################################################
 # write comment to file
