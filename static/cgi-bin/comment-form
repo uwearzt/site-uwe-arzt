@@ -19,6 +19,13 @@ deb.write("-----------------------------------------------\n")
 for line in sys.stdin:
   deb.write(line)
 
+deb.write("\n")
+
+deb.write(str(os.getenv('HTTP_REFERER', '')))
+deb.write("\n")
+deb.write(str(os.getenv('REMOTE_ADDR', ''))) 
+deb.write("\n")
+        
 deb.flush()
 deb.close()
 sys.exit(0)
