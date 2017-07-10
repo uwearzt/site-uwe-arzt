@@ -1,0 +1,30 @@
+extends: default.liquid
+
+title: All Blog posts after Categories
+---
+<div>
+  for <br/>
+	{% comment %}
+  {% for x in config %}
+    {{ x }} <br/>
+  {% endfor %}
+  endfor <br/>
+  {{ config.name }} {{ config.description }}
+  {{ post.title }} {{ post.categories }}
+	{% endcomment %}
+  <hr/>
+</div>
+<div>
+</div>
+<div>
+	{% comment %}
+  {% for post in posts %}
+    {{ post.date | date: "%d.%m.%Y" }} | {{ post.title }} <br/>
+    {% for y in post.categories %}
+      {{ y }} <br/>
+    {% endfor %}
+    {{ posts.post.title }}
+    <hr/>
+  {% endfor %}
+	{% endcomment %}
+</div>

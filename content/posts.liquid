@@ -1,0 +1,36 @@
+extends: default.liquid
+
+title: All Blog posts
+---
+
+<div>
+  {% assign last_post_date = unknown %}
+  {% assign in_list = false %}
+  {% for post in posts %}
+    <!-- generate year of posts -->
+    {% assign post_date = post.date | date: "%Y" %}
+
+    {% if post_date != last_post_date %}
+      {% assign last_post_date = post_date %}
+
+      <!-- end old list -->
+      {% if in_list == true %}
+        {% assign in_list = false %}
+        </ul>
+      {% endif %}
+        
+      <h3>{{ post_date }}</h3>
+
+      <!-- start new list -->
+      {% if in_list == false %}
+        {% assign in_list = true %}
+        <ul id="list">
+      {% endif %}
+
+    {% endif %}     
+    <li>
+       <a href="{{ post.path }}">{{ post.title }}</a>
+       <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
+    </li>
+  {% endfor %}
+</div>

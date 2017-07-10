@@ -1,6 +1,7 @@
 # Uwes Website and Blog
 
-This is the source for [Uwes Blog](https://uwe-arzt.de). I use [Hugo](http://gohugo.io) to
+This is the source for [Uwes Blog](https://uwe-arzt.de). I use 
+[cobalt.rs](https://github.com/cobalt-org/cobalt.rs) to
 take the source here and create a static site.
 
 # License

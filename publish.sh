@@ -6,20 +6,23 @@
 set -ex
 #set -e
 
+export PATH=/Users/uwe/repo/cobalt.rs/target/debug:$PATH
+type cobalt
+
 SERVER=uwe-arzt.de
 
 SITEDIR=site-uwe-arzt
 TESTDIR=test-site-uwe-arzt
 
-DIR=${SITEDIR}
-SETTINGS="--verbose"
+DIR=${TESTDIR}
+SETTINGS="--drafts --trace"
 
 for i in "$@"
 do
 case $i in
-    -t|--test)
-        DIR=${TESTDIR}
-				SETTINGS="${SETTINGS} --buildDrafts"
+    -p|--prod)
+        DIR=${SITEDIR}
+				SETTINGS=""
     ;;
     *)
         echo "Unknown Option"
@@ -28,10 +31,14 @@ case $i in
 esac
 done
 
-rm -rf public/*
-hugo ${SETTINGS}
-rsync -r -c --delete --progress public/* ${SERVER}:${DIR}/
+cobalt --config cobalt.yml clean
+cobalt --config cobalt.yml build
+# cobalt --log-level=debug --config cobalt.yml build
+# cobalt --log-level=trace --config cobalt.yml build
+
+rsync -r -c --delete --progress build/* ${SERVER}:${DIR}/
 rsync etc/htaccess ${SERVER}:${DIR}/.htaccess
 rsync etc/robots.txt ${SERVER}:${DIR}/robots.txt
-rsync ${HOME}/.recaptcha/private-key ${SERVER}:${DIR}/cgi-bin
+# not in public repo
+rsync ${HOME}/.recaptcha/.private-key ${SERVER}:${DIR}/cgi-bin/
 

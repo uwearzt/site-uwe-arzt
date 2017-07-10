@@ -1,10 +1,20 @@
-+++
-title = "Docker Quick Tips"
-date  = "2017-01-05"
-type = "page"
-+++
+extends: default.liquid
 
-| command                                               | description                                       |
-|-------------------------------------------------------|---------------------------------------------------|
-| docker rm $(docker ps -q -f status=exited)            | Remove all exited containers                      |
-| docker rmi $(docker images --filter dangling=true -q) | Remove all unused images                          |
+title: Docker Quick Tips
+---
+
+<table>
+	<thead>
+		<tr><th>Command</th><th>Description</th></tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>docker rm $(docker ps -q -f status=exited)</td>
+			<td>Remove all exited containers</td>
+		</tr>
+		<tr>
+			<td>docker rmi $(docker images --filter dangling=true -q)</td>
+			<td>Remove all unused images</td>
+		</tr>
+	</tbody>
+</table>

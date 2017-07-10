@@ -1,0 +1,23 @@
+# --------------------------------------------------------
+# test
+link: https://test.uwe-arzt.de
+# --------------------------------------------------------
+# prod
+# link: https://uwe-arzt.de
+
+name: Uwes Blog
+description: Projects, thoughts and more
+categories: [ Other : [],
+              Programming : [ Rust, C++, Erlang, Swift ],
+              Electronics : [ ARM ],
+              Home Automation : [],
+              OS : [ iOS, Linux, macOS, Ansible ],
+              Robotics : [ ROS ],
+              Security : [] ]
+
+excerpt_separator: <!-- more -->
+rss: feed.rss
+jsonfeed: feed.json
+
+source: content
+dest: build

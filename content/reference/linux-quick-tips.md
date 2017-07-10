@@ -1,11 +1,10 @@
-+++
-title = "Linux Quick Tips"
-date  = "2013-05-10"
-type = "page"
-+++
+extends: default.liquid
+
+title: Linux Quick Tips
+---
 
 ### get the UUID for a filesystem
 
-~~~~
+```bash
 blkid /dev/sdb1
-~~~~
+```

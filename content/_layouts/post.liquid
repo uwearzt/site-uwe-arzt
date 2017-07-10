@@ -1,0 +1,16 @@
+{{ include "_layouts/_page_head_start.liquid" }}
+
+	<title>Uwes Blog | {{ title }}</title>
+	{{ include "_layouts/_head_include.liquid" }}
+
+{{ include "_layouts/_page_head_end_body_start.liquid" }}
+
+	<!-- start post.liquid -->
+	<h2>{{ title }}</h2>
+	<p>in categories {{ categories }}</p>
+	<div>
+		{{ content }}
+	</div>
+	<!-- end post.liquid -->
+
+{{ include "_layouts/_page_body_end.liquid" }}

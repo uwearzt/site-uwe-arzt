@@ -1,10 +1,9 @@
-+++
-title = "BSD Documentation License"
-type = "page"
-categories = [""]
-+++
+extends: default.liquid
+title: "BSD Documentation License"
+---
 
-**Copyright (c) 2007-2015, Uwe Arzt**<br/>
+**Copyright (c) 2007-2016, Uwe Arzt**
+
 All rights reserved.
 
 Redistribution and use in source (Markdown, doxygen) and 'compiled' forms (SGML, HTML, PDF, PostScript, RTF and so forth) with
