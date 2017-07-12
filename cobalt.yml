@@ -1,10 +1,7 @@
 # --------------------------------------------------------
-# test
-link: https://test.uwe-arzt.de
-# --------------------------------------------------------
-# prod
-# link: https://uwe-arzt.de
+link: https://uwe-arzt.de
 
+# --------------------------------------------------------
 name: Uwes Blog
 description: Projects, thoughts and more
 categories: [ Other : [],
@@ -16,8 +13,11 @@ categories: [ Other : [],
               Security : [] ]
 
 excerpt_separator: <!-- more -->
+
+# --------------------------------------------------------
 rss: feed.rss
 jsonfeed: feed.json
 
+# --------------------------------------------------------
 source: content
 dest: build
