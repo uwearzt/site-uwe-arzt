@@ -10,26 +10,9 @@ export PATH=/Users/uwe/repo/cobalt.rs/target/debug:$PATH
 type cobalt
 
 SERVER=uwe-arzt.de
+DIR=site-uwe-arzt
 
-SITEDIR=site-uwe-arzt
-TESTDIR=test-site-uwe-arzt
-
-DIR=${TESTDIR}
-SETTINGS="--drafts --trace"
-
-for i in "$@"
-do
-case $i in
-    -p|--prod)
-        DIR=${SITEDIR}
-				SETTINGS=""
-    ;;
-    *)
-        echo "Unknown Option"
-				exit 1
-    ;;
-esac
-done
+# SETTINGS="--drafts --trace"
 
 cobalt --config cobalt.yml clean
 cobalt --config cobalt.yml build

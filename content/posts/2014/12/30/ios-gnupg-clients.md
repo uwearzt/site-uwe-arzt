@@ -1,6 +1,7 @@
 extends: post.liquid
 
 title: iOS GnuPG Clients
+shortlink: 4297d152
 date: 30 Dec 2014 00:00:00 +0100
 
 type: "blog"

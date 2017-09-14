@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: "Energy Micro EFM32 Starterkit"
+shortlink: 42e3dbf2
+
 date: 29 Sep 2010 00:00:00 +0100
 type: blog
 categories: ["ARM"]

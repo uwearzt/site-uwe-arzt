@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: cmake Files for mbed created
+shortlink: 4275b6f0
+
 date: 10 Feb 2014 00:00:00 +0100
 
 type: "blog"

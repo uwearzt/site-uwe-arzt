@@ -1,6 +1,7 @@
 extends: default.liquid
 
 title: Mac OS X Software
+shortlink: 42325341
 ---
 
 Here is an overview of software i use on my Mac(s). I also collect some additional

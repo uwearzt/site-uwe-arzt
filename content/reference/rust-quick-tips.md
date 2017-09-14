@@ -1,6 +1,7 @@
 extends: default.liquid
 
 title: Rust Quick Tips
+shortlink: 420cbe5a
 ---
 
 <table>
@@ -25,8 +26,12 @@ title: Rust Quick Tips
 			<td>Install rust formatter</td>
 		</tr>
 		<tr>
-			<td>cargo fmt </td>
+			<td>cargo fmt</td>
 			<td>Format sourcecode in project</td>
+		</tr>
+		<tr>
+			<td>cargo install --list</td>
+			<td>list all installed crates</td>
 		</tr>
 	</tbody>
 </table>

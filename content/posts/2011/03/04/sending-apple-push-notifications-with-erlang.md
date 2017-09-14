@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Sending Apple Push Notifications with Erlang
+shortlink: 4237e925
+
 date: 04 Mar 2011 00:00:00 +0100
 type: "blog"
 categories: ["Programming", "Erlang", "iOS"]

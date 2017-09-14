@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Ansible Swift RPi install
+shortlink: 421dd501
+
 date: 09 Jan 2016 00:00:00 +0100
 
 type: "blog"

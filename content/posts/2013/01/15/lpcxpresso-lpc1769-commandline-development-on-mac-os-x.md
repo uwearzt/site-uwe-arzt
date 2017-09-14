@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: LPCXpresso LPC1769 commandline Development on Mac OS X
+shortlink: 424c3fb4
+
 date: 15 Jan 2013 00:00:00 +0100
 type: "blog"
 categories: ["ARM"]

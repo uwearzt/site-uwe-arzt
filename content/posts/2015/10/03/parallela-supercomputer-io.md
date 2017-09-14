@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: "Parallela on supercomputer.io"
+shortlink: 42694530
+
 date: "2015-10-03"
 date: 03 Oct 2015 00:00:00 +0100
 
@@ -9,7 +11,7 @@ categories: [ "Other" ]
 ---
 
 [Parallela](https://www.parallella.org) has started a distributed Supercomputer on 
-[supercomputer.io](http://supercomputer.io) with their parallela chips. I decided to
+<strike>supercomputer.io</strike> with their parallela chips. I decided to
 put my two Kickstarter Parallelas inside a cooling case and let them participate.
 
 <!-- more -->

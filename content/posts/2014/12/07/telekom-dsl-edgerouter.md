@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: "Telekom DSL with Ubiquiti EdgeRouter"
+shortlink: 4232f760
+
 date: 07 Dec 2014 00:00:00 +0100
 
 type: "blog"

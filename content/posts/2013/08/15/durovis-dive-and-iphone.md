@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Durovis Dive and iPhone
+shortlink: 426ceea1
+
 date: 15 Aug 2013 00:00:00 +0100
 
 type: "blog"

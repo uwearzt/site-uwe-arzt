@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Application Icon for HomeControl App
+shortlink: 42642739
+
 date: 06 Jan 2012 00:00:00 +0100
 type: "blog"
 categories: ["Other"]

@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: TinyJSON and boost 1.38
+shortlink: 424da137
+
 date: 22 Apr 2009 00:00:00 +0100
 type: blog
 

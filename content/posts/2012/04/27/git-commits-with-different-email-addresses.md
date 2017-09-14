@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: git commits with different EMail addresses
+shortlink: 42629107
+
 date: 27 Apr 2012 00:00:00 +0100
 type: "blog"
 categories: ["Other"]

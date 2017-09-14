@@ -1,6 +1,7 @@
 extends: post.liquid
 
 title: Olympus SZ4045TR Stereo Microscope
+shortlink: 42781716
 date: 22 Mar 2013 00:00:00 +0100
 type: "blog"
 categories: ["Other"]

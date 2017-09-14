@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Thermal Image MacBook Pro
+shortlink: 42e5a4a9
+
 date: 18 Mar 2010 00:00:00 +0100
 type: blog
 categories: ["Mac OS X"]

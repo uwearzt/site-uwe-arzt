@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: eibd and Mac OS X
+shortlink: 42db16db
+
 date: 23 Apr 2009 00:00:00 +0100
 type: blog
 categories: ["Home Automation", "Mac OS X"]

@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Turtlebot with MacBook Air
+shortlink: 428ffbc9
+
 date: 03 Oct 2011 00:00:00 +0100
 type: "blog"
 categories: ["Robotics", "ROS"]

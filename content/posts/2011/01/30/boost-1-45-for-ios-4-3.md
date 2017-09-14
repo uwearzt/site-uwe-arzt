@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: boost 1.45 for iOS 4.3
+shortlink: 423606fc
+
 date: 30 Jan 2011 00:00:00 +0100
 type: blog
 

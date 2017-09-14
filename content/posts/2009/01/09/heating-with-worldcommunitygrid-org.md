@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Heating with worldcommunitygrid.org
+shortlink: 4264b4f3
+
 date: 09 Jan 2009 00:00:00 +0100
 type: blog
 categories: ["Other"]

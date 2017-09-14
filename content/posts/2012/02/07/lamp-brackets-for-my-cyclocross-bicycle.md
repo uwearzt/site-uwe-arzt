@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Lamp brackets for my cyclocross bicycle
+shortlink: 4218b8ec
+
 date: 07 Feb 2012 00:00:00 +0100
 type: "blog"
 categories: ["Other"]

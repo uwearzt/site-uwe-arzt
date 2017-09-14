@@ -1,5 +1,6 @@
 extends: default.liquid
 title: "mbed-cmake"
+shortlink: 4288849f
 project_url: "https://github.com/uwearzt/mbed-cmake.git"
 ---
 

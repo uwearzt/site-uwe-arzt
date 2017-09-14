@@ -1,6 +1,7 @@
 extends: post.liquid
 
 title: FLIR E4 E8
+shortlink: 4215cd32
 date: 23 Dec 2013 00:00:00 +0100
 
 type: "blog"

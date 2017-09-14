@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: iRobot Roomba 555
+shortlink: 42630eff
+
 date: 05 May 2011 00:00:00 +0100
 type: "blog"
 categories: ["Robotics"]

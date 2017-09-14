@@ -1,5 +1,6 @@
 extends: default.liquid
 title: "Impressum"
+shortlink: 425ef91f
 ---
 
 Uwe Arzt

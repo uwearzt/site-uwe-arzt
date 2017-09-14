@@ -1,5 +1,6 @@
 extends: post.liquid
 title: MP3FS on Mac OS X with MacFUSE now Xcode 3 compatible
+shortlink: 42422032
 date: 09 May 2008 00:00:00 +0100
 type: blog
 categories: ["Mac OS X"]

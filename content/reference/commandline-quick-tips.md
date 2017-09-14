@@ -1,6 +1,7 @@
 extends: default.liquid
 
 title: Commandline Quick Tips
+shortlink: 42ea2a3b
 ---
 
 Here is a collection of Commandline Quick Tips, i use often. It will be supplemented, every time i 
@@ -35,11 +36,12 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 	</thead>
 	<tbody>
 		<tr><td>-S [name]</td><td>start session with [name]</td></tr>
+		<tr><td>-L</td><td>create Log</td></tr>
 		<tr><td>-list</td><td>list all sessions</td></tr>
 		<tr><td>-r [name]</td><td>reattach session [name]</td></tr>
 		<tr><td>-D -r [name]</td><td>reattach session [name] after connection lost</td></tr>
 		<tr><td>-D -r [name]</td><td>reattach session [name] after connection lost</td></tr>
-		<tr><td>/dev/cu.serial [speed]| attach to serial port</td></tr>
+		<tr><td>/dev/cu.serial [speed]</td><td>attach to serial port</td></tr>
 	</tbody>
 </table>
 

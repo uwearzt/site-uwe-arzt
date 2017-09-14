@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: Pinheader Breadboard Adapter
+shortlink: 421ad8fc
+
 date: 14 Jun 2012 00:00:00 +0100
 type: "blog"
 categories: ["Electronics"]

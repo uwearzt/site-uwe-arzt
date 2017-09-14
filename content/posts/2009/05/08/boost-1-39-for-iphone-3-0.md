@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: boost 1.39 for iPhone 3.0
+shortlink: 42b87dff
+
 date: 08 May 2009 00:00:00 +0100
 type: blog
 categories: ["Programming", "iOS", "OS"]

@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: ChibiOS/RT on STM32 development
+shortlink: 426274c7
+
 date: "2013-08-04"
 date: 04 Aug 2013 00:00:00 +0100
 

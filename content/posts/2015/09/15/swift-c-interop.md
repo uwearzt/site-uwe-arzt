@@ -1,6 +1,7 @@
 extends: post.liquid
 
 title: "Example project for Swift C Interop"
+shortlink: 42874073
 date: 15 Sep 2015 00:00:00 +0100
 
 type: "blog"

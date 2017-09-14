@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: "USB Logic Analyzer"
+shortlink: 427b4c4e
+
 date: 16 Oct 2010 00:00:00 +0100
 
 type: "blog"

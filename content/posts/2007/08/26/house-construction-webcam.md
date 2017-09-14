@@ -1,5 +1,6 @@
 extends: post.liquid
 title: House Construction Webcam
+shortlink: 428d773f
 date: 26 Aug 2007 00:00:00 +0100
 type: blog
 categories: ["Other"]

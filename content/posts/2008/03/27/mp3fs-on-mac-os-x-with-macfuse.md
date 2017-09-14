@@ -1,5 +1,6 @@
 extends: post.liquid
 title: MP3FS on Mac OS X with MacFUSE
+shortlink: 429bf320
 date: 27 Mar 2008 00:00:00 +0100
 type: blog
 categories: ["Mac OS X"]

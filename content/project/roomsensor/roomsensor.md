@@ -1,5 +1,6 @@
 extends: default.liquid
 title: "RoomSensor"
+shortlink: 425815d0
 ---
 
 # Overview

@@ -1,6 +1,7 @@
 extends: default.liquid
 
 title: LaborUSB
+shortlink: 42b67912
 project_url: https://github.com/uwearzt/LaborUSB.git
 ---
 

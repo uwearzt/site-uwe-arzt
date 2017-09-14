@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: JSON spirit version upgrade in MacPorts
+shortlink: 42b48139
+
 date: 02 May 2012 00:00:00 +0100
 type: "blog"
 categories: ["MacPorts"]

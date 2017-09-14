@@ -1,6 +1,7 @@
 extends: post.liquid
 
 title: LaborUSB finished
+shortlink: 4268c677
 date: 05 Oct 2013 00:00:00 +0100
 
 type: "blog"

@@ -1,6 +1,7 @@
 extends: default.liquid
 
 title: "AdminMonitor"
+shortlink: 4215543e
 ---
 
 # Overview

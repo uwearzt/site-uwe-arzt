@@ -1,5 +1,6 @@
 extends: default.liquid
 title: "WordClock"
+shortlink: 42473368
 ---
 
 # Overview

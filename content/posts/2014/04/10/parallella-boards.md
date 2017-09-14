@@ -1,6 +1,8 @@
 extends: post.liquid
 
 title: "Parallella Boards"
+shortlink: 42f81b3b
+
 date: 10 Apr 2014 00:00:00 +0100
 
 type: "blog"
