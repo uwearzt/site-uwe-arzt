@@ -1,6 +1,5 @@
 extends: default.liquid
 title: "BSD Documentation License"
-shortlink: 421dce8d
 ---
 
 **Copyright (c) 2007-2016, Uwe Arzt**

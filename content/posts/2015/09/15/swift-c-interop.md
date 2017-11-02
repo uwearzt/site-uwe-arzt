@@ -26,6 +26,7 @@ project, uncomment the line leading to the compiler crash and comment the correc
 //let myCallback : @convention(c) (i: Int) -> Int = {
 // works
 let myCallback : @convention(c) (Int) -> Int = {
+}
 ```
 
 If it crashes in your environment too, send Apple a bug report.

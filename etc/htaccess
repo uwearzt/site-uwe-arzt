@@ -8,9 +8,11 @@
 </IfModule>
 
 # Error
-ErrorDocument 404 https://uwe-arzt.de/404
+ErrorDocument 404 https://uwe-arzt.de/404.html
 
 # Old links used from the outside world
-Redirect 301 /20120613.html /2012/06/13/pinheader-breadboard-adapter/
-Redirect 301 /uwe-arzt.rss /post/index.xml
-
+Redirect 301 /20120613.html /posts/2012/06/13/pinheader-breadboard-adapter.html
+Redirect 301 /2012/06/13/pinheader-breadboard-adapter/ /posts/2012/06/13/pinheader-breadboard-adapter.html
+Redirect 301 /2012/06/13/pinheader-breadboard-adapter/index.html /posts/2012/06/13/pinheader-breadboard-adapter.html
+Redirect 301 /uwe-arzt.rss /feed.rss
+Redirect 301 /post/index.xml /feed.rss

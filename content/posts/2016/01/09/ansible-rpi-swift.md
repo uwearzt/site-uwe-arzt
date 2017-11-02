@@ -20,7 +20,7 @@ github too.
 
 <!-- more -->
 
-```ansible
+```yml
 ---
 - name: install swift on rpi
   hosts: rpi

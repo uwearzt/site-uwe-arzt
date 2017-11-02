@@ -19,7 +19,8 @@ cobalt --config cobalt.yml build
 # cobalt --log-level=debug --config cobalt.yml build
 # cobalt --log-level=trace --config cobalt.yml build
 
-rsync -r -c --delete --progress build/* ${SERVER}:${DIR}/
+rsync --dry-run -r -c --delete --progress build/* ${SERVER}:${DIR}/
+# rsync -r -c --delete --progress build/* ${SERVER}:${DIR}/
 rsync etc/htaccess ${SERVER}:${DIR}/.htaccess
 rsync etc/robots.txt ${SERVER}:${DIR}/robots.txt
 # not in public repo

@@ -1,7 +1,6 @@
 extends: default.liquid
 
 title: BSD License
-shortlink: 42dc1f49
 ---
 
 **Copyright (c) 2007-2016, Uwe Arzt**
