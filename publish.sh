@@ -1,24 +1,28 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------
-# Copyright 2016 by Uwe Arzt mailto:mail@uwe-arzt.de, https://uwe-arzt.de
+# Copyright 2016-2017 by Uwe Arzt mailto:mail@uwe-arzt.de, https://uwe-arzt.de
 # under BSD License, see https://uwe-arzt.de/bsd-license
 # ------------------------------------------------------------------------------
 set -ex
-#set -e
 
+# ------------------------------------------------------------------------------
+# use self built cobalt
 export PATH=/Users/uwe/repo/cobalt.rs/target/debug:$PATH
+
+# use cargo built cobalt
+# export PATH=/Users/uwe/.cobalt/bin:$PATH
+
 type cobalt
 
+# ------------------------------------------------------------------------------
 SERVER=uwe-arzt.de
 DIR=site-uwe-arzt
 
-# SETTINGS="--drafts --trace"
+# ------------------------------------------------------------------------------
+cobalt clean
+cobalt --log-level=trace build
 
-cobalt --config cobalt.yml clean
-cobalt --config cobalt.yml build
-# cobalt --log-level=debug --config cobalt.yml build
-# cobalt --log-level=trace --config cobalt.yml build
-
+# ------------------------------------------------------------------------------
 rsync --dry-run -r -c --delete --progress build/* ${SERVER}:${DIR}/
 # rsync -r -c --delete --progress build/* ${SERVER}:${DIR}/
 rsync etc/htaccess ${SERVER}:${DIR}/.htaccess

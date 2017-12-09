@@ -19,7 +19,7 @@ syntax_highlight:
   theme: Solarized (dark)
 
 # --------------------------------------------------------
-shorturl: shorturls.csv
+# shorturl: shorturls.csv
 
 # --------------------------------------------------------
 rss: feed.rss
