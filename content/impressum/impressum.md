@@ -13,19 +13,7 @@ Phone: +49 171 5477670
 
 E-Mail: <mailto:mail@uwe-arzt.de>
 
-Internet: <https://uwe-arzt.de>
-
-### Bitcoin address
-
-```
-i1EDBC7Kqshd3tnBGTyzWRYdnbMXA5FvGZm
-```
-
-### GPG Fingerprint
-
-```
-286E E0D9 C287 F288 3F9E C9E6 BC46 F65A 078F 75FE
-```
+WWW: <https://uwe-arzt.de>
 
 ### Copyrights
 
