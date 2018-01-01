@@ -20,6 +20,7 @@ github too.
 
 <!-- more -->
 
+{% raw %}
 ```yml
 ---
 - name: install swift on rpi
@@ -54,3 +55,4 @@ github too.
       with_items:
         - swift-2.2
 ```
+{% endraw %}
