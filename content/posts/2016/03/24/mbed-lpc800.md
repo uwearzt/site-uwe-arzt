@@ -1,14 +1,13 @@
-extends: post.liquid
-
 title: mbed Online Compiler and LPC800
-shortlink: 427d3070
-
-date: 24 Mar 2016 00:00:00 +0100
-
-type: "blog"
-categories: [ "ARM", "C++" ]
+categories:
+  - ARM
+  - C++
+published_date: "2016-03-24 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 427d3070
 ---
-
 I have build some of the small [LPC800](https://github.com/cpldcpu/LPC812breakout) Breakout
 Boards. 
 

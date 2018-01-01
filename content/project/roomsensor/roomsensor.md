@@ -1,8 +1,8 @@
-extends: default.liquid
-title: "RoomSensor"
-shortlink: 425815d0
+title: RoomSensor
+layout: default.liquid
+data:
+  shortlink: 425815d0
 ---
-
 # Overview
 
 Inside our new home we have an KNX <http://www.knx.org> automation bus. I have not found an nice looking "RoomSensor" which has the following sensor equipment:

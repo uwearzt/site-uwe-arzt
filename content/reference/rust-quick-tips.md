@@ -1,9 +1,8 @@
-extends: default.liquid
-
 title: Rust Quick Tips
-shortlink: 420cbe5a
+layout: default.liquid
+data:
+  shortlink: 420cbe5a
 ---
-
 <table>
 	<thead>
 		<tr><th>command</th><th>description</th></tr>

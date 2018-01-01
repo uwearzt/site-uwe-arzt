@@ -1,14 +1,13 @@
-extends: post.liquid
-
-title: "Telekom DSL with Ubiquiti EdgeRouter"
-shortlink: 4232f760
-
-date: 07 Dec 2014 00:00:00 +0100
-
-type: "blog"
-categories: ["Linux", "Other"]
+title: Telekom DSL with Ubiquiti EdgeRouter
+categories:
+  - Linux
+  - Other
+published_date: "2014-12-07 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 4232f760
 ---
-
 These days i exchanged my aging [FritzBox](http://www.avm.de) with a [Ubiquiti EdgeRouter Lite](http://www.ubnt.com/edgemax/edgerouter-lite/).
 
 Most of the configuration including IPsec is pretty straightforward. The only thing which took a little bit more time is the "Zwangstrennung" (daily shutdown) of the PPPoE connection from my provider. I do the daily reconnect for my connection at 4 am every day.

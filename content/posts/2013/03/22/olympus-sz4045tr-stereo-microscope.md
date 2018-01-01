@@ -1,12 +1,12 @@
-extends: post.liquid
-
 title: Olympus SZ4045TR Stereo Microscope
-shortlink: 42781716
-date: 22 Mar 2013 00:00:00 +0100
-type: "blog"
-categories: ["Other"]
+categories:
+  - Other
+published_date: "2013-03-22 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 42781716
 ---
-
 Recently i have bought a Olympus SZ4045TR Stereo Microscope. I will use it for all
 kind of electronics SMD stuff.
 

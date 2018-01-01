@@ -1,8 +1,6 @@
-extends: default.liquid
-
 title: Projects
+layout: default.liquid
 ---
-
 # Current
 
 [Administration Monitor](adminmonitor/adminmonitor.html)

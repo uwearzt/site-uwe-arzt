@@ -1,11 +1,12 @@
-extends: post.liquid
 title: House Construction Webcam
-shortlink: 428d773f
-date: 26 Aug 2007 00:00:00 +0100
-type: blog
-categories: ["Other"]
+categories:
+  - Other
+published_date: "2007-08-26 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 428d773f
 ---
-
 Today i mounted the webcam which will capture the contruction of our house. It is
 planned to generate a fast motion video about the construction.
 

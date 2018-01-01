@@ -1,13 +1,13 @@
-extends: post.liquid
-
 title: eibd and Mac OS X
-shortlink: 42db16db
-
-date: 23 Apr 2009 00:00:00 +0100
-type: blog
-categories: ["Home Automation", "Mac OS X"]
+categories:
+  - Home Automation
+  - Mac OS X
+published_date: "2009-04-23 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 42db16db
 ---
-
 At the moment i am testing if a swap of my current GNU/Linux server running Ubuntu to an Mac Mini with an external RAID and Mac OS X
 is possible. For that i have created an eibd for connecting with my Home Automation KNX bus.
 

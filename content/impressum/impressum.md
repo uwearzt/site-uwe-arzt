@@ -1,8 +1,8 @@
-extends: default.liquid
-title: "Impressum"
-shortlink: 425ef91f
+title: Impressum
+layout: default.liquid
+data:
+  shortlink: 425ef91f
 ---
-
 Uwe Arzt
 
 Danziger Str. 104<br/>

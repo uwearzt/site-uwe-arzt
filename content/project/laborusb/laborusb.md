@@ -1,10 +1,9 @@
-extends: default.liquid
-
 title: LaborUSB
-shortlink: 42b67912
-project_url: https://github.com/uwearzt/LaborUSB.git
+layout: default.liquid
+data:
+  shortlink: 42b67912
+  project_url: "https://github.com/uwearzt/LaborUSB.git"
 ---
-
 Many prototyping boards these days use USB Connectors as Power Source. For easy powering those devices with my DC Power Supply (or in german "Labornetzteil") i created a adaptor from 4 mm banana plugs to 4 USB Jacks.
 
 Additional benefit is that all types of iThings can be loaded with the Adaptor. The necessary research for loading Apple devices was done by [Adafruit](http://www.adafruit.com), see their page about [icharging](http://learn.adafruit.com/minty-boost/icharging).

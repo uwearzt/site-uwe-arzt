@@ -1,13 +1,12 @@
-extends: post.liquid
-
 title: Wall outlet with USB plug
-shortlink: 423dbf84
-
-date: 07 Apr 2013 00:00:00 +0100
-type: "blog"
-categories: ["Home Automation"]
+categories:
+  - Home Automation
+published_date: "2013-04-07 00:00:00 +0100"
+layout: post.liquid
+data:
+  shortlink: 423dbf84
+  type: blog
 ---
-
 [Busch Jaeger](http://www.busch-jaeger.de) sells now wall outlets with integrated USB plugs for charging up your iPhone or every other USB device.
 
 <!-- more -->

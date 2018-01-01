@@ -1,6 +1,5 @@
-extends: default.liquid
-
 title: All Blog posts after Categories
+layout: default.liquid
 ---
 <div>
   for <br/>
@@ -18,8 +17,8 @@ title: All Blog posts after Categories
 </div>
 <div>
 	{% comment %}
-  {% for post in posts %}
-    {{ post.date | date: "%d.%m.%Y" }} | {{ post.title }} <br/>
+  {% for post in collections.posts.pages %}
+    {{ post.published_date | date: "%d.%m.%Y" }} | {{ post.title }} <br/>
     {% for y in post.categories %}
       {{ y }} <br/>
     {% endfor %}

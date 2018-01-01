@@ -1,13 +1,12 @@
-extends: post.liquid
-
 title: git commits with different EMail addresses
-shortlink: 42629107
-
-date: 27 Apr 2012 00:00:00 +0100
-type: "blog"
-categories: ["Other"]
+categories:
+  - Other
+published_date: "2012-04-27 00:00:00 +0100"
+layout: post.liquid
+data:
+  shortlink: 42629108
+  type: blog
 ---
-
 If you do (like me) a lot of git clones for different branches etc on a lot of different projects, the chances are high,
 that you want to have different EMails for checkins. You can update the local .git/config file for every clone, but that is a error prone process.
 

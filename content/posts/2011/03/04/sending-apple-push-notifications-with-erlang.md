@@ -1,13 +1,14 @@
-extends: post.liquid
-
 title: Sending Apple Push Notifications with Erlang
-shortlink: 4237d925
-
-date: 04 Mar 2011 00:00:00 +0100
-type: "blog"
-categories: ["Programming", "Erlang", "iOS"]
+categories:
+  - Programming
+  - Erlang
+  - iOS
+published_date: "2011-03-04 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 4237d925
 ---
-
 First of all you have to be sure you have installed Erlang together with SSL. On Mac OS X that can be done with MacPorts:
 
 ```

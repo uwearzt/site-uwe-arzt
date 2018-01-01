@@ -1,13 +1,12 @@
-extends: post.liquid
-
 title: Thermal Image MacBook Pro
-shortlink: 42e5a4a9
-
-date: 18 Mar 2010 00:00:00 +0100
-type: blog
-categories: ["Mac OS X"]
+categories:
+  - Mac OS X
+published_date: "2010-03-18 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 42e5a4a9
 ---
-
 We had a Thermal Image Photosession for our home last week. I have also 
 made an Thermal Image of my Macbook Pro.
 

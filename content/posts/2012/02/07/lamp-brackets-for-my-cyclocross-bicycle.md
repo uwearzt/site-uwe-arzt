@@ -1,13 +1,12 @@
-extends: post.liquid
-
 title: Lamp brackets for my cyclocross bicycle
-shortlink: 4218b8ec
-
-date: 07 Feb 2012 00:00:00 +0100
-type: "blog"
-categories: ["Other"]
+categories:
+  - Other
+published_date: "2012-02-07 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 4218b8ec
 ---
-
 **Update
 The drawings are now available online, see my [blogpost](/2015/09/16/redrawn-bicycle-parts-in-onshape/).
 Update**

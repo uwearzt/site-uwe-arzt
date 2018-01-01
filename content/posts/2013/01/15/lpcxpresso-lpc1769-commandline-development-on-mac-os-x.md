@@ -1,13 +1,12 @@
-extends: post.liquid
-
 title: LPCXpresso LPC1769 commandline Development on Mac OS X
-shortlink: 424c3fb4
-
-date: 15 Jan 2013 00:00:00 +0100
-type: "blog"
-categories: ["ARM"]
+categories:
+  - ARM
+published_date: "2013-01-15 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 424c3fb4
 ---
-
 Because editing with [vim](http://www.vim.org) is my preferred way of creating software, i do
 not use the Eclipse based software delivered together with the LPCXpresso.
 

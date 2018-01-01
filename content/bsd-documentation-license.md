@@ -1,7 +1,6 @@
-extends: default.liquid
-title: "BSD Documentation License"
+title: BSD Documentation License
+layout: default.liquid
 ---
-
 **Copyright (c) 2007-2016, Uwe Arzt**
 
 All rights reserved.

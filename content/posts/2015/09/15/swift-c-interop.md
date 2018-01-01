@@ -1,14 +1,14 @@
-extends: post.liquid
-
-title: "Example project for Swift C Interop"
-shortlink: 42874073
-date: 15 Sep 2015 00:00:00 +0100
-
-type: "blog"
-categories: [ "Programming", "Swift" ]
-project_url: "https://github.com/uwearzt/Swift-C-Interop.git"
+title: Example project for Swift C Interop
+categories:
+  - Programming
+  - Swift
+published_date: "2015-09-15 00:00:00 +0100"
+layout: post.liquid
+data:
+  shortlink: 42874072
+  type: blog
+  project_url: "https://github.com/uwearzt/Swift-C-Interop.git"
 ---
-
 I started to learn Swift 2.0, an how to integrate with C. Therefore i have created a small Swift-C Interoperabilty 
 project, which can be found on [github](https://github.com/uwearzt/Swift-C-Interop.git).
 

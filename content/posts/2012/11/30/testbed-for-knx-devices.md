@@ -1,13 +1,12 @@
-extends: post.liquid
-
 title: Testbed for KNX devices
-shortlink: 4291d22a
-
-date: 30 Nov 2012 00:00:00 +0100
-type: "blog"
-categories: ["Home Automation"]
+categories:
+  - Home Automation
+published_date: "2012-11-30 00:00:00 +0100"
+layout: post.liquid
+data:
+  shortlink: 4291d22a
+  type: blog
 ---
-
 For creating my [RoomSensor](roomsensor) i have build a testbed for KNX Devices.
 
 <!-- more -->

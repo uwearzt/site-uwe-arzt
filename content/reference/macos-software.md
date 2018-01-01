@@ -1,9 +1,8 @@
-extends: default.liquid
-
 title: Mac OS X Software
-shortlink: 42325341
+layout: default.liquid
+data:
+  shortlink: 42325340
 ---
-
 Here is an overview of software i use on my Mac(s). I also collect some additional
 informations about the software i use here. Feel free to ask questions about that
 software...

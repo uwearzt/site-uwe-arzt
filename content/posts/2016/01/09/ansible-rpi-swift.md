@@ -1,14 +1,13 @@
-extends: post.liquid
-
 title: Ansible Swift RPi install
-shortlink: 421dd501
-
-date: 09 Jan 2016 00:00:00 +0100
-
-type: "blog"
-categories: [ "Ansible", "Swift" ]
+categories:
+  - Ansible
+  - Swift
+published_date: "2016-01-09 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 421dd501
 ---
-
 A friend of mine wanted to install the (very beta)
 [Swift Compiler](http://dev.iachieved.it/iachievedit/debian-packages-for-swift-on-arm/) for the 
 [Raspberry Pi](https://www.raspberrypi.org) in his classroom. He is going to teach some 

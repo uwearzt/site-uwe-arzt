@@ -1,0 +1,31 @@
+source: content
+destination: build
+include_drafts: false
+default:
+  excerpt_separator: "<!-- more -->"
+  is_draft: false
+pages:
+  default: {}
+posts:
+  title: ~
+  description: ~
+  dir: posts
+  drafts_dir: _drafts
+  order: Desc
+  rss: feed.rss
+  jsonfeed: feed.json
+  default: {}
+site:
+  title: Uwes Blog
+  description: "Projects, thoughts and more"
+  base_url: "https://uwe-arzt.de"
+  data: ~
+template_extensions:
+  - md
+  - liquid
+ignore: []
+syntax_highlight:
+  theme: Solarized (dark)
+assets:
+  sass:
+    style: Nested

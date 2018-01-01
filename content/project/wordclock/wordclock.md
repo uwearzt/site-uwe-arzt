@@ -1,8 +1,8 @@
-extends: default.liquid
-title: "WordClock"
-shortlink: 42473368
+title: WordClock
+layout: default.liquid
+data:
+  shortlink: 42473368
 ---
-
 # Overview
 
 Wordclock is my personal implementation of [QLOCKTWO](http://qlocktwo.com). 

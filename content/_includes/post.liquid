@@ -5,10 +5,12 @@
 
 {% include "_page_head_end_body_start.liquid" %}
 
-	<!-- start default.liquid -->
+	<!-- start post.liquid -->
+	<h2>{{ page.title }}</h2>
+	<p>in categories {{ categories }}</p>
 	<div>
 		{{ page.content }}
 	</div>
-	<!-- end default.liquid -->
+	<!-- end post.liquid -->
 
 {% include "_page_body_end.liquid" %}

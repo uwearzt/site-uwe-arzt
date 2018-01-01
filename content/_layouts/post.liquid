@@ -1,16 +1,16 @@
-{{ include "_layouts/_page_head_start.liquid" }}
+{% include "_page_head_start.liquid" %}
 
-	<title>Uwes Blog | {{ title }}</title>
-	{{ include "_layouts/_head_include.liquid" }}
+	<title>Uwes Blog | {{ page.title }}</title>
+	{% include "_head_include.liquid" %}
 
-{{ include "_layouts/_page_head_end_body_start.liquid" }}
+{% include "_page_head_end_body_start.liquid" %}
 
 	<!-- start post.liquid -->
-	<h2>{{ title }}</h2>
-	<p>in categories {{ categories }}</p>
+	<h2>{{ page.title }}</h2>
+	<p>in categories {{ page.categories }}</p>
 	<div>
-		{{ content }}
+		{{ page.content }}
 	</div>
 	<!-- end post.liquid -->
 
-{{ include "_layouts/_page_body_end.liquid" }}
+{% include "_page_body_end.liquid" %}

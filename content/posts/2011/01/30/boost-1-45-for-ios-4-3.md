@@ -1,14 +1,14 @@
-extends: post.liquid
-
 title: boost 1.45 for iOS 4.3
-shortlink: 423606fc
-
-date: 30 Jan 2011 00:00:00 +0100
-type: blog
-
-categories: ["Programming", "iOS", "C++"]
+categories:
+  - Programming
+  - iOS
+  - C++
+published_date: "2011-01-30 00:00:00 +0100"
+layout: post.liquid
+data:
+  shortlink: 423606fc
+  type: blog
 ---
-
 Create an user-config.jam in your home directory (with your actual compiler path)
 
 ```jam

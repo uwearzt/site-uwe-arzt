@@ -1,14 +1,13 @@
-extends: post.liquid
-
 title: Durovis Dive and iPhone
-shortlink: 426ceea1
-
-date: 15 Aug 2013 00:00:00 +0100
-
-type: "blog"
-categories: ["iOS", "Other"]
+categories:
+  - iOS
+  - Other
+published_date: "2013-08-15 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 426ceea1
 ---
-
 I have built a [Durovis Dive](http://www.durovis.com) to test if it works with a iPhone 5 too.
 
 It is a not complete 3D print, instead i used the laser cut parts [Lasercut Opendive](http://wiki.fablab-nuernberg.de/w/Ding:opendive) from Fablab Nürnberg.

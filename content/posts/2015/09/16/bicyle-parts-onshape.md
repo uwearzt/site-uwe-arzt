@@ -1,14 +1,12 @@
-extends: post.liquid
-
-title: "Redrawn Bicycle Parts in Onshape"
-shortlink: 42eb9149
-
-date: 16 Sep 2015 00:00:00 +0100
-
-type: "blog"
-categories: [ "Other" ]
+title: Redrawn Bicycle Parts in Onshape
+categories:
+  - Other
+published_date: "2015-09-16 00:00:00 +0100"
+layout: post.liquid
+data:
+  shortlink: 42eb9149
+  type: blog
 ---
-
 Recently i stumbled over the Online CAD [Onshape](https://www.onshape.com). I immediately fell in
 love, because it is browser based (so it can easily be used on Macs and Linux) and it is free
 for public models (and a small number of private models too).

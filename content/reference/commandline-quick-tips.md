@@ -1,9 +1,8 @@
-extends: default.liquid
-
 title: Commandline Quick Tips
-shortlink: 42ea2a3b
+layout: default.liquid
+data:
+  shortlink: 42ea2a3b
 ---
-
 Here is a collection of Commandline Quick Tips, i use often. It will be supplemented, every time i 
 find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 

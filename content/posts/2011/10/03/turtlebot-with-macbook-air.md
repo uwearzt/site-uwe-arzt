@@ -1,13 +1,13 @@
-extends: post.liquid
-
 title: Turtlebot with MacBook Air
-shortlink: 428ffbc9
-
-date: 03 Oct 2011 00:00:00 +0100
-type: "blog"
-categories: ["Robotics", "ROS"]
+categories:
+  - Robotics
+  - ROS
+published_date: "2011-10-03 00:00:00 +0100"
+layout: post.liquid
+data:
+  type: blog
+  shortlink: 428ffbc9
 ---
-
 Turtlebot was powered up for the first time today. In contrast to the original Turtlebot, it has an Macbook Air instead of an Asus Netbook 1215N.
 
 At the moment ROS is installed on a virtual Ubuntu machine on top of Mac OS X. This will change when i have everything up and running under Mac OS X.

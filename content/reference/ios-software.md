@@ -1,9 +1,8 @@
-extends: default.liquid
-
 title: iOS Software
-shortlink: 42d2704b
+layout: default.liquid
+data:
+  shortlink: 42d2704b
 ---
-
 Here is an overview of software i use on my Mac(s). I also collect some additional
 informations about the software i use here. Feel free to ask questions about that
 software...

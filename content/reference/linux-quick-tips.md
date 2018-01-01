@@ -1,9 +1,8 @@
-extends: default.liquid
-
 title: Linux Quick Tips
-shortlink: 427c93d0
+layout: default.liquid
+data:
+  shortlink: 427c93d0
 ---
-
 ## systemd
 ### check status
 ```bash
