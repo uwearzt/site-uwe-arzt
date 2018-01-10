@@ -29,3 +29,17 @@ syntax_highlight:
 assets:
   sass:
     style: Nested
+
+# --------------------------------------------------------
+# categories: [ 
+#   Other : [],
+#   Programming : [ Rust, C++, Erlang, Swift ],
+#   Electronics : [ ARM ],
+#   Home Automation : [],
+#   OS : [ iOS, Linux, macOS, Ansible ],
+#   Robotics : [ ROS ],
+#   Security : [] 
+# ]
+
+# --------------------------------------------------------
+# shorturl: shorturls.csv
