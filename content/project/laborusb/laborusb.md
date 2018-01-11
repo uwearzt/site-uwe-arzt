@@ -6,7 +6,7 @@ data:
 ---
 Many prototyping boards these days use USB Connectors as Power Source. For easy powering those devices with my DC Power Supply (or in german "Labornetzteil") i created a adaptor from 4 mm banana plugs to 4 USB Jacks.
 
-Additional benefit is that all types of iThings can be loaded with the Adaptor. The necessary research for loading Apple devices was done by [Adafruit](http://www.adafruit.com), see their page about [icharging](http://learn.adafruit.com/minty-boost/icharging).
+Additional benefit is that all types of iThings can be loaded with the Adaptor. The necessary research for loading Apple devices was done by [Adafruit](https://www.adafruit.com), see their page about [icharging](https://learn.adafruit.com/minty-boost/icharging).
 
 The device in action:
 
@@ -41,8 +41,8 @@ Can be easily done by every board house.
 		<tr><th>Count</th><th>Description</th><th>Source</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>2</td><td>Through-hole banana jack Black</td><td><a href="http://www.reichelt.de">Reichelt</a></td></tr>
-		<tr><td>2</td><td>Through-hole banana jack Red</td><td><a href="http://www.reichelt.de">Reichelt</a></td></tr>
+		<tr><td>2</td><td>Through-hole banana jack Black</td><td><a href="https://www.reichelt.de">Reichelt</a></td></tr>
+		<tr><td>2</td><td>Through-hole banana jack Red</td><td><a href="https://www.reichelt.de">Reichelt</a></td></tr>
 		<tr><td>1</td><td>Resistor 43K 0805</td><td><a href="https://www.distrelec.de">Distrelec</a></td></tr>
 		<tr><td>1</td><td>Resistor 75K 0805</td><td><a href="https://www.distrelec.de">Distrelec</a></td></tr>
 		<tr><td>2</td><td>Resistor 51K 0805</td><td><a href="https://www.distrelec.de">Distrelec</a></td></tr>

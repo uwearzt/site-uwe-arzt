@@ -45,7 +45,7 @@ software...
 	</thead>
 	<tbody>
 		<tr>
-			<td>[Tower](http://www.git-tower.com)</td>
+			<td>[Tower](https://www.git-tower.com)</td>
 			<td>Sometimes the git command is not the best way. Use Tower instead.</td>
 		</tr>
 	</tbody>

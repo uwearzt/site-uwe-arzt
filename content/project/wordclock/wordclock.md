@@ -5,7 +5,7 @@ data:
 ---
 # Overview
 
-Wordclock is my personal implementation of [QLOCKTWO](http://qlocktwo.com). 
+Wordclock is my personal implementation of [QLOCKTWO](https://qlocktwo.com/de). 
 
 # Case
 

@@ -46,7 +46,7 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 
 ### git commands
 
-often i use [Tower](http://www.git-tower.com/) on my Mac for all kinds of git stuff. But some 
+often i use [Tower](https://www.git-tower.com/) on my Mac for all kinds of git stuff. But some 
 things are faster to do on the commandline, or need to be automated i.e. inside Makefiles.
 
 <table>

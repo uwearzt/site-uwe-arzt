@@ -11,7 +11,7 @@ data:
 I have build some of the small [LPC800](https://github.com/cpldcpu/LPC812breakout) Breakout
 Boards. 
 
-To program them with the online [mbed](https://developer.mbed.org) compiler,
+To program them with the online [mbed](https://os.mbed.com) compiler,
 the resulting bin files have to be changed with the following command:
 
 ```bash
@@ -27,7 +27,7 @@ Here a small sample program for blinking an LED:
 ```cpp
 // ------------------------------------------------------------------------------
 // Copyright by Uwe Arzt mailto:mail@uwe-arzt.de, https://uwe-arzt.de
-// under BSD License, see https://uwe-arzt.de/bsd-license
+// under BSD License, see https://uwe-arzt.de/bsd-license.html
 // ------------------------------------------------------------------------------
 #include "mbed.h"
 
