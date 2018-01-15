@@ -7,8 +7,8 @@ data:
   shortlink: 42694528
   type: blog
 ---
-[Parallela](https://www.parallella.org) has started a distributed Supercomputer on 
-<strike>supercomputer.io</strike> with their parallela chips. I decided to
+<s>Parallella</s> has started a distributed Supercomputer on 
+<s>supercomputer.io</s> with their parallela chips. I decided to
 put my two Kickstarter Parallelas inside a cooling case and let them participate.
 
 <!-- more -->

@@ -15,7 +15,7 @@ software...
 	</thead>
 	<tbody>
 		<tr>
-			<td>[Filmic](http://www.filmicpro.com)</td>
+			<td><a href="http://www.filmicpro.com">Filmic</a></td>
 			<td>Video Camera</td>
 		</tr>
 	</tbody>

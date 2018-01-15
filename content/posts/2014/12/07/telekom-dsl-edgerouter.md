@@ -8,13 +8,13 @@ data:
   type: blog
   shortlink: 4232f760
 ---
-These days i exchanged my aging [FritzBox](http://www.avm.de) with a [Ubiquiti EdgeRouter Lite](http://www.ubnt.com/edgemax/edgerouter-lite/).
+These days i exchanged my aging [FritzBox](https://www.avm.de) with a [Ubiquiti EdgeRouter Lite](https://www.ubnt.com/edgemax/edgerouter-lite/).
 
 Most of the configuration including IPsec is pretty straightforward. The only thing which took a little bit more time is the "Zwangstrennung" (daily shutdown) of the PPPoE connection from my provider. I do the daily reconnect for my connection at 4 am every day.
 
 <!-- more -->
 
-To achieve that, a script and a daily call from cron is needed. Here is a [article](http://community.ubnt.com/t5/EdgeMAX/Help-configuring-L2PT-VPN-for-pppoe-dynamic-ip/m-p/654911/highlight/true#M19560) from the Ubiquiti Forum which helped a lot. Parts of the script are from there.
+To achieve that, a script and a daily call from cron is needed. Here is a [article](https://community.ubnt.com/t5/EdgeMAX/Help-configuring-L2PT-VPN-for-pppoe-dynamic-ip/m-p/654911/highlight/true#M19560) from the Ubiquiti Forum which helped a lot. Parts of the script are from there.
 
 #### Create a script *reconnect.sh* under */config/scripts*
 

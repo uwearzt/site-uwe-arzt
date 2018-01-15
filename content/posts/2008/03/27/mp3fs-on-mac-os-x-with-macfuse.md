@@ -7,7 +7,7 @@ data:
   type: blog
   shortlink: 429bf320
 ---
-My music collection is stored in the FLAC format (see <http://flac.sf.net>), but iTunes for my iPhone is not able to read FLAC-Files. So i decided to give MP3FS a try on my Mac.
+My music collection is stored in the FLAC format (see <https://xiph.org/flac/>), but iTunes for my iPhone is not able to read FLAC-Files. So i decided to give MP3FS a try on my Mac.
 
 1. Install the MacFUSE dmg 1.3.1 from <http://code.google.com/p/macfuse/> (the MacPorts Port is a little bit outdated at the moment).
 2. Install libflac, liblame and id3tag from MacPorts (sudo /opt/local/bin/port install lame flac libid3tag).

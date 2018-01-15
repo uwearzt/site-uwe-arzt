@@ -16,4 +16,4 @@ Here it is in action:
 
 ![LaborUSB usage](LaborUSB_Usage.jpg)
 
-For a complete project description, or if you would like to build your own, see [LaborUSB](laborusb).
+For a complete project description, or if you would like to build your own, see [LaborUSB](/project/laborusb/laborusb.html).

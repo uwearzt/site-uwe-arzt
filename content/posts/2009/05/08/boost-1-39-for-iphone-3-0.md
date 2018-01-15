@@ -13,8 +13,8 @@ data:
 
 There are a couple of Mailings on the boost-mailinglist about building Boost for the iPhone:
 
-* <http://old.nabble.com/iphone-port-td20407642.html>
-* <http://old.nabble.com/building-boost-for-iphone-td22022131.html>
+* <s>http://old.nabble.com/iphone-port-td20407642.html</s>
+* <s>http://old.nabble.com/building-boost-for-iphone-td22022131.html</s>
 
 <!-- more -->
 

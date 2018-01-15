@@ -13,13 +13,13 @@ not use the Eclipse based software delivered together with the LPCXpresso.
 Here i describe, what is necessary to compile, flash and debug the LPCXpresso with the
 FreeRTOS blinking example from the commandline with:
 
-* [LPCXpresso 1769](http://ics.nxp.com/lpcxpresso)
-* [Segger J-Link](http://www.segger.com/j-link-edu.html)
+* [LPCXpresso 1769](https://www.nxp.com/support/developer-resources/hardware-development-tools/lpcxpresso-boards/lpcxpresso-board-for-lpc1769)
+* [Segger J-Link](https://www.segger.com/j-link-edu.html)
 * [ARM gcc compiler chain](https://launchpad.net/gcc-arm-embedded/+download)
 * [vim](http://www.vim.org)
-* [cmake](http://www.cmake.org)
+* [cmake](https://www.cmake.org)
 * [Breadboard Power Supply](https://www.sparkfun.com/products/8376)
-* [FreeRTOS](http://www.freertos.org)
+* [FreeRTOS](https://www.freertos.org)
 
 <!-- more -->
 
@@ -50,8 +50,6 @@ Wire an JTAG Adapter cable for the connection between the J-Link and the LPCXpre
 	</tbody>
 </table>
 
-
-
 The easiest solution is to take a ribbon cable, and cut all non necessary wires. Then solder
 the remaining wires to 8-pin female header and a small piece of prototyoe board.
 ![LPCXpresso JTAG](LPCXpresso_JTAG_1.jpg)
@@ -61,7 +59,7 @@ I covered the the prototype board with duct tape and use a cable tie as strain r
 
 ### Plug the hardware together
 
-For our the Demo you need an additional power supply. If you use the original LPC-Link, 
+For our the Demo you need an additional power supply. If you use the original LPC-Link,
 power is provided through the USB on the LPC-Link. You need 3.3V, basically every power
 supply with 3.3V will work.
 ![LPCXpresso Demo](LPCXpresso_Demo.jpg)
@@ -75,7 +73,7 @@ accordingly.
 
 ### Installation of cmake
 
-One of the easiest ways is to install [macports](http://www.macports.org) and compile cmake with
+One of the easiest ways is to install [macports](https://www.macports.org) and compile cmake with
 
 ```
 sudo port install cmake

@@ -4,9 +4,12 @@ data:
   shortlink: 42b67912
   project_url: "https://github.com/uwearzt/LaborUSB.git"
 ---
-Many prototyping boards these days use USB Connectors as Power Source. For easy powering those devices with my DC Power Supply (or in german "Labornetzteil") i created a adaptor from 4 mm banana plugs to 4 USB Jacks.
+Many prototyping boards these days use USB Connectors as Power Source. For easy powering those devices with my DC Power 
+Supply (or in german "Labornetzteil") i created a adaptor from 4 mm banana plugs to 4 USB Jacks.
 
-Additional benefit is that all types of iThings can be loaded with the Adaptor. The necessary research for loading Apple devices was done by [Adafruit](https://www.adafruit.com), see their page about [icharging](https://learn.adafruit.com/minty-boost/icharging).
+Additional benefit is that all types of iThings can be loaded with the Adaptor. The necessary research for loading Apple
+devices was done by [Adafruit](https://www.adafruit.com), see their page 
+about [icharging](https://learn.adafruit.com/minty-boost/icharging).
 
 The device in action:
 
@@ -97,3 +100,4 @@ Place all 4 USB Jacks in the front panel and solder them to the board.
 ### Add back panel
 
 Use the 4 M3*6 screws and screw the backpanel in place.
+

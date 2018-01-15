@@ -46,7 +46,7 @@ Mission accomplished.
 <p class="comments-author">Uwe says</p>
 <p class="comments-date">2014/01/03</p>
 <p>
-This article was mentioned in a <a href="http://hackaday.com/2012/11/15/hackaday-links-november-15-2012/">Hackaday Links Post</a>.
+This article was mentioned in a <a href="https://hackaday.com/2012/11/15/hackaday-links-november-15-2012/">Hackaday Links Post</a>.
 </p>
 </div>
 </div>

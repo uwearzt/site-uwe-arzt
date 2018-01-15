@@ -29,11 +29,11 @@ The brackets are designed to fit the following lamps:
 
 if you need a copy of them, you can
 
-* download the CAD drawings for [Rhino3D](http://www.rhino3d.com) and change it according to your needs.
+* download the CAD drawings for [Rhino3D](https://www.rhino3d.com) and change it according to your needs.
    * [Vorderlichthalter.3dm](Vorderlichthalter.3dm)
    * [Ruecklichthalter.3dm](Ruecklichthalter.3dm)
 
-* download the STL files and print it for yourself, i.e. with a [Ultimaker](http://www.ultimaker.com).
+* download the STL files and print it for yourself, i.e. with a [Ultimaker](https://www.ultimaker.com).
    * [lampenhalter_vorne_oben.stl](lampenhalter_vorne_oben.stl)
    * [lampenhalter_vorne_unten.stl](lampenhalter_vorne_unten.stl)
    * [lampenhalter_hinten.stl](lampenhalter_hinten.stl)

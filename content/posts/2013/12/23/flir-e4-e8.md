@@ -34,3 +34,4 @@ The complete EEVForum Thread for the FLIR E4:
 
 The exact description how to ugrade from E4 to E8:
 [EEVBlog Forum: How to upgrade E4 - E8](http://www.eevblog.com/forum/testgear/flir-e4-thermal-imaging-camera-teardown/msg321956/#msg321956).
+

@@ -5,7 +5,7 @@ data:
 ---
 # Overview
 
-Inside our new home we have an KNX <http://www.knx.org> automation bus. I have not found an nice looking "RoomSensor" which has the following sensor equipment:
+Inside our new home we have an KNX <https://www.knx.org> automation bus. I have not found an nice looking "RoomSensor" which has the following sensor equipment:
 
 * temperature
 * humidity

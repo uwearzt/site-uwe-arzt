@@ -8,8 +8,8 @@ data:
   shortlink: 426274c7
   type: blog
 ---
-After publishing my article about development with [FreeRTOS](http://www.freertos.org) and the [LPCXpresso 1769](http://www.embeddedartists.com/products/lpcxpresso/lpc1769_xpr.php)
-a few people mentioned i should try [ChibiOS/RT](http://www.chibios.org) and [STM32](http://www.st.com/stm32) Microcontrollers too.
+After publishing my article about development with [FreeRTOS](https://www.freertos.org) and the [LPCXpresso 1769](https://www.embeddedartists.com/products/lpcxpresso/lpc1769_xpr.php)
+a few people mentioned i should try [ChibiOS/RT](http://www.chibios.org) and [STM32](http://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) Microcontrollers too.
 
 So i gave that a try. Here is what i used in this case:
 
@@ -45,4 +45,4 @@ monitor reset
 **Roundup**
 
 Especially the HAL (Hardware abstraction layer) and the integration of the IP stack are very neat. In my next project i will use [ChibiOS/RT](http://www.chibios.org).
-I found also the C++ abstractions handy. The [STM32](http://www.st.com/stm32) line is also very nice, with the small exception that some LPCs are also available in a DIL packages.
+I found also the C++ abstractions handy. The [STM32](http://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) line is also very nice, with the small exception that some LPCs are also available in a DIL packages.

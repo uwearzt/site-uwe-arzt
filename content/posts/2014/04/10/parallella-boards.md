@@ -7,10 +7,11 @@ data:
   shortlink: 42f81b3b
   type: blog
 ---
-I've got my two [Parallela](http://www.parallella.org) Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).
+I've got my two [Parallella](http://www.parallella.org) Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).
 
 <!-- more -->
 
 So far i have only installed Ubuntu on the two boards and run some sample programs. Looks like they have quite impressive performance.
 
 ![Two stacked parallelas](parallella.jpg)
+

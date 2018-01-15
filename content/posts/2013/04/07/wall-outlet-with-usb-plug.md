@@ -7,7 +7,7 @@ data:
   shortlink: 423dbf84
   type: blog
 ---
-[Busch Jaeger](http://www.busch-jaeger.de) sells now wall outlets with integrated USB plugs for charging up your iPhone or every other USB device.
+[Busch Jaeger](https://www.busch-jaeger.de) sells now wall outlets with integrated USB plugs for charging up your iPhone or every other USB device.
 
 <!-- more -->
 

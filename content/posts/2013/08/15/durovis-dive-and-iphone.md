@@ -27,3 +27,4 @@ Hopefully i will find time to create a program to Display 3D models from Rhino 3
 The plastic lenses from Durovis do not have the highest optical quality, but they work perfectly together with the iPhone5:
 
 ![Durovis Dive](durovis3.jpg)
+
