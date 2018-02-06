@@ -27,10 +27,25 @@ cobalt clean
 cobalt build
 
 # ------------------------------------------------------------------------------
-# rsync --dry-run -r -c --delete --progress build/* ${SERVER}:${DIR}/
-rsync -r -c --delete --progress build/* ${SERVER}:${DIR}/
-rsync etc/htaccess ${SERVER}:${DIR}/.htaccess
-rsync etc/robots.txt ${SERVER}:${DIR}/robots.txt
-# not in public repo
-rsync ${HOME}/.recaptcha/.private-key ${SERVER}:${DIR}/cgi-bin/
+echo "-------------------------------------------------------------------------"
+echo "changed files"
+rsync --dry-run -r -c --delete --progress build/* ${SERVER}:${DIR}/
+
+echo "-------------------------------------------------------------------------"
+echo "upload?"
+select option in Yes No
+do
+	case $option in
+        Yes) 
+			rsync -r -c --delete --progress build/* ${SERVER}:${DIR}/
+			rsync etc/htaccess ${SERVER}:${DIR}/.htaccess
+			rsync etc/robots.txt ${SERVER}:${DIR}/robots.txt
+			# not in public repo
+			rsync ${HOME}/.recaptcha/.private-key ${SERVER}:${DIR}/cgi-bin/
+            break;;
+        No)
+            echo "Not uploading"
+            break;;
+     esac
+done
 

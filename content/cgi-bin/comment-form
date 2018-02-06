@@ -10,8 +10,8 @@ import sys
 ###################################################################################
 # Settings
 captchahost      = "https://www.google.com/recaptcha/api/siteverify"
-redirect_url_OK  = "https://uwe-arzt.de/comment/"
-redirect_url_bot = "https://uwe-arzt.de/bot-comment/"
+redirect_url_OK  = "https://uwe-arzt.de/comment.html"
+redirect_url_bot = "https://uwe-arzt.de/bot-comment.html"
 
 ###################################################################################
 deb = open('debug.log', 'a')
@@ -28,7 +28,7 @@ deb.write("\n")
         
 deb.flush()
 deb.close()
-sys.exit(0)
+# sys.exit(0)
 
 # cgitb.enable()
 cgitb.enable(display=0, logdir="./cgitb.log")

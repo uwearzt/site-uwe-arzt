@@ -9,6 +9,10 @@ data:
 	</thead>
 	<tbody>
 		<tr>
+			<td>cargo run -- --arg --arg1 test</td>
+			<td>Run executable with commandline arguments</td>
+		</tr>
+		<tr>
 			<td>cargo test -- --nocapture</td>
 			<td>Display stdout during testrun (can be helpful for debugging)</td>
 		</tr>
