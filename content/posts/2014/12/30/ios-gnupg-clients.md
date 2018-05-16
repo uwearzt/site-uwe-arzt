@@ -39,7 +39,7 @@ search for a GnuPG solution on iOS too.
 		</tr>
 		<tr>
 			<td><img src="nouveaupg_icon.png" alt="NouveauPG Icon" /></td>
-			<td><a href="https://itunes.apple.com/us/app/nouveaupg/id912244540?mt=8">NouveauPG</a></td>
+			<td><s>NouveauPG</s> (not available in german iTunes Store)</td>
 			<td>2,69 EUR</td>
 		</tr>
 	</tbody>
@@ -234,8 +234,8 @@ In my opinion, the cheapest App (iPGMail) is the way to go.
 
 # Recommendations
 
-* Always use iTunes for Key transfer (not Dropbox or iCloud)
-* Do not generate your key pair on the iPhone (unknown RNG)
+- Always use iTunes for Key transfer (not Dropbox or iCloud)
+- Do not generate your key pair on the iPhone (unknown RNG)
 
 # How to use iPGMail
 
@@ -247,7 +247,7 @@ Find the key to export to the iPhone.
 
 ![Export Keys](export_02.png)
 
-Select Export (Exporterien in german language).
+Select Export (Exportieren in german language).
 
 ![Export Keys](export_03.png)
 
@@ -255,7 +255,7 @@ Do not forget to export your private key too (Geheimer Schlüssel in german lang
 
 ![Import Keys](import_01.png)
 
-In the Apps Section you have to completely scroll down until you see the sectio where you can copy
+In the Apps Section you have to completely scroll down until you see the section where you can copy
 files to the iPhone/iPad. There you have to select iPGMail and click add (Hinzuf&uuml;gen in
 german Language).
 

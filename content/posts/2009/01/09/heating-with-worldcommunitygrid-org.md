@@ -7,6 +7,7 @@ data:
   type: blog
   shortlink: 4264b4f3
 ---
+
 At the moment the outside temperatures in Germany are below -10 C. Therefore our [passive house](http://en.wikipedia.org/wiki/Passive_house)
 needs some additional heating. Instead of using a fan heater i have started
 

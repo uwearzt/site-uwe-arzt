@@ -9,9 +9,9 @@ data:
   shortlink: 424a02b1
 ---
 I needed to install my
-[CAN Board](http://skpang.co.uk/catalog/pican2-canbus-board-for-raspberry-pi-23-p-1475.html) 
+[CAN Board](http://skpang.co.uk/catalog/pican2-canbus-board-for-raspberry-pi-23-p-1475.html)
 on my Raspberry after some time not using it.
-Because most of the copy/paste stuff is for the older distribution(s), here how to install 
+Because most of the copy/paste stuff is for the older distribution(s), here how to install
 with Stretch (in my case `2017-11-29-raspbian-stretch.img`).
 
 1. Add to `/boot/config.txt`
@@ -20,6 +20,7 @@ with Stretch (in my case `2017-11-29-raspbian-stretch.img`).
 dtparam=spi=on
 dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
 ```
+
 2. Add file `/etc/network/interfaces.d/can0`
 
 ```bash
@@ -30,5 +31,5 @@ iface can0 inet manual
     down /sbin/ifconfig $IFACE down
 ```
 
-Reboot and you should see the can interface with ifconfig. Even faster you could use my 
-[rpi-can](https://github.com/uwearzt/ansible/tree/master/roles/rpi-can) role for Ansible.
+Reboot and you should see the can interface with ifconfig. Even faster you could use my
+[rpi-can](https://github.com/uwearzt/administration/tree/master/ansible/roles/rpi-can) role for Ansible.

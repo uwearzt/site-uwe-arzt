@@ -14,4 +14,3 @@ I've got my two [Parallella](http://www.parallella.org) Boards from the [Paralle
 So far i have only installed Ubuntu on the two boards and run some sample programs. Looks like they have quite impressive performance.
 
 ![Two stacked parallelas](parallella.jpg)
-

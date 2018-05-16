@@ -9,7 +9,7 @@ data:
   shortlink: 427d3070
 ---
 I have build some of the small [LPC800](https://github.com/cpldcpu/LPC812breakout) Breakout
-Boards. 
+Boards.
 
 To program them with the online [mbed](https://os.mbed.com) compiler,
 the resulting bin files have to be changed with the following command:
@@ -34,15 +34,15 @@ Here a small sample program for blinking an LED:
 DigitalOut LED(P0_0);
 
 int main(int argc, char* argv[]) {
-	while(true) {
+  while(true) {
         wait(0.5);
         LED = !LED;
-	}      
+  }
 }
 ```
 
 You can program the resulting hex file with [FlashMagic](http://www.flashmagictool.com)
-and a USB to serial Adapter. 
+and a USB to serial Adapter.
 
 I use FlashMagic on Windows(inside a virtual machine), because on Mac OS X the installation
 of XQuartz is required.

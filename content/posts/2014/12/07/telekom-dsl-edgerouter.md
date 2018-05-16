@@ -45,21 +45,21 @@ save
 
 #### Activate the cron entry inside the console on your EdgeRouter
 
-```
+```bash
 set system task-scheduler task RECONNECT crontab-spec "0 4 * * *"
 set system task-scheduler task RECONNECT executable path /config/scripts/reconnect.sh
 ```
 
 #### Do not forget to have the listen for the <strong>gui</strong> and <strong>ssh</strong> interface only on internal network
 
-```
+```bash
 set service gui listen-address IP-ON-INTERNAL-NETWORK
 set service ssh listen-address IP-ON-INTERNAL-NETWORK
 ```
 
 #### Some other helpful commands
 
-```
+```bash
 # add a static name to the dns resolver
 set system static-host-mapping host-name arche inet a.b.c.d
 # delete it
