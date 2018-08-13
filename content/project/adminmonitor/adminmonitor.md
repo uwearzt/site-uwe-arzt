@@ -12,7 +12,6 @@ data:
    * Switching can be paused
    * Prefers https over http
    * Runs on iOS and tvOS
-   * BSD License and AppStore
 
 ## UI Design
 

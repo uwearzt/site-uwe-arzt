@@ -25,10 +25,6 @@ The [arm compiler](https://launchpad.net/gcc-arm-embedded) toolchain should be i
 Here a small sample program for blinking an LED:
 
 ```cpp
-// ------------------------------------------------------------------------------
-// Copyright by Uwe Arzt mailto:mail@uwe-arzt.de, https://uwe-arzt.de
-// under BSD License, see https://uwe-arzt.de/bsd-license.html
-// ------------------------------------------------------------------------------
 #include "mbed.h"
 
 DigitalOut LED(P0_0);

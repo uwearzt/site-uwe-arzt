@@ -20,10 +20,7 @@ Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: DE271792565
 
 Inhaltlich Verantwortlicher gem. § 55 II RStV: Uwe Arzt (Anschrift s.o.)
 
-### Copyrights
+### License/Copyright
 
-* Sourcecode: [BSD License](bsd-license.html)
-* Documentation, Audio, Video: [BSD Documentation License](bsd-documentation-license.html)
-
-If in doubt (i.e. HTML can be considered as Source Code and Documentation), you are allowed to choose between
-both licenses.
+Apache License, Version 2.0 [LICENSE](LICENSE) or
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
