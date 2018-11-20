@@ -1,3 +1,4 @@
+---
 title: Testbed for KNX devices
 categories:
   - Home Automation

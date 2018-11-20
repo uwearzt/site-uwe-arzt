@@ -1,3 +1,4 @@
+---
 title: LaborUSB
 layout: default.liquid
 data:

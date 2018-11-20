@@ -1,3 +1,4 @@
+---
 title: JSON spirit now available in MacPorts
 categories:
   - MacPorts

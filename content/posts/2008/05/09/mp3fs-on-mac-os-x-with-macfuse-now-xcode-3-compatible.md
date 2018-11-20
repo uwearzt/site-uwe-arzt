@@ -1,3 +1,4 @@
+---
 title: MP3FS on Mac OS X with MacFUSE now Xcode 3 compatible
 categories:
   - Mac OS X

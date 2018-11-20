@@ -1,3 +1,4 @@
+---
 title: WordClock
 layout: default.liquid
 data:

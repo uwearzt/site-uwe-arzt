@@ -1,3 +1,4 @@
+---
 title: USB Logic Analyzer
 categories:
   - Electronics

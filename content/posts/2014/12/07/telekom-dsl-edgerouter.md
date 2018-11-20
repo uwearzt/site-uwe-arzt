@@ -1,3 +1,4 @@
+---
 title: Telekom DSL with Ubiquiti EdgeRouter
 categories:
   - Linux

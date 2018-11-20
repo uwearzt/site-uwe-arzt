@@ -1,3 +1,4 @@
+---
 title: Wall outlet with USB plug
 categories:
   - Home Automation

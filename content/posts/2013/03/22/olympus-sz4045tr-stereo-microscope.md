@@ -1,3 +1,4 @@
+---
 title: Olympus SZ4045TR Stereo Microscope
 categories:
   - Other

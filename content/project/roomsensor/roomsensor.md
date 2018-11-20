@@ -1,3 +1,4 @@
+---
 title: RoomSensor
 layout: default.liquid
 data:

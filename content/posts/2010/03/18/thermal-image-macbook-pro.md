@@ -1,3 +1,4 @@
+---
 title: Thermal Image MacBook Pro
 categories:
   - Mac OS X

@@ -1,3 +1,4 @@
+---
 title: Ansible Swift RPi install
 categories:
   - Ansible

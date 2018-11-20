@@ -1,3 +1,4 @@
+---
 title: AdminMonitor
 layout: default.liquid
 data:

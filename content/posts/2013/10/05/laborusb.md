@@ -1,3 +1,4 @@
+---
 title: LaborUSB finished
 categories:
   - Electronics

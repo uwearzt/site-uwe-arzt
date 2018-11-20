@@ -1,3 +1,4 @@
+---
 title: FLIR E4 E8
 categories:
   - Electronics

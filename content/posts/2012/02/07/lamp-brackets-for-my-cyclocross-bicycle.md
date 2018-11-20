@@ -1,3 +1,4 @@
+---
 title: Lamp brackets for my cyclocross bicycle
 categories:
   - Other

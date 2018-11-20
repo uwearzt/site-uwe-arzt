@@ -1,3 +1,4 @@
+---
 title: MP3FS on Mac OS X with MacFUSE
 categories:
   - Mac OS X

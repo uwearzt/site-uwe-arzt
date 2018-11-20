@@ -1,3 +1,4 @@
+---
 title: Parallella Boards
 categories:
   - Other

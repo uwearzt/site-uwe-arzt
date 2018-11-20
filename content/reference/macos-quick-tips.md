@@ -1,3 +1,4 @@
+---
 title: Mac OS X Quick Tips
 layout: default.liquid
 data:

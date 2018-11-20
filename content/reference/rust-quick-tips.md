@@ -1,3 +1,4 @@
+---
 title: Rust Quick Tips
 layout: default.liquid
 data:

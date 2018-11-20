@@ -1,3 +1,4 @@
+---
 title: ChibiOS/RT on STM32 development
 categories:
   - ARM

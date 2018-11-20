@@ -1,3 +1,4 @@
+---
 title: Linux Quick Tips
 layout: default.liquid
 data:

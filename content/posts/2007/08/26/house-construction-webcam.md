@@ -1,3 +1,4 @@
+---
 title: House Construction Webcam
 categories:
   - Other

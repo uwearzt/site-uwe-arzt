@@ -1,3 +1,4 @@
+---
 title: Example project for Swift C Interop
 categories:
   - Programming

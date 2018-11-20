@@ -1,3 +1,4 @@
+---
 title: eibd and Mac OS X
 categories:
   - Home Automation

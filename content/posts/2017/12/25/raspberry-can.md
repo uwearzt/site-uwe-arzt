@@ -1,3 +1,4 @@
+---
 title: CAN bus on Raspberry Pi with Stretch
 categories:
   - Ansible

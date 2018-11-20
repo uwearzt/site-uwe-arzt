@@ -1,3 +1,4 @@
+---
 title: Pinheader Breadboard Adapter
 categories:
   - Electronics
