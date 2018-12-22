@@ -8,7 +8,7 @@ data:
   shortlink: 42694528
   type: blog
 ---
-<s>Parallella</s> has started a distributed Supercomputer on 
+<s>Parallella</s> has started a distributed Supercomputer on
 <s>supercomputer.io</s> with their parallela chips. I decided to
 put my two Kickstarter Parallelas inside a cooling case and let them participate.
 
@@ -18,14 +18,13 @@ put my two Kickstarter Parallelas inside a cooling case and let them participate
 
 If you like to build your own, you can print the STL files
 
-   * [Air Channel](AirChannel.stl)
-   * [Standoff](Standoff.stl) (4 times)
+* [Air Channel](AirChannel.stl)
+* [Standoff](Standoff.stl) (4 times)
 
-or you can get the CAD files from 
-[Onshape](https://cad.onshape.com/documents/4d995dc0d7024fd28425b2d3/w/84a63ad9c1bf4490b28853c7/e/1d542ccd0648408ba0a536f5)
-and change it according to your needs.
+or you can get the CAD files from <s>Onshape</s> and change it according to your needs.
 
 # Assembling
+
 ![Mounted Boards](boards.jpg)
 Boards mounted with spacers.
 
