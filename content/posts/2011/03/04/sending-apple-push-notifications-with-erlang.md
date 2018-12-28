@@ -12,7 +12,7 @@ data:
 ---
 First of all you have to be sure you have installed Erlang together with SSL. On Mac OS X that can be done with MacPorts:
 
-```
+```bash
 sudo port install erlang +ssl
 ```
 
@@ -22,7 +22,7 @@ First export cert and key as p12 (apns-cert.p12, apns-key.p12) with the "Keychai
 
 After that you can convert the p12 files to pem files:
 
-```
+```bash
 openssl pkcs12 -clcerts -nokeys -out apns-cert.pem -in apns-cert.p12
 openssl pkcs12 -nocerts -out apns-tmp-key.pem -in apns-key.p12 -nodes
 openssl rsa -in apns-tmp-key.pem -out apns-key.pem
@@ -81,7 +81,7 @@ send_pn(Msg) ->
 
 % helper for creating json
 create_json(List) ->
-  lists:append(["{\"aps\":{", create_keyvalue(List), "}}"]).
+  lists:append(["{\"aps\":{", create_keyvalue(List), "} }"]).
 
 create_keyvalue([Head]) ->
   create_pair(Head);
@@ -95,14 +95,14 @@ add_quotes(String) ->
 ```
 
 ## Compile and call
+
 ```erlang
 1> c(pushnotification.erl).
 {ok,pushnotification}
 2> pushnotification:send("Message").
-"{"aps":{"alert":"Message"}}"
+"{"aps":{"alert":"Message"} }"
 3> pushnotification:send("Message", "10").
-"{"aps":{"alert":"Message","badge":"10"}}"
+"{"aps":{"alert":"Message","badge":"10"} }"
 4> pushnotification:send("Message", "10", "chime").
-"{"aps":{"alert":"Message","badge":"10","sound":"chime"}}"]]>
+"{"aps":{"alert":"Message","badge":"10","sound":"chime"} }"]]>
 ```
-
