@@ -7,7 +7,16 @@
 
 	<!-- start post.liquid -->
 	<h2>{{ page.title }}</h2>
-	<p>in categories {{ page.categories }}</p>
+	<p>in categories 
+    {% for category in page.categories %}
+      {% if forloop.last == true %}
+	    <b>{{ category }}</b>
+      {% else %}
+	    <b>{{ category }}</b>, 
+      {% endif %}
+    {% endfor %}	
+	</p>
+
 	<div>
 		{{ page.content }}
 	</div>
