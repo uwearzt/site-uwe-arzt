@@ -17,8 +17,10 @@ echo "---------------------------------------------------------------------"
 
 # ------------------------------------------------------------------------------
 SERVER=uwe-arzt.de
-NEWSERVER=hetzner01
 DIR=site-uwe-arzt
+
+NEWSERVER=hetzner01
+NEWDIR=/var/www/site-uwe-arzt
 
 # ------------------------------------------------------------------------------
 cobalt clean
@@ -28,7 +30,7 @@ cobalt build
 # ------------------------------------------------------------------------------
 echo "-------------------------------------------------------------------------"
 echo "changed files on 1und1"
-rsync --dry-run --filter='P **.log' --filter='P **/.private-key' -r -c --delete --progress build/* ${SERVER}:${DIR}/
+rsync --dry-run --filter='P **.log' -r -c --delete --progress build/* ${SERVER}:${DIR}/
 
 echo "-------------------------------------------------------------------------"
 echo "upload?"
@@ -36,7 +38,7 @@ select option in Yes No
 do
     case $option in
         Yes) 
-            rsync -r -c --filter='P **.log' --filter='P **/.private-key' --delete --progress  build/* ${SERVER}:${DIR}/
+            rsync -r -c --filter='P **.log' --delete --progress  build/* ${SERVER}:${DIR}/
             rsync etc/htaccess ${SERVER}:${DIR}/.htaccess
             rsync etc/robots.txt ${SERVER}:${DIR}/robots.txt
             break;;
@@ -49,7 +51,7 @@ done
 # ------------------------------------------------------------------------------
 echo "-------------------------------------------------------------------------"
 echo "changed files on hetzner"
-rsync --dry-run --filter='P **.log' --filter='P **/.private-key' -r -c --delete --progress build/* ${NEWSERVER}:${DIR}/
+rsync --dry-run -r -c --delete --progress build/* ${NEWSERVER}:${NEWDIR}/
 
 echo "-------------------------------------------------------------------------"
 echo "upload?"
@@ -57,9 +59,9 @@ select option in Yes No
 do
     case $option in
         Yes) 
-            rsync -r -c --filter='P **.log' --filter='P **/.private-key' --delete --progress  build/* ${NEWSERVER}:${DIR}/
-            rsync etc/htaccess ${NEWSERVER}:${DIR}/.htaccess
-            rsync etc/robots.txt ${NEWSERVER}:${DIR}/robots.txt
+            rsync -r -c --delete --progress  build/* ${NEWSERVER}:${NEWDIR}/
+            rsync etc/htaccess ${NEWSERVER}:${NEWDIR}/.htaccess
+            rsync etc/robots.txt ${NEWSERVER}:${NEWDIR}/robots.txt
             break;;
         No)
             echo "Not uploading"

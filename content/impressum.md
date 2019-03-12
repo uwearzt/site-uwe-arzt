@@ -6,7 +6,6 @@ data:
 ---
 
 Uwe Arzt<br/>
-ganymed-IT
 
 Danziger Str. 104<br/>
 41352 Korschenbroich<br/>
@@ -17,7 +16,9 @@ Phone: +49 171 5477670
 E-Mail: <mailto:mail@uwe-arzt.de><br/>
 WWW: <https://uwe-arzt.de>
 
-Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: DE271792565
+For contacting via EMail, please us my gpg [key](files/mail@uwe-arzt.de.asc).
+
+### german legal stuff
 
 Inhaltlich Verantwortlicher gem. § 55 II RStV: Uwe Arzt (Anschrift s.o.)
 
