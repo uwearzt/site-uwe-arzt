@@ -20,7 +20,7 @@ SERVER=uwe-arzt.de
 DIR=site-uwe-arzt
 
 NEWSERVER=hetzner01
-NEWDIR=/var/www/site-uwe-arzt
+NEWDIR=/var/www/site-uwe-arzt-de
 
 # ------------------------------------------------------------------------------
 cobalt clean
@@ -60,8 +60,8 @@ do
     case $option in
         Yes) 
             rsync -r -c --delete --progress  build/* ${NEWSERVER}:${NEWDIR}/
-            rsync etc/htaccess ${NEWSERVER}:${NEWDIR}/.htaccess
             rsync etc/robots.txt ${NEWSERVER}:${NEWDIR}/robots.txt
+						ssh ${NEWSERVER} "chown www-data:www-data ${NEWDIR}"
             break;;
         No)
             echo "Not uploading"
