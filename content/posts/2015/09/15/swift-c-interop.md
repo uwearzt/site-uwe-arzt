@@ -1,16 +1,14 @@
----
-title: Example project for Swift C Interop
-categories:
-  - Programming
-  - Swift
-published_date: "2015-09-15 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 42874072
-  type: blog
-  project_url: "https://github.com/uwearzt/Swift-C-Interop.git"
----
-I started to learn Swift 2.0, an how to integrate with C. Therefore i have created a small Swift-C Interoperabilty 
++++
+title = "Example project for Swift C Interop"
+date = 2015-09-15
+[taxonomies]
+categories = ["programming"]
+[extra]
+shortlink = "42874072"
+project_url = "https://github.com/uwearzt/Swift-C-Interop.git"
++++
+
+I started to learn Swift 2.0, an how to integrate with C. Therefore i have created a small Swift-C Interoperabilty
 project, which can be found on [github](https://github.com/uwearzt/Swift-C-Interop.git).
 
 As soon as i will start to wrap some C/C++ Libs, more examples will be added.
@@ -21,7 +19,7 @@ project, uncomment the line leading to the compiler crash and comment the correc
 <!-- more -->
 
 ```swift
-// This crashes the compiler: 
+// This crashes the compiler:
 //   Version 7.0 beta 6 (7A192o)
 //   Version 7.1 beta (7B60)
 //let myCallback : @convention(c) (i: Int) -> Int = {

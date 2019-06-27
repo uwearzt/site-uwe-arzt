@@ -1,9 +1,9 @@
----
-title: AdminMonitor
-layout: default.liquid
-data:
-  shortlink: 4215543e
----
++++
+title = "AdminMonitor"
+[extra]
+shortlink = "4215543e"
++++
+
 # Overview
 
 ## Specification

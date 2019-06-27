@@ -1,13 +1,12 @@
----
-title: Pinheader Breadboard Adapter
-categories:
-  - Electronics
-published_date: "2012-06-14 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 421ad8fc
----
++++
+title = "Pinheader Breadboard Adapter"
+date = 2012-06-14
+[taxonomies]
+categories = ["ee"]
+[extra]
+shortlink = "421ad8fc"
++++
+
 Currently i am testing with a small Prototype Board [TUL - TPUART USB light](http://busware.de/tiki-index.php?page=TUL) with a Atmel AT 32U4 Controller and a Siemens TP-UART Chip for KNX access.
 
 For expansion, this board has a 9x2 Pinheader which is not directly compatible with a breadboard.

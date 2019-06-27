@@ -1,14 +1,12 @@
----
-title: FLIR E4 E8
-categories:
-  - Electronics
-  - Other
-published_date: "2013-12-23 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 4215cd32
----
++++
+title = "FLIR E4 E8"
+date = 2013-12-23
+[taxonomies]
+categories = ["other"]
+[extra]
+shortlink = "4215cd32"
++++
+
 I have bought a FLIR E4 Thermal Camera and Firmware upgraded it to a E8. Very nice Thermal camera. I will use it to test my currently build Reflow Oven,
 and have some other fun with it (What about IR Skype?).
 

@@ -1,15 +1,12 @@
----
-title: boost 1.45 for iOS 4.3
-categories:
-  - Programming
-  - iOS
-  - C++
-published_date: "2011-01-30 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 423606fc
-  type: blog
----
++++
+title = "boost 1.45 for iOS 4.3"
+date = 2011-01-30
+[taxonomies]
+categories = ["programming", "ios", "c++"]
+[extra]
+shortlink = "423606fc"
++++
+
 Create an user-config.jam in your home directory (with your actual compiler path)
 
 ```jam

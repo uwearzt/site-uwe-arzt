@@ -1,13 +1,12 @@
----
-title: Parallela on supercomputer.io
-categories:
-  - Other
-published_date: "2015-10-03 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 42694528
-  type: blog
----
++++
+title = "Parallela on supercomputer.io"
+date = 2015-10-03
+[taxonomies]
+categories = ["other"]
+[extra]
+shortlink = "42694528"
++++
+
 <s>Parallella</s> has started a distributed Supercomputer on
 <s>supercomputer.io</s> with their parallela chips. I decided to
 put my two Kickstarter Parallelas inside a cooling case and let them participate.

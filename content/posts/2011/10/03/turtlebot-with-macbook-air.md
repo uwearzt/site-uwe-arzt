@@ -1,14 +1,12 @@
----
-title: Turtlebot with MacBook Air
-categories:
-  - Robotics
-  - ROS
-published_date: "2011-10-03 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 428ffbc9
----
++++
+title = "Turtlebot with MacBook Air"
+date = 2011-10-03
+[taxonomies]
+categories = ["robotics", "ros"]
+[extra]
+shortlink = "428ffbc9"
++++
+
 Turtlebot was powered up for the first time today. In contrast to the original Turtlebot, it has an Macbook Air instead of an Asus Netbook 1215N.
 
 At the moment ROS is installed on a virtual Ubuntu machine on top of Mac OS X. This will change when i have everything up and running under Mac OS X.
@@ -17,7 +15,8 @@ At the moment ROS is installed on a virtual Ubuntu machine on top of Mac OS X. T
 
 ![Turtlebot](turtlebot_1.jpg)
 
-A second photo without the Macbook installed. Here you can see i have used the plates and the electronics from *turtlebot.eu* (not available anymore).
+A second photo without the Macbook installed. Here you can see i have used the plates and the electronics from *turtlebot.eu* (link no longer available).
+
 Because the iRobot Create can not be ordered from [iRobot](http://www.irobot.com/de) directly, when you live in Germany, i have ordered mine
 from [Acroname Robotics](https://www.acroname.com).
 

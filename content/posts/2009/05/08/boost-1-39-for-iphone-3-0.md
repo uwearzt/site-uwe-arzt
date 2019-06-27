@@ -1,15 +1,11 @@
----
-title: boost 1.39 for iPhone 3.0
-categories:
-  - Programming
-  - iOS
-  - OS
-published_date: "2009-05-08 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 42b87dff
-  type: blog
----
++++
+title = "boost 1.39 for iPhone 3.0"
+date = 2009-05-08
+[taxonomies]
+categories = ["programming", "ios"]
+[extra]
+shortlink = "42b87dff"
++++
 ### Recommended reading
 
 There are a couple of Mailings on the boost-mailinglist about building Boost for the iPhone:

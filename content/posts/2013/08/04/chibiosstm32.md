@@ -1,14 +1,12 @@
----
-title: ChibiOS/RT on STM32 development
-categories:
-  - ARM
-  - C++
-published_date: "2013-08-04 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 426274c7
-  type: blog
----
++++
+title = "ChibiOS/RT on STM32 development"
+date = 2013-08-04
+[taxonomies]
+categories = ["arm", "c++"]
+[extra]
+shortlink = "426274c7"
++++
+
 After publishing my article about development with [FreeRTOS](https://www.freertos.org) and the [LPCXpresso 1769](https://www.embeddedartists.com/products/lpcxpresso/lpc1769_xpr.php)
 a few people mentioned i should try [ChibiOS/RT](http://www.chibios.org) and [STM32](http://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) Microcontrollers too.
 

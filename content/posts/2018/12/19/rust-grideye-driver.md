@@ -1,14 +1,12 @@
----
-title: Rust driver for Grid-EYE 
-categories:
-  - Rust
-  - RPI
-published_date: "2018-12-20 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 424a32b1
----
++++
+title = "Rust driver for Grid-EYE"
+date = 2018-12-20
+[taxonomies]
+categories = ["rust"]
+[extra]
+shortlink = "424a32b1"
++++
+:
 there is now a driver for the Grid-EYE / Panasonic AMG88(33) sensor available at
 [crates.io](https://crates.io/crates/grideye) / [github](https://github.com/uwearzt/grideye).
 

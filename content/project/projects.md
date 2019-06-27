@@ -1,19 +1,19 @@
----
-title: Projects
-layout: default.liquid
----
-# Current
++++
+title = "Projects"
++++
 
-[Administration Monitor](adminmonitor/adminmonitor.html)
+## Current
 
-[RoomSensor](roomsensor/roomsensor.html)
+[Administration Monitor](adminmonitor)
 
-[WordClock](wordclock/wordclock.html)
+[RoomSensor](roomsensor)
 
-# Finished
+[WordClock](wordclock)
 
-[LaborUSB](laborusb/laborusb.html)
+## Finished
 
-# No longer maintained
+[LaborUSB](laborusb)
 
-[cmake files for mbed](mbed-cmake/mbed-cmake.html)
+## No longer maintained
+
+[cmake files for mbed](mbed-cmake)

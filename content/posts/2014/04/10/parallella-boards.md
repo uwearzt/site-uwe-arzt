@@ -1,14 +1,13 @@
----
-title: Parallella Boards
-categories:
-  - Other
-published_date: "2014-04-10 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 42f81b3b
-  type: blog
----
-I've got my two [Parallella](http://www.parallella.org) Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).
++++
+title = "Parallella Boards"
+date = 2014-04-10
+[taxonomies]
+categories = ["other"]
+[extra]
+shortlink = "42f81b3b"
++++
+
+I've got my two *Parallella* (link no longer available) Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).
 
 <!-- more -->
 

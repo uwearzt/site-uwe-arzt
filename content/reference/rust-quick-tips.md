@@ -1,9 +1,9 @@
----
-title: Rust Quick Tips
-layout: default.liquid
-data:
-  shortlink: 420cbe5a
----
++++
+title = "Rust Quick Tips"
+[extra]
+shortlink = "420cbe5a"
++++
+
 <table>
 	<thead>
 		<tr><th>command</th><th>description</th></tr>

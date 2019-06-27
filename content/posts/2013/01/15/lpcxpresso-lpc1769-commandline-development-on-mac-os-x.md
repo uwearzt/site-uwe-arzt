@@ -1,20 +1,18 @@
----
-title: LPCXpresso LPC1769 commandline Development on Mac OS X
-categories:
-  - ARM
-published_date: "2013-01-15 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 424c3fb4
----
++++
+title = "LPCXpresso LPC1769 commandline Development on Mac OS X"
+date = 2013-01-15
+[taxonomies]
+categories = ["arm"]
+[extra]
+shortlink = "424c3fb4"
++++
 Because editing with [vim](http://www.vim.org) is my preferred way of creating software, i do
 not use the Eclipse based software delivered together with the LPCXpresso.
 
 Here i describe, what is necessary to compile, flash and debug the LPCXpresso with the
 FreeRTOS blinking example from the commandline with:
 
-* [LPCXpresso 1769](https://www.nxp.com/support/developer-resources/hardware-development-tools/lpcxpresso-boards/lpcxpresso-board-for-lpc1769)
+* *LPCXpresso 1769* (link no longer available)
 * [Segger J-Link](https://www.segger.com/j-link-edu.html)
 * [ARM gcc compiler chain](https://launchpad.net/gcc-arm-embedded/+download)
 * [vim](http://www.vim.org)

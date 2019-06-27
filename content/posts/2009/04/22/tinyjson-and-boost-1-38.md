@@ -1,14 +1,11 @@
----
-title: TinyJSON and boost 1.38
-categories:
-  - Programming
-  - C++
-published_date: "2009-04-22 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 424da137
-  type: blog
----
++++
+title = "TinyJSON and boost 1.38"
+date = 2009-04-22
+[taxonomies]
+categories = ["programming", "c++"]
+[extra]
+shortlink = "424da137"
++++
 Today i compiled (link no longer available) TinyJSON on my Mac with boost 1.38. Because many of the used headers inside boost.Spirit have
 been moved into new files and namespaces [Changelog](http://www.boost.org/doc/libs/1_38_0/libs/spirit/classic/change_log.html),
  you need to make some changes in tinyjson.hpp.

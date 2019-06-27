@@ -1,13 +1,11 @@
----
-title: MP3FS on Mac OS X with MacFUSE
-categories:
-  - Mac OS X
-published_date: "2008-03-27 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 429bf320
----
++++
+title = "MP3FS on Mac OS X with MacFUSE"
+date = 2008-03-27
+[taxonomies]
+categories = ["macos"]
+[extra]
+shortlink = "429bf320"
++++
 My music collection is stored in the FLAC format (see <https://xiph.org/flac/>), but iTunes for my iPhone is not able to read FLAC-Files. So i decided to give MP3FS a try on my Mac.
 
 1. Install the MacFUSE dmg 1.3.1 from <http://code.google.com/p/macfuse/> (the MacPorts Port is a little bit outdated at the moment).

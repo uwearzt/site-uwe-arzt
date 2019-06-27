@@ -1,10 +1,10 @@
----
-title: Commandline Quick Tips
-layout: default.liquid
-data:
-  shortlink: 42ea2a3b
----
-Here is a collection of Commandline Quick Tips, i use often. It will be supplemented, every time i 
++++
+title = "Commandline Quick Tips"
+[extra]
+shortlink = "42ea2a3b"
++++
+
+Here is a collection of Commandline Quick Tips, i use often. It will be supplemented, every time i
 find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 
 ### screen keyboard commands
@@ -47,7 +47,7 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 
 ### git commands
 
-often i use [Tower](https://www.git-tower.com/) on my Mac for all kinds of git stuff. But some 
+often i use [Tower](https://www.git-tower.com/) on my Mac for all kinds of git stuff. But some
 things are faster to do on the commandline, or need to be automated i.e. inside Makefiles.
 
 <table>

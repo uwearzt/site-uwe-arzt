@@ -1,13 +1,11 @@
----
-title: Heating with worldcommunitygrid.org
-categories:
-  - Other
-published_date: "2009-01-09 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 4264b4f3
----
++++
+title = "Heating with worldcommunitygrid.org"
+date = 2009-01-09
+[taxonomies]
+categories = ["other"]
+[extra]
+shortlink = "4264b4f3"
++++
 
 At the moment the outside temperatures in Germany are below -10 C. Therefore our [passive house](http://en.wikipedia.org/wiki/Passive_house)
 needs some additional heating. Instead of using a fan heater i have started

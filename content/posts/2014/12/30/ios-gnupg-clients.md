@@ -1,15 +1,11 @@
----
-title: iOS GnuPG Clients
-categories:
-  - OS
-  - iOS
-  - Security
-published_date: "2014-12-30 00:00:00 +0100"
-layout: post.liquid
-data:
-  shortlink: 4297d152
-  type: blog
----
++++
+title = "iOS GnuPG Clients"
+date = 2014-12-30
+[taxonomies]
+ categories = ["ios", "security"]
+[extra]
+shortlink = "4297d152"
++++
 On my Mac i already use GnuPG a lot (basically all my messages are signed, and some of them
 encrypted). But because nowadays i do a good amount of work on my iPad an iPhone, is had to
 search for a GnuPG solution on iOS too.

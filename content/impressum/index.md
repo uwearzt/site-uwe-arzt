@@ -1,9 +1,9 @@
----
-title: Impressum
-layout: default.liquid
-data:
-  shortlink: 425ef91f
----
++++
+title = "Impressum"
+# layout: default.liquid
+[extra]
+shortlink = "425ef91f"
++++
 
 Uwe Arzt<br/>
 
@@ -16,7 +16,7 @@ Phone: +49 171 5477670
 E-Mail: <mailto:mail@uwe-arzt.de><br/>
 WWW: <https://uwe-arzt.de>
 
-For contacting via EMail, please us my gpg [key](files/mail@uwe-arzt.de.asc).
+For contacting via EMail, please us my gpg [key](mail@uwe-arzt.de.asc).
 
 ### german legal stuff
 

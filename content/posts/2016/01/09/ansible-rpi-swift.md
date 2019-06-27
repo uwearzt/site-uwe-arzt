@@ -1,19 +1,17 @@
----
-title: Ansible Swift RPi install
-categories:
-  - Ansible
-  - Swift
-published_date: "2016-01-09 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 421dd501
----
++++
+title = "Ansible Swift RPi install"
+date = 2016-01-09
+[taxonomies]
+categories = ["admin"]
+[extra]
+shortlink = "421dd501"
++++
+
 A friend of mine wanted to install the (very beta)
-[Swift Compiler](http://dev.iachieved.it/iachievedit/debian-packages-for-swift-on-arm/) for the 
-[Raspberry Pi](https://www.raspberrypi.org) in his classroom. He is going to teach some 
-Swift Coding on the RPi. Because we had to install on multiple machines we decided to go 
-with Ansible. 
+[Swift Compiler](http://dev.iachieved.it/iachievedit/debian-packages-for-swift-on-arm/) for the
+[Raspberry Pi](https://www.raspberrypi.org) in his classroom. He is going to teach some
+Swift Coding on the RPi. Because we had to install on multiple machines we decided to go
+with Ansible.
 
 After some cleanup in my Ansible Repo you will find the latest and greatest Version on
 github too.

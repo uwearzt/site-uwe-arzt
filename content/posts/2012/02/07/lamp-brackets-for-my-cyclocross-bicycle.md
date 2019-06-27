@@ -1,15 +1,13 @@
----
-title: Lamp brackets for my cyclocross bicycle
-categories:
-  - Other
-published_date: "2012-02-07 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 4218b8ec
----
++++
+title = "Lamp brackets for my cyclocross bicycle"
+date = 2012-02-07
+[taxonomies]
+categories = ["other"]
+[extra]
+shortlink = "4218b8ec"
++++
 **Update
-The drawings are now available online, see my [blogpost](/2015/09/16/redrawn-bicycle-parts-in-onshape/).
+The drawings are now available online, see my [blogpost](blog/2015/09/16/redrawn-bicycle-parts-in-onshape).
 Update**
 
 My new cyclocross bicycle needed lighting, because it is used everyday for my way to work.

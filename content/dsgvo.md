@@ -1,9 +1,9 @@
----
-title: Datenschutzerklärung
-layout: default.liquid
-data:
-  shortlink: 425efa1f
----
++++
+title = "Datenschutzerklärung"
+# layout: default.liquid
+[extra]
+shortlink = "425efa1f"
++++
 
 # Datenschutzerklärung
 
@@ -121,7 +121,7 @@ auf die Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen Erlau
 eine Übermittlung der Daten an Dritte, wie an Zahlungsdienstleister, gem. Art. 6 Abs. 1 lit.
 b DSGVO zur Vertragserfüllung erforderlich ist), Sie eingewilligt haben, eine rechtliche
 Verpflichtung dies vorsieht oder auf Grundlage unserer berechtigten Interessen (z.B. beim
-Einsatz von Beauftragten, Webhostern, etc.). 
+Einsatz von Beauftragten, Webhostern, etc.).
 
 Sofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines sog.
 „Auftragsverarbeitungsvertrages“ beauftragen, geschieht dies auf Grundlage des Art. 28 DSGVO.
@@ -263,7 +263,7 @@ Diese mehrheitlich unternehmensbezogenen Daten, speichern wir grundsätzlich dau
 Die von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden
 Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und
 Datenbankdienste, E-Mail-Versand, Sicherheitsleistungen sowie technische Wartungsleistungen,
-die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen. 
+die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen.
 
 Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten, Inhaltsdaten,
 Vertragsdaten, Nutzungsdaten, Meta- und Kommunikationsdaten von Kunden, Interessenten und
@@ -291,7 +291,7 @@ Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer berechtigten 
 (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes
 im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein,
 um deren Inhalte und Services, wie z.B. Videos oder Schriftarten einzubinden (nachfolgend
-einheitlich bezeichnet als “Inhalte”). 
+einheitlich bezeichnet als “Inhalte”).
 
 Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse der Nutzer
 wahrnehmen, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden könnten.

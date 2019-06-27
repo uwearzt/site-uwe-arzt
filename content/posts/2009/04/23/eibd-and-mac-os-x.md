@@ -1,14 +1,11 @@
----
-title: eibd and Mac OS X
-categories:
-  - Home Automation
-  - Mac OS X
-published_date: "2009-04-23 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 42db16db
----
++++
+title = "eibd and Mac OS X"
+date = 2009-04-23
+[taxonomies]
+categories = ["homeautomation", "macos"]
+[extra]
+shortlink = "42db16db"
++++
 At the moment i am testing if a swap of my current GNU/Linux server running Ubuntu to an Mac Mini with an external RAID and Mac OS X
 is possible. For that i have created an eibd for connecting with my Home Automation KNX bus.
 
@@ -18,13 +15,8 @@ For a discussion about compiling the eibd on Mac OS X see (in german language) [
 
 Here a short description how it can be compiled:
 
-1. Download pthsem and bcusdk. You can use the version i used: [pthsem](http://bcusdk.git.sourceforge.net/git/gitweb.cgi?p=bcusdk;a=snapshot;h=0a0207ed3c5098af460f6f27f15f1761be8847ef;sf=tgz),
-[bcusdk](http://repo.or.cz/w/bcusdk.git?a=snapshot;h=7d5371f4dc043e0f92211a3e2b671b59f824cfa7;sf=tgz) or a latest and greatest head version:
-[pthsem](http://bcusdk.git.sourceforge.net/git/gitweb.cgi?p=bcusdk;a=snapshot;h=refs/heads/pthsem/master;sf=tgz),
-[bcusdk](http://bcusdk.git.sourceforge.net/git/gitweb.cgi?p=bcusdk;a=snapshot;h=HEAD;sf=tgz).
-
+1. Download pthsem and bcusdk. You can use the version i used: *pthsem* (link no longer available), *bcusdk* (link no longer available).
 2. Unpack both tarfiles (Attention, they both unpack to the same directory name. So, rename the first and unpack the second).
-
 3. Step into the pthsem directory and
 
 ```bash

@@ -1,10 +1,9 @@
----
-title: "mbed-cmake"
-layout: default.liquid
-data:
-  project_url: "https://github.com/uwearzt/mbed-cmake.git"
-  shortlink: 4288849f
----
++++
+title = "mbed-cmake"
+[extra]
+project_url = "https://github.com/uwearzt/mbed-cmake.git"
+shortlink = "4288849f"
++++
 My [cmake](http://www.cmake.org) files for use the [gcc-arm-embedded](https://launchpad.net/gcc-arm-embedded) toolchain
 (gcc/g++) and the [mbed libraries](http://mbed.org/handbook/Homepage) together.
 

@@ -1,14 +1,12 @@
----
-title: Rust driver for AS5048A
-categories:
-  - Rust
-  - RPI
-published_date: "2019-02-25 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 424a34b1
----
++++
+title = "Rust driver for AS5048A"
+date = 2019-02-25
+[taxonomies]
+ categories = ["rust"]
+[extra]
+shortlink = "424a34b1"
++++
+
 there is now a driver for the AMS AS5048A
 [crates.io](https://crates.io/crates/as5048a) / [github](https://github.com/uwearzt/as5048a).
 

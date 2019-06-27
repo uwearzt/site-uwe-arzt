@@ -1,9 +1,9 @@
----
-title: Mac OS X Quick Tips
-layout: default.liquid
-data:
-  shortlink: 424eb70f
----
++++
+title = "Mac OS X Quick Tips"
+[extra]
+shortlink = "424eb70f"
++++
+
 Here is a collection of Mac Quick Tips, i use often. It will be supplemented, every
 time i find a new Tip.
 

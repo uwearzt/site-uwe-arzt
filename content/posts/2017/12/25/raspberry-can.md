@@ -1,14 +1,11 @@
----
-title: CAN bus on Raspberry Pi with Stretch
-categories:
-  - Ansible
-  - RPI
-published_date: "2017-12-25 00:00:00 +0100"
-layout: post.liquid
-data:
-  type: blog
-  shortlink: 424a02b1
----
++++
+title = "CAN bus on Raspberry Pi with Stretch"
+date = 2017-12-25
+[taxonomies]
+categories = ["admin"]
+[extra]
+shortlink = "424a02b1"
++++
 I needed to install my
 [CAN Board](http://skpang.co.uk/catalog/pican2-canbus-board-for-raspberry-pi-23-p-1475.html)
 on my Raspberry after some time not using it.
