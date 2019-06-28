@@ -1,11 +1,20 @@
+# ------------------------------------------------------------------------------
+# Copyright 2019 Uwe Arzt, mail@uwe-arzt.de
+# SPDX-License-Identifier: Apache-2.0
+# ------------------------------------------------------------------------------
 base_url = "https://uwe-arzt.de"
 
 title = "Uwes Blog"
-description = "Projects, thoughts and more"
+description = "projects, thoughts and more"
 
 highlight_code = true
 highlight_theme = "base16-ocean-dark"
 
+taxonomies = [
+  {name = "categories", paginate_by = 5}
+]
+
+compile_sass = true
 generate_rss = true
 
 build_search_index = false
