@@ -26,15 +26,15 @@ rsync --dry-run -r -c --delete --progress public/* ${SERVER}:${DIR}/
 
 echo "-------------------------------------------------------------------------"
 echo "upload?"
-#select option in Yes No
-#do
-#    case $option in
-#        Yes)
-#            rsync -r -c --delete --progress  build/* ${SERVER}:${DIR}/
-#            ssh ${SERVER} "chown www-data:www-data ${DIR}"
-#            break;;
-#        No)
-#            echo "Not uploading"
-#            break;;
-#     esac
-#done
+select option in Yes No
+do
+  case $option in
+    Yes)
+      rsync -r -c --delete --progress  public/* ${SERVER}:${DIR}/
+      ssh ${SERVER} "chown www-data:www-data ${DIR}"
+      break;;
+    No)
+      echo "Not uploading"
+      break;;
+  esac
+done
