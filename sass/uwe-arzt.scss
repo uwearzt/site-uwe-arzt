@@ -1,0 +1,96 @@
+$background: #4a525a;
+$hover: #656565;
+
+$font-standard: #d0d0d0;
+$font-dimmed: #a0a0a0;
+$font-highlight: #e0e0e0;
+
+$p293: #003da5;
+$p291: #9bcbeb;
+
+html,
+body {
+  height: 100%;
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  color: $font-standard;
+}
+
+body {
+  font-size: 1em;
+  background-color: $background;
+}
+
+#container {
+  border: 0;
+  width: 720px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+#logo {
+  margin-left: 80px;
+  width: 300px;
+}
+
+#logo a:hover {
+  background-color: none;
+}
+
+#sidebar {
+  position: absolute;
+  background-color: transparent;
+  color: $font-highlight;
+  text-align: right;
+  font-size: .91em;
+  line-height: 1em;
+  font-family: "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana, "Bitstream Vera Sans", sans-serif;
+}
+
+#sidebar li {
+  list-style: none;
+}
+
+#sidebar p {
+  font-weight: bold;
+}
+
+#main {
+    padding: 0px;
+    border: 0px dotted gray;
+    position: relative;
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 500px;
+}
+
+#footer {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: $font-standard;
+}
+
+a:hover {
+  background-color: $hover;
+}
+
+h1 {
+  font-size: 14pt;
+}
+
+p.post-date {
+  color: $font-dimmed;
+  font-size: 0.8em;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}

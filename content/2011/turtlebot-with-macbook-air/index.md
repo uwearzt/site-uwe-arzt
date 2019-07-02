@@ -15,7 +15,7 @@ At the moment ROS is installed on a virtual Ubuntu machine on top of Mac OS X. T
 
 ![Turtlebot](turtlebot_1.jpg)
 
-A second photo without the Macbook installed. Here you can see i have used the plates and the electronics from *turtlebot.eu* (link no longer available).
+A second photo without the Macbook installed. Here you can see i have used the plates and the electronics from <s>turtlebot.eu</s>.
 
 Because the iRobot Create can not be ordered from [iRobot](http://www.irobot.com/de) directly, when you live in Germany, i have ordered mine
 from [Acroname Robotics](https://www.acroname.com).

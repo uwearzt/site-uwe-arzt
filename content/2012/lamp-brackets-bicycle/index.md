@@ -7,7 +7,7 @@ categories = ["other"]
 shortlink = "4218b8ec"
 +++
 **Update
-The drawings are now available online, see my [blogpost](blog/2015/09/16/redrawn-bicycle-parts-in-onshape).
+The drawings are now available online, see my [blogpost](@/2015/bicycle-parts-onshape/index.md).
 Update**
 
 My new cyclocross bicycle needed lighting, because it is used everyday for my way to work.
@@ -29,25 +29,28 @@ The brackets are designed to fit the following lamps:
 if you need a copy of them, you can
 
 * download the CAD drawings for [Rhino3D](https://www.rhino3d.com) and change it according to your needs.
-   * [Vorderlichthalter.3dm](Vorderlichthalter.3dm)
-   * [Ruecklichthalter.3dm](Ruecklichthalter.3dm)
+* [Vorderlichthalter.3dm](Vorderlichthalter.3dm)
+* [Ruecklichthalter.3dm](Ruecklichthalter.3dm)
 
 * download the STL files and print it for yourself, i.e. with a [Ultimaker](https://www.ultimaker.com).
-   * [lampenhalter_vorne_oben.stl](lampenhalter_vorne_oben.stl)
-   * [lampenhalter_vorne_unten.stl](lampenhalter_vorne_unten.stl)
-   * [lampenhalter_hinten.stl](lampenhalter_hinten.stl)
-   * [sattelhalter_oben.stl](sattelhalter_oben.stl)
-   * [sattelhalter_unten.stl](sattelhalter_unten.stl)
+* [lampenhalter_vorne_oben.stl](lampenhalter_vorne_oben.stl)
+* [lampenhalter_vorne_unten.stl](lampenhalter_vorne_unten.stl)
+* [lampenhalter_hinten.stl](lampenhalter_hinten.stl)
+* [sattelhalter_oben.stl](sattelhalter_oben.stl)
+* [sattelhalter_unten.stl](sattelhalter_unten.stl)
 
-* get the printed parts from my Shop at <a href="http://www.shapeways.com/shops/uwearzt?section=3061">Shapeways</a>.
-    They provide different colors matching the colors of your bicylcle.
+get the printed parts from my Shop at
+<a href="http://www.shapeways.com/shops/uwearzt?section=3061">Shapeways</a>.
+They provide different colors matching the colors of your bicylcle.
 
 ### Front bracket
+
 ![Front bracket](front_bracket1.jpg)
 
 ![Front bracket assembled](front_bracket_assembled1.jpg)
 
 ### Back bracket
+
 ![Back bracket](back_bracket1.jpg)
 
 ![Back bracket assembled](back_bracket_assembled1.jpg)

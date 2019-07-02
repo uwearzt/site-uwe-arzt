@@ -1,3 +1,5 @@
 +++
-paginate_by = 10
+page_template = "static.html"
+render = false
+transparent = false
 +++

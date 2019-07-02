@@ -1,0 +1,10 @@
+{% import "_macros.html" as macros %}
+{% extends "base.html" %}
+
+{%- block header %}
+  <title>  - {{ config.title }}</title>
+{%- endblock header -%}
+
+{%- block content %}
+  {{ term.name }}
+{% endblock content %}

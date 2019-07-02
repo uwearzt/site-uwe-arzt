@@ -1,0 +1,100 @@
+{% import "_macros.html" as macros %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="{{ get_url(path="uwe-arzt.css") }}" />
+
+  {%- block header %}
+    <title>{{ config.title }}</title>
+  {%- endblock header %}
+
+  <link rel="apple-touch-icon-precomposed" href="/graphics/apple-touch-icon.png">
+  <link rel="icon" href="/graphics/icon-32x32.png">
+  <link rel="icon" href="/graphics/icon-96x96.png">
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="Uwe Arzt">
+  <meta name="description" content="Uwes Blog" />
+</head>
+
+<body>
+<div id="container">
+
+  <div id="logo">
+    <a href="/"><img src="{{ get_url(path="/graphics/logo.png") }}" /></a>
+  </div>
+
+  <div id="sidebar">
+    <nav>
+      <ul>
+        <li>
+          <a class="icon home-icon" href="/" title="Go to homepage" alt="Home">Home</a>
+        </li>
+      </ul>
+      <p>projects</p>
+      <ul>
+        <li><a href="https://github.com/uwearzt/knx_roomsensor_rs">Roomsensor</a></li>
+        <li><a href="https://github.com/uwearzt/mneme">Mneme</a></li>
+        <li><a href="https://github.com/uwearzt/adminmonitor">AdminMonitor</a></li>
+      </ul>
+      <p>reference</p>
+      <ul>
+        <li><a href="{{ get_url(path="/reference/macos-software") }}">macOS software</a></li>
+        <li><a href="{{ get_url(path="/reference/ios-software") }}">iOS software</a></li>
+        <li><a href="{{ get_url(path="/reference/rust-quick-tips") }}">Rust tips</a></li>
+        <li><a href="{{ get_url(path="/reference/commandline-quick-tips") }}">Commandline tips</a></li>
+        <li><a href="{{ get_url(path="/reference/macos-quick-tips") }}">macOS tips</a></li>
+        <li><a href="{{ get_url(path="/reference/linux-quick-tips") }}">Linux tips</a></li>
+      </ul>
+      <p>archived projects</p>
+      <ul>
+        <li><a href="https://github.com/uwearzt/LaborUSB">LaborUSB</a></li>
+      </ul>
+      <p>other</p>
+      <ul>
+        <li><a href="https://github.com/uwearzt">github</a></li>
+        <li><a href="">youtube</a></li>
+        <li><a href="https://twitter.com/uwearzt" alt="Twitter">twitter</a></li>
+        <li><a href="">linkedin</a></li>
+        <li><a href="">amazon wish list</a></li>
+      </ul>
+      <p>feeds</p>
+      <ul>
+        <li><a href="{{ get_url(path="/rss.xml") }}">RSS</a></li>
+        <!--li><a href="{{ get_url(path="/feed.json") }}">Json</a></li-->
+      </ul>
+      <p>legal</p>
+      <ul>
+        <li><a href="{{ get_url(path="/static/impressum") }}">impressum</a></li>
+        <li><a href="{{ get_url(path="/static/dsgvo") }}">dsgvo</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="main">
+    <main>
+      {% block content %}
+      {% endblock content %}
+    </main>
+
+    <div id="footer">
+      <footer>
+        <p>
+          Copyright 2007-2019 by <a href="mailto:mail@uwe-arzt.de">mail@uwe-arzt.de</a>
+          under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a>
+        </p>
+      </footer>
+    </div>
+
+  </div>
+
+
+
+</div>
+</body>
+</html>

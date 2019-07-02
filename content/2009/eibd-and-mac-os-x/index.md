@@ -15,7 +15,7 @@ For a discussion about compiling the eibd on Mac OS X see (in german language) [
 
 Here a short description how it can be compiled:
 
-1. Download pthsem and bcusdk. You can use the version i used: *pthsem* (link no longer available), *bcusdk* (link no longer available).
+1. Download pthsem and bcusdk. You can use the version i used: <s>pthsem</s>, <s>bcusdk</s>.
 2. Unpack both tarfiles (Attention, they both unpack to the same directory name. So, rename the first and unpack the second).
 3. Step into the pthsem directory and
 

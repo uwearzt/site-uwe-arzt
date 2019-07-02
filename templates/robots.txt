@@ -1,3 +1,2 @@
 # https://uwe-arzt.de
 User-agent: *
-Disallow: /cgi-bin/

@@ -7,7 +7,7 @@ categories = ["other"]
 shortlink = "42f81b3b"
 +++
 
-I've got my two *Parallella* (link no longer available) Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).
+I've got my two <s>Parallella</s> Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).
 
 <!-- more -->
 

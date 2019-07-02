@@ -8,7 +8,7 @@ shortlink = "421dd501"
 +++
 
 A friend of mine wanted to install the (very beta)
-[Swift Compiler](http://dev.iachieved.it/iachievedit/debian-packages-for-swift-on-arm/) for the
+<s>Swift Compiler]</s> for the
 [Raspberry Pi](https://www.raspberrypi.org) in his classroom. He is going to teach some
 Swift Coding on the RPi. Because we had to install on multiple machines we decided to go
 with Ansible.
@@ -18,7 +18,6 @@ github too.
 
 <!-- more -->
 
-{% raw %}
 ```yml
 ---
 - name: install swift on rpi
@@ -53,4 +52,3 @@ github too.
       with_items:
         - swift-2.2
 ```
-{% endraw %}

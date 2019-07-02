@@ -29,8 +29,8 @@ And here the teardown video from Mike (you should definitely subscribe Mikes cha
 <iframe width="420" height="315" src="//www.youtube.com/embed/NtqUE67BUDI" frameborder="0" allowfullscreen></iframe>
 
 The complete EEVForum Thread for the FLIR E4:
-[EEVBlog Forum: Teardown FLIR E4](http://www.eevblog.com/forum/testgear/flir-e4-thermal-imaging-camera-teardown).
+[EEVBlog Forum: Teardown FLIR E4](https://www.eevblog.com/forum/testgear/flir-e4-thermal-imaging-camera-teardown/).
 
 The exact description how to ugrade from E4 to E8:
-[EEVBlog Forum: How to upgrade E4 - E8](http://www.eevblog.com/forum/testgear/flir-e4-thermal-imaging-camera-teardown/msg321956/#msg321956).
+[EEVBlog Forum: How to upgrade E4 - E8](https://www.eevblog.com/forum/testgear/flir-e4-thermal-imaging-camera-teardown/msg321956/#msg321956).
 

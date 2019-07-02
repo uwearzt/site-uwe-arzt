@@ -22,7 +22,7 @@ zola build
 # ------------------------------------------------------------------------------
 echo "-------------------------------------------------------------------------"
 echo "changed files"
-rsync --dry-run -r -c --delete --progress build/* ${SERVER}:${DIR}/
+rsync --dry-run -r -c --delete --progress public/* ${SERVER}:${DIR}/
 
 echo "-------------------------------------------------------------------------"
 echo "upload?"

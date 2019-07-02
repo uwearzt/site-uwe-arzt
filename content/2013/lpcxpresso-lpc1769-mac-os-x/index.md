@@ -12,7 +12,7 @@ not use the Eclipse based software delivered together with the LPCXpresso.
 Here i describe, what is necessary to compile, flash and debug the LPCXpresso with the
 FreeRTOS blinking example from the commandline with:
 
-* *LPCXpresso 1769* (link no longer available)
+* <s>LPCXpresso 1769</s>
 * [Segger J-Link](https://www.segger.com/j-link-edu.html)
 * [ARM gcc compiler chain](https://launchpad.net/gcc-arm-embedded/+download)
 * [vim](http://www.vim.org)

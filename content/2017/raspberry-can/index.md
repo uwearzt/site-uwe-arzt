@@ -30,4 +30,4 @@ iface can0 inet manual
 ```
 
 Reboot and you should see the can interface with ifconfig. Even faster you could use my
-[rpi-can](https://github.com/uwearzt/administration/tree/master/ansible/roles/rpi-can) role for Ansible.
+<s>rpi-can</s> role for Ansible.
