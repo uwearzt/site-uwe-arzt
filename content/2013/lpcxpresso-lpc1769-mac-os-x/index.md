@@ -33,21 +33,16 @@ JTAG Interface and the socket connectors for using the LPCXpresso in a Breadboar
 
 Wire an JTAG Adapter cable for the connection between the J-Link and the LPCXpresso.
 
-<table>
-	<thead>
-		<tr><th></th><th>J-Link Pin</th><th>LPCXpresso Pin</th></tr>
-	</thead>
-	<tbody>
-		<tr><td>VTRef</td><td>1</td><td>1</td></tr>
-		<tr><td>TMS</td><td>7</td><td>2</td></tr>
-		<tr><td>TCK</td><td>9</td><td>3</td></tr>
-		<tr><td>TDO</td><td>13</td><td>4</td></tr>
-		<tr><td>TDI</td><td>5</td><td>5</td></tr>
-		<tr><td>RESET</td><td>15</td><td>6</td></tr>
-		<tr><td></td><td>nc</td><td>nc</td></tr>
-		<tr><td>GND</td><td>20</td><td>8</td></tr>
-	</tbody>
-</table>
+|       | J-Link | LPCXpresso |
+|-------|--------|------------|
+| VTRef |      1 |          1 |
+| TMS   |      7 |          2 |
+| TCK   |      9 |          3 |
+| TDO   |     13 |          4 |
+| TDI   |      5 |          5 |
+| RESET |     15 |          6 |
+|       |     nc |         nc |
+| GND   |     20 |          8 |
 
 The easiest solution is to take a ribbon cable, and cut all non necessary wires. Then solder
 the remaining wires to 8-pin female header and a small piece of prototyoe board.

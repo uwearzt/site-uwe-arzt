@@ -22,22 +22,18 @@ chflags nohidden ~/Library
 
 ### special characters on german keyboard
 
-<table>
-	<thead>
-		<tr><th>Character</th><th>Key combination</th></tr>
-	</thead>
-	<tbody>
-		<tr><td>&#x007c;</td><td>Alt + 7</td></tr>
-		<tr><td>~</td><td>Alt + n</td></tr>
-		<tr><td>{</td><td>Alt + (</td></tr>
-		<tr><td>}</td><td>Alt + )</td></tr>
-		<tr><td>&#x005c;</td><td>Alt + Shift + 7 (Alt + /)</td></tr>
-		<tr><td>[</td><td>Alt + 5</td></tr>
-		<tr><td>]</td><td>Alt + 6</td></tr>
-	</tbody>
-</table>
+| Character | Key combination |
+|-----------|---|
+| &#x007c;  | Alt + 7 |
+| ~         | Alt + n |
+| {         | Alt + ( |
+| }         | Alt + ) |
+| &#x005c;  | Alt + Shift + 7 (Alt + /) |
+| [         | Alt + 5 |
+| ]         | Alt + 6 |
 
 ### quit Application in Task Switch
+
 press Q when the task is selected
 
 ### create/burn ISO Image from cmdline
@@ -51,17 +47,12 @@ hdutil burn cd.iso
 
 ### boot time key functions
 
-<table>
-	<thead>
-		<tr><th>key</th><th>function</th></tr>
-	</thead>
-	<tbody>
-		<tr><td>alt</td><td>boot different OS</td></tr>
-		<tr><td>N</td><td>boot from netboot disk</td></tr>
-		<tr><td>T</td><td>start in target disk mode</td></tr>
-		<tr><td>cmd-v</td><td>verbose mode</td></tr>
-	</tbody>
-</table>
+| key   | function |
+|-------|---|
+| alt   | boot different OS |
+| N     | boot from netboot disk |
+| T     | start in target disk mode |
+| cmd-v | verbose mode |
 
 ### clipboard and comandline
 
@@ -81,13 +72,8 @@ hdiutil resize -size 200g -shrinkonly machine.sparseimage
 
 ### screen shots
 
-<table>
-	<thead>
-		<tr><th>key</th><th>function</th></tr>
-	</thead>
-	<tbody>
-		<tr><td>cmd + shift + 3</td><td>entire screen</td></tr>
-		<tr><td>cmd + shift + 4</td><td>portion of screen</td></tr>
-		<tr><td>cmd + shift + 4 &#8594; space</td><td>entire window</td></tr>
-	</tbody>
-</table>
+| key                           | function |
+|-------------------------------|---|
+| cmd + shift + 3               | entire screen |
+| cmd + shift + 4               | portion of screen |
+| cmd + shift + 4 &#8594; space | entire window |

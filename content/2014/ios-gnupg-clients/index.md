@@ -14,33 +14,12 @@ search for a GnuPG solution on iOS too.
 
 # Clients
 
-<table>
-	<thead>
-		<tr><th></th><th>Name</th><th>Price</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img src="ipgmail_icon.png" alt="iPGMail Icon" /></td>
-			<td><a href="https://itunes.apple.com/de/app/ipgmail/id430780873?mt=8">iPGMail</a></td>
-			<td>1,79 EUR</td>
-		</tr>
-		<tr>
-			<td><img src="opengp_icon.png" alt="oPenGP Icon" /></td>
-			<td><a href="https://itunes.apple.com/de/app/opengp/id414003727?mt=8">oPenGP</a></td>
-			<td>4,49 EUR</td>
-		</tr>
-		<tr>
-			<td><img src="secumail_icon.jpg" alt="Secumail Icon" /></td>
-			<td><a href="https://itunes.apple.com/de/app/secumail/id414328661?mt=8">Secumail</a></td>
-			<td>44,99 EUR</td>
-		</tr>
-		<tr>
-			<td><img src="nouveaupg_icon.png" alt="NouveauPG Icon" /></td>
-			<td><s>NouveauPG</s> (not available in german iTunes Store)</td>
-			<td>2,69 EUR</td>
-		</tr>
-	</tbody>
-</table>
+|   | Name | Price |
+|---|------|---|
+| ![iPGMail Icon](ipgmail_icon.png) | [iPGMail](https://itunes.apple.com/de/app/ipgmail/id430780873?mt=8) | 1,79 EUR |
+| ![oPenGP Icon](opengp_icon.png) | [oPenGP](https://itunes.apple.com/de/app/opengp/id414003727?mt=8) | 4,49 EUR |
+| ![Secumail Icon](secumail_icon.jpg) | [Secumail](https://itunes.apple.com/de/app/secumail/id414328661?mt=8) | 44,99 EUR |
+| ![NouveauPG Icon](nouveaupg_icon.png) | | 2,69 EUR |
 
 All programs where tested on iOS 8.1.2 with a iPhone 6 and a iPad Mini Retina. All programs
 except NouveauPG are Universal Apps and optimized fordifferent screen sizes.
@@ -55,171 +34,34 @@ a Cloud Storage (even with a good passphrase).
 For the remaining programs i have tested if the functionality works, and then got my own
 opinion if the integration in iOS is felicitous.
 
-<table>
-	<thead>
-		<tr><th></th><th>iPGMail</th><th>oPenGP</th><th>Secumail</th><th>NouveauPG</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><strong>Keyhandling</strong></td><td></td><td></td><td></td><td></td>
-		</tr>
-		<tr>
-			<td>Generate Key pair</td>
-			<td>yes</td>
-			<td>no</td>
-			<td>no</td>
-			<td>yes</td>
-		</tr>
-		<tr>
-			<td>Private Key transfer</td>
-			<td>iTunes, Dropbox, iCloud, Clipboard</td>
-			<td>iTunes, Dropbox, Clipboard</td>
-			<td>Dropbox, Clipboard</td>
-			<td>Clipboard</td>
-		</tr>
-		<tr>
-			<td>Public Key transfer</td>
-			<td>same as private + Keyserver</td>
-			<td>same as private + Keyserver</td>
-			<td>same as private + Keyserver</td>
-			<td>same as private</td>
-		</tr>
-		<tr>
-			<td>Upload new public key to Keyserver</td>
-			<td>yes</td>
-			<td>no</td>
-			<td>no</td>
-			<td>no</td>
-		</tr>
-		<tr>
-			<td>Own Keyserver possible</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>yes (no preset)</td>
-			<td>no</td>
-		</tr>
-		<tr>
-			<td>Needs access to contacts</td>
-			<td>no</td>
-			<td>yes (searches for keys of contact EMail only)</td>
-			<td>no</td>
-			<td>no</td>
-		</tr>
-		<tr>
-			<td>Save passphrases</td>
-			<td>no</td>
-			<td>Keychain</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td><strong>Decryption</strong></td><td></td><td></td><td></td><td></td>
-		</tr>
-		<tr>
-			<td>Integration in Mail</td>
-			<td>Share, good</td>
-			<td>Share, good</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td><strong> Signing</strong></td><td></td><td></td><td></td><td></td>
-		</tr>
-		<tr>
-			<td>Single receiver</td>
-			<td>ok, good</td>
-			<td>ok, bad</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>Multiple receivers</td>
-			<td>ok, good</td>
-			<td>ok, bad</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td><strong>Encryption</strong></td><td></td><td></td><td></td><td></td>
-		</tr>
-		<tr>
-			<td>Single receiver</td>
-			<td>ok, good</td>
-			<td>ok, bad</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>Multiple receivers</td>
-			<td>ok, good</td>
-			<td>ok, bad</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td><strong>Attachments</strong></td><td></td><td></td><td></td><td></td>
-		</tr>
-		<tr>
-			<td>Receiving</td>
-			<td>ok</td>
-			<td>ok</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>Sending</td>
-			<td>ok</td>
-			<td>ok</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td><strong>Compatibility</strong></td><td></td><td></td><td></td><td></td>
-		</tr>
-		<tr>
-			<td>Apple Mail</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>Outlook (Windows)</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>Thunderbird + Enigmail</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>Android</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>inline PGP</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-		<tr>
-			<td>PGP/Mime</td>
-			<td>yes</td>
-			<td>yes</td>
-			<td>---</td>
-			<td>---</td>
-		</tr>
-	</tbody>
-</table>
+|                          | iPGMail | oPenGP | Secumail | NouveauPG |
+|--------------------------|---|---|---|---|
+| **Keyhandling**          | | | | |
+| Generate Key pair        | yes | no | no | yes |
+| Private Key transfer     | iTunes, Dropbox, iCloud, Clipboard | iTunes, Dropbox, Clipboard | Dropbox, Clipboard | Clipboard |
+| Public Key transfer      | same + Keyserver | same + Keyserver | same + Keyserver | same |
+| Upload key to Keyserver  | yes | no | no | no |
+| Own Keyserver possible   | yes | yes | yes (no preset) | no |
+| Needs access to contacts | no | yes (searches for keys of contact EMail only) | no | no |
+| Save passphrases         | no | Keychain | --- | --- |
+| **Decryption**           | | | | |
+| Integration in Mail      | Share, good | Share, good | --- | --- |
+| **Signing**              | | | | |
+| Single receiver          | ok, good | ok, bad | --- | --- |
+| Multiple receivers       | ok, good | ok, bad | --- | --- |
+| **Encryption**           | | | | |
+| Single receiver          | ok, good | ok, bad | --- | --- |
+| Multiple receivers       | ok, good | ok, bad | --- | --- |
+| **Attachments**          | | | | |
+| Receiving                | ok | ok | --- | --- |
+| Sending                  | ok | ok | --- | --- |
+| **Compatibility**        | | | | |
+| Apple Mail               | yes | yes | --- | --- |
+| Outlook (Windows)        | yes | yes | --- | --- |
+| Thunderbird + Enigmail   | yes | yes | --- | --- |
+| Android                  | yes | yes | --- | --- |
+| inline PGP               | yes | yes | --- | --- |
+| PGP/Mime                 | yes | yes | --- | --- |
 
 # Conclusions
 

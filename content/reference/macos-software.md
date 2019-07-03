@@ -10,92 +10,34 @@ software...
 
 ## Tools
 
-
-<table>
-	<thead>
-		<tr><th>Name</th><th>Description</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="https://www.cocoatech.com">PathFinder</a></td>
-			<td>The best finder replacement available.</td>
-		</tr>
-		<tr>
-			<td><a href="https://bjango.com/mac/istatmenus">iStat Menus</a></td>
-			<td>See what you Mac is doing inside the status bar.</td>
-		</tr>
-		<tr>
-			<td><a href="http://www.irradiatedsoftware.com/sizeup/">Size Up</a></td>
-			<td>Window Managment with the Keyboard. Really useful.</td>
-		</tr>
-		<tr>
-			<td><a href="https://mediaatelier.com/CheatSheet/">CheatSheet</a></td>
-			<td>Learn new command keys all the time you use a app.</td>
-		</tr>
-		<tr>
-			<td><a href="https://itunes.apple.com/app/amphetamine/id937984704?mt=12">Amphetamine</a></td>
-			<td>Forbids your Mac to sleep fo a while. Very helpful for presentations.</td>
-		</tr>
-	</tbody>
-</table>
+| Name | Description |
+|---|---|
+| <a href="https://www.cocoatech.com">PathFinder</a> | The best finder replacement available. |
+| <a href="https://bjango.com/mac/istatmenus">iStat Menus</a> | See what you Mac is doing inside the status bar. |
+| <a href="https://mediaatelier.com/CheatSheet/">CheatSheet</a> | Learn new command keys all the time you use a app. |
+| <a href="https://itunes.apple.com/app/amphetamine/id937984704?mt=12">Amphetamine</a> | Forbids your Mac to sleep fo a while. Very helpful for presentations. |
 
 ## Development
 
-<table>
-	<thead>
-		<tr><th>Name</th><th>Description</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="https://www.git-tower.com">Tower</a></td>
-			<td>Sometimes the git command is not the best way. Use Tower instead.</td>
-		</tr>
-	</tbody>
-</table>
-
+| Name | Description |
+|---|---|
+| <a href="https://www.git-tower.com">Tower</a> | Sometimes the git command is not the best way. Use Tower instead. |
 
 ## CAD/Graphics
 
-<table>
-	<thead>
-		<tr><th>Name</th><th>Description</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="http://www.onshape.com">Onshape</a></td>
-			<td>Browser based CAD. Runs also in iPad and iPhone.</td>
-		</tr>
-	</tbody>
-</table>
+| Name | Description |
+|---|---|
+| <a href="https://www.autodesk.com/products/fusion-360">Fusion 360</a> | Free of charge for makers |
 
 ## Network/Internet
 
-<table>
-	<thead>
-		<tr><th>Name</th><th>Description</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="https://www.jinx.de/JollysFastVNC.html">Jollys FastVNC</a></td>
-			<td>Faster and with more features than the Mac VNC client.</td>
-		</tr>
-	</tbody>
-</table>
+| Name | Description |
+|---|---|
+| <a href="https://www.jinx.de/JollysFastVNC.html">Jollys FastVNC</a> | Faster and with more features than the Mac VNC client. |
 
 ## iTunes/Music/Video
 
-<table>
-	<thead>
-		<tr><th>Name</th><th>Description</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="https://handbrake.fr">Handbrake</a></td>
-			<td>Recode your Videos to fit on your iPhone/iPad/Whatever.</td>
-		</tr>
-		<tr>
-			<td><a href="https://www.tune-instructor.de">Tune Instructor</a></td>
-			<td>Move the Artwork inside the tracks, find and save lyrics.</td>
-		</tr>
-	</tbody>
-</table>
+| Name | Description |
+|---|---|
+| <a href="https://handbrake.fr">Handbrake</a> | Recode your Videos to fit on your iPhone/iPad/Whatever. |
+| <a href="https://www.tune-instructor.de">Tune Instructor</a> | Move the Artwork inside the tracks, find and save lyrics. |

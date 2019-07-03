@@ -10,14 +10,6 @@ software...
 
 ## Photo/Video
 
-<table>
-	<thead>
-		<tr><th>Name</th><th>Description</th></tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="http://www.filmicpro.com">Filmic</a></td>
-			<td>Video Camera</td>
-		</tr>
-	</tbody>
-</table>
+| Name | Description |
+|---|---|
+| <a href="http://www.filmicpro.com">Filmic</a> | Video Camera |
