@@ -17,9 +17,9 @@ search for a GnuPG solution on iOS too.
 |   | Name | Price |
 |---|------|---|
 | ![iPGMail Icon](ipgmail_icon.png) | [iPGMail](https://itunes.apple.com/de/app/ipgmail/id430780873?mt=8) | 1,79 EUR |
-| ![oPenGP Icon](opengp_icon.png) | [oPenGP](https://itunes.apple.com/de/app/opengp/id414003727?mt=8) | 4,49 EUR |
-| ![Secumail Icon](secumail_icon.jpg) | [Secumail](https://itunes.apple.com/de/app/secumail/id414328661?mt=8) | 44,99 EUR |
-| ![NouveauPG Icon](nouveaupg_icon.png) | | 2,69 EUR |
+| ![oPenGP Icon](opengp_icon.png) | <s>oPenGP</s> | 4,49 EUR |
+| ![Secumail Icon](secumail_icon.jpg) | <s>Secumail</s> | 44,99 EUR |
+| ![NouveauPG Icon](nouveaupg_icon.png) | <s>NouveauPG</s> | 2,69 EUR |
 
 All programs where tested on iOS 8.1.2 with a iPhone 6 and a iPad Mini Retina. All programs
 except NouveauPG are Universal Apps and optimized fordifferent screen sizes.
