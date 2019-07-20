@@ -47,13 +47,7 @@ Mission accomplished.
 
 ![Pinheader Breadboard Finished](pinheader_breadboard_finished.jpg)
 
-<div class="comments">
-<hr class="comments-ruler" />
-<div class="comments-level-1">
-<p class="comments-author">Uwe says</p>
-<p class="comments-date">2014/01/03</p>
-<p>
-This article was mentioned in a <a href="https://hackaday.com/2012/11/15/hackaday-links-november-15-2012/">Hackaday Links Post</a>.
-</p>
-</div>
-</div>
+---
+Uwe says 2014/01/03
+
+This article was mentioned in a <https://hackaday.com/2012/11/15/hackaday-links-november-15-2012/> Hackaday Links Post

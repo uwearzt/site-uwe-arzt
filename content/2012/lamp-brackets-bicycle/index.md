@@ -40,7 +40,7 @@ if you need a copy of them, you can
 * [sattelhalter_unten.stl](sattelhalter_unten.stl)
 
 get the printed parts from my Shop at
-<a href="http://www.shapeways.com/shops/uwearzt?section=3061">Shapeways</a>.
+[Shapeways](http://www.shapeways.com/shops/uwearzt?section=3061).
 They provide different colors matching the colors of your bicylcle.
 
 ### Front bracket

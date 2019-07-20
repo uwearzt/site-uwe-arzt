@@ -12,4 +12,4 @@ software...
 
 | Name | Description |
 |---|---|
-| <a href="http://www.filmicpro.com">Filmic</a> | Video Camera |
+| [Filmic](http://www.filmicpro.com) | Video Camera |

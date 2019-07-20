@@ -74,40 +74,23 @@ show dns dynamic status
 set vpn l2tp remote-access outside-address a.b.c.d
 ```
 
-<div class="comments">
-<hr class="comments-ruler" />
-<div class="comments-level-1">
-<p class="comments-author">Dani says</p>
+---
+
+###### Dani says 2016/09/09
 <!-- dbo@chue.li -->
-<p class="comments-date">2016/09/09</p>
-<p>
 Danke für den Artikel, hat mir mit meinem DHCP Problem ("VLAN Interface aktualisiert DHCP Lease nicht richtig" geholfen, zumindest mal bis der Fehler behoben ist).
-</p>
-<pre>
+
+```bash
 #!/bin/bash
 run=/opt/vyatta/bin/vyatta-op-cmd-wrapper
 $run renew dhcp interface eth0.412
-</pre>
-<p>
--> das ganze dann in Crontab
-</p>
-<p>
-Offenbar bin ich nicht der Einzige mit dem Problem.
-<a href="https://community.ubnt.com/t5/EdgeMAX/WAN-dropped-DHCP-renew-fixes-it/td-p/780660">
-https://community.ubnt.com/t5/EdgeMAX/WAN-dropped-DHCP-renew-fixes-it/td-p/780660
-</a>
-</p>
-</div>
-</div>
+```
 
-<div class="comments">
-<div class="comments-level-1">
-<p class="comments-author">Timo says</p>
+-> das ganze dann in Crontab
+
+Offenbar bin ich nicht der Einzige mit dem Problem.
+<https://community.ubnt.com/t5/EdgeMAX/WAN-dropped-DHCP-renew-fixes-it/td-p/780660>
+
+###### Timo says 2016/12/29
 <!-- timo@kosig.net -->
-<p class="comments-date">2016/12/29</p>
-<p>
 Thanks for the article, I needed to set up the daily reconnect as well and it provided a place for me to call curl to update my dynamic DNS entries after a reconnect.
-</p>
-</p>
-</div>
-</div>
