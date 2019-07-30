@@ -8,19 +8,19 @@
 {% block content %}
   <!-- index.html -->
   {% for page in paginator.pages %}
-    <article class="homepage">
-      <p class='post-meta'></p>
-      <a href="{{ page.permalink | safe }}">
-        <h2>{{ page.title }}</h2>
+    <article class="index">
+      <p class='post-date'>Published {{ page.date }}</p>
+      <a class="post-link" href="{{ page.permalink | safe }}">
+        <h2 class= "post-title">{{ page.title }}</h2>
       </a>
     </article>
   {% endfor %}
 
   {% if paginator.previous %}
-    <a class="button" href="{{  paginator.previous}}">« Next articles</a>
+    <a class="button" href="{{  paginator.previous}}">« Newer articles</a>
   {% endif %}
   {% if paginator.next %}
-    <a class="button" href="{{  paginator.next }}">Previous articles »</a>
+    <a class="button" href="{{  paginator.next }}">Older articles »</a>
   {% endif %}
 
 {% endblock content %}

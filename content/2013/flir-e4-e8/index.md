@@ -21,12 +21,10 @@ One nice feature is that you get a standard photo together with the thermal imag
 And BTW my printer is sucking to much energy...
 
 Here the review video from Mike:
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/C3YksbvYnKY" frameborder="0" allowfullscreen></iframe>
+{{ youtube(id="C3YksbvYnKY") }}
 
 And here the teardown video from Mike (you should definitely subscribe Mikes channel):
-
-<iframe width="420" height="315" src="//www.youtube.com/embed/NtqUE67BUDI" frameborder="0" allowfullscreen></iframe>
+{{ youtube(id="NtqUE67BUDI") }}
 
 The complete EEVForum Thread for the FLIR E4:
 [EEVBlog Forum: Teardown FLIR E4](https://www.eevblog.com/forum/testgear/flir-e4-thermal-imaging-camera-teardown/).
