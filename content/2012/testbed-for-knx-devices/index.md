@@ -7,7 +7,7 @@ categories = ["homeautomation"]
 shortlink = "4291d22a"
 +++
 
-For creating my [RoomSensor](roomsensor) i have build a testbed for KNX Devices.
+For creating my [RoomSensor](https://github.com/uwearzt/knx_roomsensor_rs) i have build a testbed for KNX Devices.
 
 <!-- more -->
 
@@ -31,5 +31,5 @@ If you like to mill a base board for a Systainer Size 1, you can get the Rhino 3
 It is also the first time i have created a label for the pins used on the TPUART2 evaluation board. You can get the Rhino 3D [drawing](PinOut.3dm)
 here and use it as a base for your own labels.
 
-The connection between the evalboard and the breadboard is done by one of my [breadboard adapters](pinheader-breadboard-adapter).
-
+The connection between the evalboard and the breadboard is done by one of my
+[breadboard adapters](@/2012/pinheader-breadboard-adapter/index.md).

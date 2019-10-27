@@ -11,17 +11,17 @@ My music collection is stored in the FLAC format (see <https://xiph.org/flac/>),
 1. Install the MacFUSE dmg 1.3.1 from <http://code.google.com/p/macfuse/> (the MacPorts Port is a little bit outdated at the moment).
 2. Install libflac, liblame and id3tag from MacPorts (sudo /opt/local/bin/port install lame flac libid3tag).
 3. Download and unpack the mp3fs-0.12.tar.gz from <http://mp3fs.sourceforge.net/>.
-4. Change Directory to mp3fs-0.12 and install my small [patch](patch-mp3fs-012)
+4. Change Directory to mp3fs-0.12 and install my small [patch](patch-mp3fs-012.patch)
 (Upgrades to Interface Version 26, changes the includes for statfs and provides an Xcode project) with:
 
 ```
-patch -p1 < ../patch-mp3fs-012
+patch -p1 < ../patch-mp3fs-012.patch
 ```
 
 (diff was created with:
 
 ```
-diff -ruN mp3fs-0.12.org mp3fs > patch-mp3fs-012
+diff -ruN mp3fs-0.12.org mp3fs > patch-mp3fs-012.patch
 ```
 
 5. Start the Xcode project and compile.

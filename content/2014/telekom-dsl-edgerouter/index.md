@@ -13,7 +13,7 @@ Most of the configuration including IPsec is pretty straightforward. The only th
 
 <!-- more -->
 
-To achieve that, a script and a daily call from cron is needed. Here is a [article](https://community.ubnt.com/t5/EdgeMAX/Help-configuring-L2PT-VPN-for-pppoe-dynamic-ip/m-p/654911/highlight/true#M19560) from the Ubiquiti Forum which helped a lot. Parts of the script are from there.
+To achieve that, a script and a daily call from cron is needed. Here is a [article](https://community.ui.com/questions/Help-configuring-L2PT-VPN-for-pppoe-dynamic-ip/111f9e13-58b0-401e-9b2b-8a4a043efb74) from the Ubiquiti Forum which helped a lot. Parts of the script are from there.
 
 #### Create a script *reconnect.sh* under */config/scripts*
 
