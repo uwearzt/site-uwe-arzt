@@ -1,6 +1,12 @@
 +++
 title = "iOS GnuPG Clients"
 date = 2014-12-30
+
+aliases = [
+  "/2014/12/30/ios-gnupg-clients/",
+  "/2014/12/30/ios-gnupg-clients/index.html"
+]
+
 [taxonomies]
  categories = ["ios", "security"]
 [extra]

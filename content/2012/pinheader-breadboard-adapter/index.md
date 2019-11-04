@@ -3,9 +3,9 @@ title = "Pinheader Breadboard Adapter"
 date = 2012-06-14
 
 aliases = [
-  "20120613.html",
-  "2012/06/13/pinheader-breadboard-adapter/",
-  "2012/06/13/pinheader-breadboard-adapter/index.html"
+  "/20120613.html",
+  "/2012/06/13/pinheader-breadboard-adapter/",
+  "/2012/06/13/pinheader-breadboard-adapter/index.html"
 ]
 
 [taxonomies]

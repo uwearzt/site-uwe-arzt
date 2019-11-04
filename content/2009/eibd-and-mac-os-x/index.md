@@ -1,6 +1,12 @@
 +++
 title = "eibd and Mac OS X"
 date = 2009-04-23
+
+aliases = [
+  "/2009/04/23/eibd-and-mac-os-x/",
+  "/2009/04/23/eibd-and-mac-os-x/index.html"
+]
+
 [taxonomies]
 categories = ["homeautomation", "macos"]
 [extra]
