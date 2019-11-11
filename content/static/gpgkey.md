@@ -1,3 +1,11 @@
++++
+title = "GPG Public Key mail@uwe-arzt.de"
+path = "gpgkey"
+[extra]
+shortlink = "425e5a1f"
++++
+
+```txt
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBFyHzY0BEADYpJgn+zZ9Mw/ZKl2huGARowatPncpukJSjW6yI3jK8mtA/YqT
@@ -49,3 +57,4 @@ cuwU9sAt+n36dnFrUTD2pW4wA4GBuT2mDDqBrR/bvV8Kqe22ua+SbF3Nj6VhGdBv
 fgV2Ez21BELpSS14AOkJw8UHY7PfG6wSq/ra2VMaFZmvOqH/5eQC
 =V24q
 -----END PGP PUBLIC KEY BLOCK-----
+```

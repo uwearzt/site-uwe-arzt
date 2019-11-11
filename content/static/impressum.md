@@ -16,7 +16,7 @@ Phone: +49 171 5477670
 E-Mail: <mailto:mail@uwe-arzt.de><br/>
 WWW: <https://uwe-arzt.de>
 
-For contacting via EMail, please us my gpg [key](mail@uwe-arzt.de.asc).
+For contacting via EMail, please us my gpg [key](@/static/gpgkey.md).
 
 ### german legal stuff
 
