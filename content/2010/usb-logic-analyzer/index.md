@@ -2,7 +2,7 @@
 title = "USB Logic Analyzer"
 date = 2010-10-16
 [taxonomies]
-categories = ["ee"]
+categories = ["electronic"]
 [extra]
 shortlink = "427b4c4e"
 +++

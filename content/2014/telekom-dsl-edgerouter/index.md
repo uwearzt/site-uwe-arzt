@@ -2,7 +2,7 @@
 title = "Telekom DSL with Ubiquiti EdgeRouter"
 date = 2014-12-07
 [taxonomies]
-categories = ["linux", "other"]
+categories = ["linux"]
 [extra]
 shortlink = "4232f760"
 +++

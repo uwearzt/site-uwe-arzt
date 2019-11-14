@@ -2,7 +2,7 @@
 title = "Turtlebot with MacBook Air"
 date = 2011-10-03
 [taxonomies]
-categories = ["robotics", "ros"]
+categories = ["robots"]
 [extra]
 shortlink = "428ffbc9"
 +++

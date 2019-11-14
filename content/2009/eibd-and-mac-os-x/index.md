@@ -8,7 +8,7 @@ aliases = [
 ]
 
 [taxonomies]
-categories = ["homeautomation", "macos"]
+categories = ["knx", "macos"]
 [extra]
 shortlink = "42db16db"
 +++

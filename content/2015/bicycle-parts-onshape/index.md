@@ -2,7 +2,7 @@
 title = "Redrawn Bicycle Parts in Onshape"
 date = 2015-09-16
 [taxonomies]
-categories = [ "other"]
+categories = [ "cad"]
 [extra]
 shortlink = "42eb9149"
 +++

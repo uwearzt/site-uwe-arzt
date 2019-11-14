@@ -2,7 +2,7 @@
 title = "Ansible Swift RPi install"
 date = 2016-01-09
 [taxonomies]
-categories = ["admin"]
+categories = ["linux"]
 [extra]
 shortlink = "421dd501"
 +++

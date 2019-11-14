@@ -2,7 +2,7 @@
 title = "iRobot Roomba 555"
 date = 2011-05-05
 [taxonomies]
-categories = ["robotics"]
+categories = ["robots"]
 [extra]
 shortlink = "42630eff"
 +++

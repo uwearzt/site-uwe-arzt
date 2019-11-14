@@ -2,7 +2,7 @@
 title = "TinyJSON and boost 1.38"
 date = 2009-04-22
 [taxonomies]
-categories = ["programming", "c++"]
+categories = ["c++"]
 [extra]
 shortlink = "424da137"
 +++

@@ -9,7 +9,7 @@ aliases = [
 ]
 
 [taxonomies]
-categories = ["ee"]
+categories = ["electronic"]
 [extra]
 shortlink = "421ad8fc"
 +++

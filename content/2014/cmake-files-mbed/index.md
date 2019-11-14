@@ -2,7 +2,7 @@
 title = "cmake Files for mbed created"
 date = 2014-02-10
 [taxonomies]
-categories = ["arm", "mbed"]
+categories = ["arm"]
 [extra]
 shortlink = "4275b6f0"
 +++

@@ -2,7 +2,7 @@
 title = "Sending Apple Push Notifications with Erlang"
 date = 2011-03-04
 [taxonomies]
-categories = ["programming", "erlang", "ios"]
+categories = ["erlang", "ios"]
 [extra]
 shortlink = "4237d925"
 +++

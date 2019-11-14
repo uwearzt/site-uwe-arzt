@@ -2,7 +2,7 @@
 title = "Durovis Dive and iPhone"
 date = 2013-08-15
 [taxonomies]
-categories = ["ios", "other"]
+categories = ["other"]
 [extra]
 shortlink = "426ceea1"
 +++

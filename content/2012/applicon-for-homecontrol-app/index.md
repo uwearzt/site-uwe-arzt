@@ -2,7 +2,7 @@
 title = "Application Icon for HomeControl App"
 date = 2012-01-06
 [taxonomies]
-categories = ["other"]
+categories = ["homeautomation"]
 [extra]
 shortlink = "42642740"
 +++

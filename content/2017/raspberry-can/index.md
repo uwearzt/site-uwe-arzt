@@ -2,7 +2,7 @@
 title = "CAN bus on Raspberry Pi with Stretch"
 date = 2017-12-25
 [taxonomies]
-categories = ["admin"]
+categories = ["linux"]
 [extra]
 shortlink = "424a02b1"
 +++

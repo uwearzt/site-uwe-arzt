@@ -2,7 +2,7 @@
 title = "boost 1.45 for iOS 4.3"
 date = 2011-01-30
 [taxonomies]
-categories = ["programming", "ios", "c++"]
+categories = ["ios", "c++"]
 [extra]
 shortlink = "423606fc"
 +++

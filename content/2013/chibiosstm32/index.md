@@ -2,7 +2,7 @@
 title = "ChibiOS/RT on STM32 development"
 date = 2013-08-04
 [taxonomies]
-categories = ["arm", "c++"]
+categories = ["arm"]
 [extra]
 shortlink = "426274c7"
 +++

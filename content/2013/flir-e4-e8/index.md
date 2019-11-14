@@ -2,7 +2,7 @@
 title = "FLIR E4 E8"
 date = 2013-12-23
 [taxonomies]
-categories = ["other"]
+categories = ["electronic"]
 [extra]
 shortlink = "4215cd32"
 +++

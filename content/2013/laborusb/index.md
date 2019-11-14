@@ -2,7 +2,7 @@
 title = "LaborUSB finished"
 date = 2013-10-05
 [taxonomies]
-categories = ["ee"]
+categories = ["electronic"]
 [extra]
 shortlink = "4268c677"
 +++

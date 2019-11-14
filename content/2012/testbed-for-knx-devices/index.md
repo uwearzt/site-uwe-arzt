@@ -2,7 +2,7 @@
 title = "Testbed for KNX devices"
 date = 2012-11-30
 [taxonomies]
-categories = ["homeautomation"]
+categories = ["knx"]
 [extra]
 shortlink = "4291d22a"
 +++

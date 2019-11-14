@@ -2,7 +2,7 @@
 title = "Lamp brackets for my cyclocross bicycle"
 date = 2012-02-07
 [taxonomies]
-categories = ["other"]
+categories = ["cad"]
 [extra]
 shortlink = "4218b8ec"
 +++

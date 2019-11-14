@@ -2,7 +2,7 @@
 title = "mbed Online Compiler and LPC800"
 date = 2016-03-24
 [taxonomies]
-categories = ["arm", "c++"]
+categories = ["arm"]
 # layout: post.liquid
 [extra]
 # type: blog
