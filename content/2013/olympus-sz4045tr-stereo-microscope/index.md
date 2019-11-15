@@ -1,10 +1,13 @@
 +++
 title = "Olympus SZ4045TR Stereo Microscope"
 date = 2013-03-22
+
+aliases = [
+  "42781716"
+]
+
 [taxonomies]
 categories = ["other"]
-[extra]
-shortlink = "42781716"
 +++
 Recently i have bought a Olympus SZ4045TR Stereo Microscope. I will use it for all
 kind of electronics SMD stuff.

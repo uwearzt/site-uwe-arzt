@@ -1,10 +1,15 @@
 +++
 title = "Example project for Swift C Interop"
 date = 2015-09-15
+
+aliases = [
+  "42874072"
+]
+
 [taxonomies]
 categories = ["programming"]
+
 [extra]
-shortlink = "42874072"
 project_url = "https://github.com/uwearzt/Swift-C-Interop.git"
 +++
 

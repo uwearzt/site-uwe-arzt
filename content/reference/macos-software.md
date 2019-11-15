@@ -1,7 +1,9 @@
 +++
 title = "Mac OS X Software"
-[extra]
-shortlink = "42325340"
+
+aliases = [
+  "42325340"
+]
 +++
 
 Here is an overview of software i use on my Mac(s). I also collect some additional

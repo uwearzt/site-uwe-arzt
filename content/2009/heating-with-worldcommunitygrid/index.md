@@ -1,10 +1,13 @@
 +++
 title = "Heating with worldcommunitygrid.org"
 date = 2009-01-09
+
+aliases = [
+  "4264b4f3"
+]
+
 [taxonomies]
 categories = ["other"]
-[extra]
-shortlink = "4264b4f3"
 +++
 
 At the moment the outside temperatures in Germany are below -10 C. Therefore our [passive house](http://en.wikipedia.org/wiki/Passive_house)

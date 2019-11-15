@@ -1,10 +1,13 @@
 +++
 title = "ChibiOS/RT on STM32 development"
 date = 2013-08-04
+
+aliases = [
+  "426274c7"
+]
+
 [taxonomies]
 categories = ["arm"]
-[extra]
-shortlink = "426274c7"
 +++
 
 After publishing my article about development with [FreeRTOS](https://www.freertos.org) and the [LPCXpresso 1769](https://www.embeddedartists.com/products/lpcxpresso/lpc1769_xpr.php)

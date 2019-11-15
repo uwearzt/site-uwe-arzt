@@ -1,10 +1,13 @@
 +++
 title = "Ansible Swift RPi install"
 date = 2016-01-09
+
+aliases = [
+  "421dd501"
+]
+
 [taxonomies]
 categories = ["linux"]
-[extra]
-shortlink = "421dd501"
 +++
 
 A friend of mine wanted to install the (very beta)

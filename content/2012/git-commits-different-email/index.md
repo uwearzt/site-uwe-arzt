@@ -1,10 +1,13 @@
 +++
 title = "git commits with different EMail addresses"
 date = 2012-04-27
+
+aliases = [
+  "42629108"
+]
+
 [taxonomies]
 categories = ["other"]
-[extra]
-shortlink = "42629108"
 +++
 
 If you do (like me) a lot of git clones for different branches etc on a lot of different projects, the chances are high,

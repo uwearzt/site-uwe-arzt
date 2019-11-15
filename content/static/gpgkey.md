@@ -1,8 +1,11 @@
 +++
 title = "GPG Public Key mail@uwe-arzt.de"
 path = "gpgkey"
-[extra]
-shortlink = "425e5a1f"
+
+
+aliases = [
+  "425e5a1f"
+]
 +++
 
 ```txt

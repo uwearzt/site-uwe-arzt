@@ -1,10 +1,13 @@
 +++
 title = "FLIR E4 E8"
 date = 2013-12-23
+
+aliases = [
+  "4215cd32"
+]
+
 [taxonomies]
 categories = ["electronic"]
-[extra]
-shortlink = "4215cd32"
 +++
 
 I have bought a FLIR E4 Thermal Camera and Firmware upgraded it to a E8. Very nice Thermal camera. I will use it to test my currently build Reflow Oven,

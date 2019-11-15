@@ -1,7 +1,9 @@
 +++
 title = "Commandline Quick Tips"
-[extra]
-shortlink = "42ea2a3b"
+
+aliases = [
+  "42ea2a3b"
+]
 +++
 
 Here is a collection of Commandline Quick Tips, i use often. It will be supplemented, every time i

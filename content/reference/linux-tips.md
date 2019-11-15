@@ -1,7 +1,9 @@
 +++
 title = "Linux Quick Tips"
-[extra]
-shortlink = "427c93d0"
+
+aliases = [
+  "427c93d0"
+]
 +++
 
 ## systemd

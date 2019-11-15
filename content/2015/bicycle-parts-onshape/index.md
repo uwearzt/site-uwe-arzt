@@ -1,10 +1,13 @@
 +++
 title = "Redrawn Bicycle Parts in Onshape"
 date = 2015-09-16
+
+aliases = [
+  "42eb9149"
+]
+
 [taxonomies]
 categories = [ "cad"]
-[extra]
-shortlink = "42eb9149"
 +++
 Recently i stumbled over the Online CAD [Onshape](https://www.onshape.com). I immediately fell in
 love, because it is browser based (so it can easily be used on Macs and Linux) and it is free

@@ -1,10 +1,13 @@
 +++
 title = "TinyJSON and boost 1.38"
 date = 2009-04-22
+
+aliases = [
+  "424da137"
+]
+
 [taxonomies]
 categories = ["c++"]
-[extra]
-shortlink = "424da137"
 +++
 Today i compiled <s>TinyJSON</s> on my Mac with boost 1.38. Because many of the used headers inside boost.Spirit have
 been moved into new files and namespaces [Changelog](http://www.boost.org/doc/libs/1_38_0/libs/spirit/classic/change_log.html),

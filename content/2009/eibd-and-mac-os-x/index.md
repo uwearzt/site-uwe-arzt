@@ -4,13 +4,12 @@ date = 2009-04-23
 
 aliases = [
   "/2009/04/23/eibd-and-mac-os-x/",
-  "/2009/04/23/eibd-and-mac-os-x/index.html"
+  "/2009/04/23/eibd-and-mac-os-x/index.html",
+  "42db16db"
 ]
 
 [taxonomies]
 categories = ["knx", "macos"]
-[extra]
-shortlink = "42db16db"
 +++
 At the moment i am testing if a swap of my current GNU/Linux server running Ubuntu to an Mac Mini with an external RAID and Mac OS X
 is possible. For that i have created an eibd for connecting with my Home Automation KNX bus.

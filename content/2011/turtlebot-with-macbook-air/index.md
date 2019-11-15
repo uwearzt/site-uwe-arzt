@@ -1,10 +1,13 @@
 +++
 title = "Turtlebot with MacBook Air"
 date = 2011-10-03
+
+aliases = [
+  "428ffbc9"
+]
+
 [taxonomies]
 categories = ["robots"]
-[extra]
-shortlink = "428ffbc9"
 +++
 
 Turtlebot was powered up for the first time today. In contrast to the original Turtlebot, it has an Macbook Air instead of an Asus Netbook 1215N.

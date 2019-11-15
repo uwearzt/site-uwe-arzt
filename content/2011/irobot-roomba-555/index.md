@@ -1,10 +1,13 @@
 +++
 title = "iRobot Roomba 555"
 date = 2011-05-05
+
+aliases = [
+  "42630eff"
+]
+
 [taxonomies]
 categories = ["robots"]
-[extra]
-shortlink = "42630eff"
 +++
 
 I now own an iRobot Roomba 555. After the first cleaning sessions, i am surprised how clean the Roomba has left the room(s).

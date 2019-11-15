@@ -1,10 +1,13 @@
 +++
 title = "Rust driver for Grid-EYE"
 date = 2018-12-20
+
+aliases = [
+  "424a32b1"
+]
+
 [taxonomies]
 categories = ["rust"]
-[extra]
-shortlink = "424a32b1"
 +++
 
 there is now a driver for the Grid-EYE / Panasonic AMG88(33) sensor available at

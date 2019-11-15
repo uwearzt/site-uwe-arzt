@@ -1,10 +1,13 @@
 +++
 title = "LaborUSB finished"
 date = 2013-10-05
+
+aliases = [
+  "4268c677"
+]
+
 [taxonomies]
 categories = ["electronic"]
-[extra]
-shortlink = "4268c677"
 +++
 
 Many prototyping boards these days use USB Connectors as Power Source. For easy powering

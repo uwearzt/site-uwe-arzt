@@ -1,10 +1,13 @@
 +++
 title = "Thermal Image MacBook Pro"
 date = 2010-03-18
+
+aliases = [
+  "42e5a4a9"
+]
+
 [taxonomies]
 categories = ["macos"]
-[extra]
-shortlink = "42e5a4a9"
 +++
 
 We had a Thermal Image Photosession for our home last week. I have also

@@ -1,10 +1,13 @@
 +++
 title = "boost 1.45 for iOS 4.3"
 date = 2011-01-30
+
+aliases = [
+  "423606fc"
+]
+
 [taxonomies]
 categories = ["ios", "c++"]
-[extra]
-shortlink = "423606fc"
 +++
 
 Create an user-config.jam in your home directory (with your actual compiler path)

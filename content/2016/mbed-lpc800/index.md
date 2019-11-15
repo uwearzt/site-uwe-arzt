@@ -1,12 +1,13 @@
 +++
 title = "mbed Online Compiler and LPC800"
 date = 2016-03-24
+
+aliases = [
+  "427d3070"
+]
+
 [taxonomies]
 categories = ["arm"]
-# layout: post.liquid
-[extra]
-# type: blog
-shortlink = "427d3070"
 +++
 
 I have build some of the small [LPC800](https://github.com/cpldcpu/LPC812breakout) Breakout

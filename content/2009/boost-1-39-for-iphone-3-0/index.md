@@ -1,10 +1,13 @@
 +++
 title = "boost 1.39 for iPhone 3.0"
 date = 2009-05-08
+
+aliases = [
+  "42b87dff"
+]
+
 [taxonomies]
 categories = ["ios"]
-[extra]
-shortlink = "42b87dff"
 +++
 ### Recommended reading
 

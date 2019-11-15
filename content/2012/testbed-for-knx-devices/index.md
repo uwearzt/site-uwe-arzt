@@ -1,10 +1,13 @@
 +++
 title = "Testbed for KNX devices"
 date = 2012-11-30
+
+aliases = [
+  "4291d22a"
+]
+
 [taxonomies]
 categories = ["knx"]
-[extra]
-shortlink = "4291d22a"
 +++
 
 For creating my [RoomSensor](https://github.com/uwearzt/knx_roomsensor_rs) i have build a testbed for KNX Devices.

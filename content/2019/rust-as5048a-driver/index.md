@@ -1,10 +1,13 @@
 +++
 title = "Rust driver for AS5048A"
 date = 2019-02-25
+
+aliases = [
+  "424a34b1"
+]
+
 [taxonomies]
  categories = ["rust"]
-[extra]
-shortlink = "424a34b1"
 +++
 
 there is now a driver for the AMS AS5048A

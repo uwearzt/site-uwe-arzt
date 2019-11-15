@@ -5,13 +5,12 @@ date = 2012-06-14
 aliases = [
   "/20120613.html",
   "/2012/06/13/pinheader-breadboard-adapter/",
-  "/2012/06/13/pinheader-breadboard-adapter/index.html"
+  "/2012/06/13/pinheader-breadboard-adapter/index.html",
+  "421ad8fc"
 ]
 
 [taxonomies]
 categories = ["electronic"]
-[extra]
-shortlink = "421ad8fc"
 +++
 
 Currently i am testing with a small Prototype Board [TUL - TPUART USB light](http://busware.de/tiki-index.php?page=TUL) with a Atmel AT 32U4 Controller and a Siemens TP-UART Chip for KNX access.

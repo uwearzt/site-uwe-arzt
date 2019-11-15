@@ -1,10 +1,13 @@
 +++
 title = "Telekom DSL with Ubiquiti EdgeRouter"
 date = 2014-12-07
+
+aliases = [
+  "4232f760"
+]
+
 [taxonomies]
 categories = ["linux"]
-[extra]
-shortlink = "4232f760"
 +++
 
 These days i exchanged my aging [FritzBox](https://www.avm.de) with a [Ubiquiti EdgeRouter Lite](https://www.ubnt.com/edgemax/edgerouter-lite/).

@@ -1,10 +1,14 @@
 +++
 title = "Sending Apple Push Notifications with Erlang"
 date = 2011-03-04
+
+
+aliases = [
+  "4237d925"
+]
+
 [taxonomies]
 categories = ["erlang", "ios"]
-[extra]
-shortlink = "4237d925"
 +++
 First of all you have to be sure you have installed Erlang together with SSL. On Mac OS X that can be done with MacPorts:
 

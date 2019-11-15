@@ -1,10 +1,13 @@
 +++
 title = "Energy Micro EFM32 Starterkit"
 date = 2010-09-29
+
+aliases = [
+  "42e3dbf2"
+]
+
 [taxonomies]
 categories = ["arm"]
-[extra]
-shortlink = "42e3dbf2"
 +++
 
 I will use the [Energy Micro](http://www.energymicro.com) EFM32 Gecko as Microcontroller for my

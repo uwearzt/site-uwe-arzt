@@ -1,10 +1,13 @@
 +++
 title = "USB Logic Analyzer"
 date = 2010-10-16
+
+aliases = [
+  "427b4c4e"
+]
+
 [taxonomies]
 categories = ["electronic"]
-[extra]
-shortlink = "427b4c4e"
 +++
 i needed an Logic Analyzer for testing microcontroller to pheripheral communication. I decided to buy "Logic" from [Saleae](https://www.saleae.com).
 It is fast enough for most microcontroller related measurements, very small and it comes with Mac OS X software.

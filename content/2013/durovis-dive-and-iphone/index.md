@@ -1,10 +1,13 @@
 +++
 title = "Durovis Dive and iPhone"
 date = 2013-08-15
+
+aliases = [
+  "426ceea1"
+]
+
 [taxonomies]
 categories = ["other"]
-[extra]
-shortlink = "426ceea1"
 +++
 
 I have built a [Durovis Dive](http://www.durovis.com) to test if it works with a iPhone 5 too.

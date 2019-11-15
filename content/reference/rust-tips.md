@@ -1,7 +1,10 @@
 +++
 title = "Rust Quick Tips"
-[extra]
-shortlink = "420cbe5a"
+
+
+aliases = [
+  "420cbe5a"
+]
 +++
 
 | command                        | description |

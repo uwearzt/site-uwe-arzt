@@ -1,10 +1,13 @@
 +++
 title = "MP3FS on Mac OS X with MacFUSE"
 date = 2008-03-27
+
+aliases = [
+  "429bf320"
+]
+
 [taxonomies]
 categories = ["macos"]
-[extra]
-shortlink = "429bf320"
 +++
 My music collection is stored in the FLAC format (see <https://xiph.org/flac/>), but iTunes for my iPhone is not able to read FLAC-Files. So i decided to give MP3FS a try on my Mac.
 

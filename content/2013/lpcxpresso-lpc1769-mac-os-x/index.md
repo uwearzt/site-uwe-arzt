@@ -1,10 +1,13 @@
 +++
 title = "LPCXpresso LPC1769 commandline Development on Mac OS X"
 date = 2013-01-15
+
+aliases = [
+  "424c3fb4"
+]
+
 [taxonomies]
 categories = ["arm"]
-[extra]
-shortlink = "424c3fb4"
 +++
 Because editing with [vim](http://www.vim.org) is my preferred way of creating software, i do
 not use the Eclipse based software delivered together with the LPCXpresso.

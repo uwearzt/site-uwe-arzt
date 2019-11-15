@@ -1,10 +1,13 @@
 +++
 title = "Parallella Boards"
 date = 2014-04-10
+
+aliases = [
+  "42f81b3b"
+]
+
 [taxonomies]
 categories = ["other"]
-[extra]
-shortlink = "42f81b3b"
 +++
 
 I've got my two <s>Parallella</s> Boards from the [Parallella Kickstarter Campaign](https://www.kickstarter.com/projects/adapteva/parallella-a-supercomputer-for-everyone).

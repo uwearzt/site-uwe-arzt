@@ -1,10 +1,13 @@
 +++
 title = "Parallela on supercomputer.io"
 date = 2015-10-03
+
+aliases = [
+  "42694528"
+]
+
 [taxonomies]
 categories = ["other"]
-[extra]
-shortlink = "42694528"
 +++
 
 <s>Parallella</s> has started a distributed Supercomputer on

@@ -1,7 +1,9 @@
 +++
 title = "iOS Software"
-[extra]
-shortlink = "42d2704b"
+
+aliases = [
+  "42d2704b"
+]
 +++
 
 Here is an overview of software i use on my Mac(s). I also collect some additional

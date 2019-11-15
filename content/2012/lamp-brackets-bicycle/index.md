@@ -1,10 +1,13 @@
 +++
 title = "Lamp brackets for my cyclocross bicycle"
 date = 2012-02-07
+
+aliases = [
+  "4218b8ec"
+]
+
 [taxonomies]
 categories = ["cad"]
-[extra]
-shortlink = "4218b8ec"
 +++
 **Update
 The drawings are now available online, see my [blogpost](@/2015/bicycle-parts-onshape/index.md).

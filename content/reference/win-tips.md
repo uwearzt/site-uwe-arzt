@@ -1,7 +1,9 @@
 +++
 title = "Windows Quick Tips"
-[extra]
-shortlink = "4245b70f"
+
+aliases = [
+  "4245b70f"
+]
 +++
 
 ## special characters (umlauts) on us keyboard

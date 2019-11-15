@@ -1,8 +1,6 @@
 +++
 title = "Impressum"
 path = "impressum"
-[extra]
-shortlink = "425ef91f"
 +++
 
 Uwe Arzt<br/>
