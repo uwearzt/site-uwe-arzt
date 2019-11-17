@@ -37,17 +37,15 @@ aclocal -I m4 -I /opt/knx/share/aclocal
 autoheader
 automake -a --foreign
 autoconf
-./configure --enable-onlyeibd --enable-eibnetip --enable-eibnetiptunnel --enable-eibnetipserver --prefix=/opt/knx
-    --with-pth=/opt/knx
+./configure --enable-onlyeibd --enable-eibnetip --enable-eibnetiptunnel \
+  --enable-eibnetipserver --prefix=/opt/knx --with-pth=/opt/knx
 make
 sudo make install
 ```
 
 5. Set the DYLD_LIBRARY_PATH to */opt/knx/lib*
 
-
 6. Now you are ready to run (and the files should be built in the same way as in the provided tar).
-
 
 You can also download my prebuilt binaries as [tar](eibd.tar.gz). Unpack it, set DYLD_LIBRARY_PATH and you can run
 the eibd directly. When i decide to run an Mac OS X Server in the future, i will built an MacPorts package.
