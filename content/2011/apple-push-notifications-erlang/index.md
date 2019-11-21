@@ -35,7 +35,7 @@ There ar a lot of other articles around about creating the correct certificates 
 
 ## Create Erlang module
 
-```erlang
+```erl
 %%  Copyright by Uwe Arzt mailto:mail@uwe-arzt.de https://uwe-arzt.de
 %%  under GNU Public License v3, see http://www.gnu.org/licenses/gpl.html
 
@@ -96,7 +96,7 @@ add_quotes(String) ->
 
 ## Compile and call
 
-```erlang
+```erl
 1> c(pushnotification.erl).
 {ok,pushnotification}
 2> pushnotification:send("Message").

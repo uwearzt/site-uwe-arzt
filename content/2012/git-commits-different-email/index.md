@@ -47,7 +47,7 @@ alias git='GIT_AUTHOR_EMAIL=$(git_email) /usr/bin/git'
 
 Here is a part of the .gitemail file i use.
 
-```
+```txt
 Robotics.git:mail@uwe-arzt.de
 parstream.git:uwe.arzt@parstream.com
 ```

@@ -72,7 +72,7 @@ accordingly.
 
 One of the easiest ways is to install [macports](https://www.macports.org) and compile cmake with
 
-```
+```bash
 sudo port install cmake
 ```
 
@@ -82,25 +82,25 @@ afterwards.
 
 Download the [example](FreeRTOSDemo.tar.bz2) and extract it with
 
-```
+```bash
 tar jxf FreeRTOSDemo.tar.bz2
 ```
 
 Step into the build directory
 
-```
+```bash
 cd FreeRTOSDemo/build
 ```
 
 Generate Makefiles from the projectdefinition and build the project
 
-```
+```bash
 cmake .. ; make
 ```
 
 Start the gdbserver creating a connection to the J-LINK with
 
-```
+```bash
 make gdbserver
 ```
 
@@ -108,14 +108,14 @@ In a second windows start gdb, which executes a provided command file to load th
 FreeRTOSDemo into the flash memory, afterthat sets a breakpoint at main() and executes
 the program.
 
-```
+```bash
 make gdb
 ```
 
 You can also type in the steps one by one, which allows to see what is happening on the
 JTAG adapter with a logic analyzer.
 
-```
+```txt
 target remote localhost:2331
 monitor interface SWD
 monitor reset
