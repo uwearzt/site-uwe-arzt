@@ -3,6 +3,8 @@ title = "Telekom DSL with Ubiquiti EdgeRouter"
 date = 2014-12-07
 
 aliases = [
+  "/2014/12/07/telekom-dsl-with-ubiquiti-edgerouter/",
+  "/posts/2014/12/07/telekom-dsl-edgerouter.html",
   "4232f760"
 ]
 
