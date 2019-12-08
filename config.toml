@@ -8,7 +8,12 @@ title = "Uwes Blog"
 description = "projects, thoughts and more"
 
 highlight_code = true
-highlight_theme = "base16-ocean-dark"
+highlight_theme = "css"
+
+generate_theme_css = [
+  { theme = "solarized-dark", file = "theme-dark.css" },
+  { theme = "solarized-light", file = "theme-light.css" },
+]
 
 taxonomies = [
   {name = "categories", paginate_by = 10}
