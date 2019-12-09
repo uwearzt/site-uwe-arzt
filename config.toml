@@ -11,8 +11,8 @@ highlight_code = true
 highlight_theme = "css"
 
 generate_theme_css = [
-  { theme = "solarized-dark", file = "theme-dark.css" },
-  { theme = "solarized-light", file = "theme-light.css" },
+  { theme = "solarized-dark", file = "syntax-theme-dark.css" },
+  { theme = "solarized-light", file = "syntax-theme-light.css" },
 ]
 
 taxonomies = [
