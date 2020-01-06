@@ -37,12 +37,13 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 | -D -r [name]           | reattach session [name] after connection lost |
 | /dev/cu.serial [speed] | attach to serial port |
 
-### git commands
-
-often i use [Tower](https://www.git-tower.com/) on my Mac for all kinds of git stuff. But some
-things are faster to do on the commandline, or need to be automated i.e. inside Makefiles.
+### git/github commands
 
 | command                                            |   |
 |----------------------------------------------------|---|
 | git clean -f -d                                    | remove all untracked files and directories |
 | git log --oneline --graph --color --all --decorate | nice commandline commit graph |
+| git remote -v                                      | show remotes |
+| git remote add upstream ```remoteurl```            | add additional remote |
+| git fetch upstream                                 | fetch the uostream changes (repo forked from) |
+| git merge upstream/master                          | merge the uostream changes (repo forked from) |
