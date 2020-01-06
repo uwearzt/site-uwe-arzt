@@ -43,10 +43,7 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 |----------------------------------------------------|---|
 | git clean -f -d                                    | remove all untracked files and directories |
 | git log --oneline --graph --color --all --decorate | nice commandline commit graph |
-
-| command                                            |   |
-|----------------------------------------------------|---|
 | git remote -v                                      | show remotes |
-| git remote add upstream <https://remote-repo.git>  | add additional remote |
+| git remote add upstream ```remoteurl```            | add additional remote |
 | git fetch upstream                                 | fetch the uostream changes (repo forked from) |
 | git merge upstream/master                          | merge the uostream changes (repo forked from) |
