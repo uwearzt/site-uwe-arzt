@@ -1,5 +1,8 @@
 {% import "_macros.html" as macros %}
 
+<!-- Copyright 2019-2020 Uwe Arzt, mail@uwe-arzt.de -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
@@ -28,9 +31,16 @@
   <div id="container">
 
     <header>
-      <p>
-        <a href="/"><img src="{{ get_url(path="/graphics/logo.png") }}" alt="Logo" /></a>
-      </p>
+      <table>
+        <tr>
+          <td class="logo"><a href="/">
+            <img src="{{ get_url(path="/graphics/apple-touch-icon.png") }}" alt="Logo" />
+          </a></td>
+          <td class="logotext"><a href="/">
+            Uwes Blog
+          </a></td>
+        </tr>
+      </table>
       <hr />
     </header>
 
@@ -90,7 +100,7 @@
     <footer>
       <hr />
       <p>
-        © Copyright 2007-2019 by <a href="mailto:mail@uwe-arzt.de">mail@uwe-arzt.de</a>
+        © Copyright 2007-2020 by <a href="mailto:mail@uwe-arzt.de">mail@uwe-arzt.de</a>
         under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a>
       </p>
     </footer>

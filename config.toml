@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# Copyright 2019 Uwe Arzt, mail@uwe-arzt.de
+# Copyright 2019-2020 Uwe Arzt, mail@uwe-arzt.de
 # SPDX-License-Identifier: Apache-2.0
 # ------------------------------------------------------------------------------
 base_url = "https://uwe-arzt.de"
@@ -11,8 +11,8 @@ highlight_code = true
 highlight_theme = "css"
 
 generate_theme_css = [
-  { theme = "solarized-dark", file = "syntax-theme-dark.css" },
-  { theme = "solarized-light", file = "syntax-theme-light.css" },
+  { theme = "base16-ocean-dark", file = "syntax-theme-dark.css" },
+  { theme = "base16-ocean-light", file = "syntax-theme-light.css" },
 ]
 
 taxonomies = [
