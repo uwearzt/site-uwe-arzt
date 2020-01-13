@@ -31,7 +31,7 @@ It uses the
 
 ## Example output
 
-```bash
+```txt
 diag: 00000001 gain: 50
 magnitude: Ok(4713)
 angle: Ok(15814)
