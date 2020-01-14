@@ -11,7 +11,7 @@ categories = ["arm"]
 +++
 
 After publishing my article about development with [FreeRTOS](https://www.freertos.org) and the [LPCXpresso 1769](https://www.embeddedartists.com/products/lpcxpresso/lpc1769_xpr.php)
-a few people mentioned i should try [ChibiOS/RT](http://www.chibios.org) and [STM32](http://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) Microcontrollers too.
+a few people mentioned i should try [ChibiOS/RT](http://www.chibios.org) and [STM32](https://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) Microcontrollers too.
 
 So i gave that a try. Here is what i used in this case:
 
@@ -27,7 +27,7 @@ So i gave that a try. Here is what i used in this case:
 
 The gdb commands which need to be executed to start the program on the board differ a little bit from the LPC:
 
-```bash
+```txt
 target remote localhost:2331
 monitor interface swd
 monitor endian little
@@ -47,4 +47,4 @@ monitor reset
 **Roundup**
 
 Especially the HAL (Hardware abstraction layer) and the integration of the IP stack are very neat. In my next project i will use [ChibiOS/RT](http://www.chibios.org).
-I found also the C++ abstractions handy. The [STM32](http://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) line is also very nice, with the small exception that some LPCs are also available in a DIL packages.
+I found also the C++ abstractions handy. The [STM32](https://www.st.com/en/microcontrollers/stm32-32-bit-arm-cortex-mcus.html) line is also very nice, with the small exception that some LPCs are also available in a DIL packages.
