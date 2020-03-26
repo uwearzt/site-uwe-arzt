@@ -3,7 +3,8 @@ title = "CAN bus on Raspberry Pi with Stretch"
 date = 2017-12-25
 
 aliases = [
-  "424a02b1"
+  "424a02b1",
+  "/posts/2017/12/25/raspberry-can.html"
 ]
 
 [taxonomies]

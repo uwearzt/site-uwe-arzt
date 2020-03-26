@@ -2,7 +2,8 @@
 title = "Mac OS X Software"
 
 aliases = [
-  "42325340"
+  "42325340",
+  "/reference/macos-software.html"
 ]
 +++
 

@@ -6,6 +6,7 @@ aliases = [
   "/20120613.html",
   "/2012/06/13/pinheader-breadboard-adapter/",
   "/2012/06/13/pinheader-breadboard-adapter/index.html",
+  "/posts/2012/06/13/pinheader-breadboard-adapter.html",
   "421ad8fc"
 ]
 

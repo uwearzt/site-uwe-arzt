@@ -3,7 +3,8 @@ title = "Ansible Swift RPi install"
 date = 2016-01-09
 
 aliases = [
-  "421dd501"
+  "421dd501",
+  "/posts/2016/01/09/ansible-rpi-swift.html"
 ]
 
 [taxonomies]
