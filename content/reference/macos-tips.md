@@ -22,17 +22,23 @@ defaults write com.apple.finder AppleShowAllFiles -boolean false; killall Finder
 chflags nohidden ~/Library
 ```
 
+### special characters on us-international keyboard
+
+| Character | Key combination |
+|-----------|---|
+| &#x00b0;  | Shift + Option + 8 |
+
 ### special characters on german keyboard
 
 | Character | Key combination |
 |-----------|---|
-| &#x007c;  | Alt + 7 |
-| ~         | Alt + n |
-| {         | Alt + ( |
-| }         | Alt + ) |
-| &#x005c;  | Alt + Shift + 7 (Alt + /) |
-| [         | Alt + 5 |
-| ]         | Alt + 6 |
+| &#x007c;  | Option + 7 |
+| ~         | Option + n |
+| {         | Option + ( |
+| }         | Option + ) |
+| &#x005c;  | Option + Shift + 7 (Option + /) |
+| [         | Option + 5 |
+| ]         | Option + 6 |
 
 ### quit Application in Task Switch
 
