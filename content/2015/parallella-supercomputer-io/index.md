@@ -1,5 +1,5 @@
 +++
-title = "Parallela on supercomputer.io"
+title = "Parallella on supercomputer.io"
 date = 2015-10-03
 
 aliases = [
@@ -11,12 +11,12 @@ categories = ["other"]
 +++
 
 <s>Parallella</s> has started a distributed Supercomputer on
-<s>supercomputer.io</s> with their parallela chips. I decided to
-put my two Kickstarter Parallelas inside a cooling case and let them participate.
+<s>supercomputer.io</s> with their parallella chips. I decided to
+put my two Kickstarter Parallellas inside a cooling case and let them participate.
 
 <!-- more -->
 
-![Running Parallelas](running.jpg)
+![Running Parallellas](running.jpg)
 
 If you like to build your own, you can print the STL files
 

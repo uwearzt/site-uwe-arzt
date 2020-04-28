@@ -7,6 +7,8 @@ aliases = [
 ]
 +++
 
+# cargo commands
+
 | command                        | description |
 |--------------------------------|-|
 | cargo run -- --arg --arg1 test | Run executable with commandline arguments |
@@ -16,3 +18,9 @@ aliases = [
 | cargo install rustfmt          | Install rust formatter |
 | cargo fmt                      | Format sourcecode in project |
 | cargo install --list           | list all installed crates |
+
+# warning settings
+
+```rust
+#[warn(missing_debug_implementations, rust_2018_idioms, missing docs)]
+```
