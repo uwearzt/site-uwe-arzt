@@ -3,7 +3,7 @@
 # Copyright 2018-2020 Uwe Arzt, mail@uwe-arzt.de
 # SPDX-License-Identifier: Apache-2.0
 # ------------------------------------------------------------------------------
-set -e
+# set -e
 # set -x
 
 export PATH=/Users/uwe/repo/rust/zola/target/debug:$PATH

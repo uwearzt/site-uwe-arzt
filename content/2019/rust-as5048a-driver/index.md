@@ -26,7 +26,7 @@ It uses the
 * [Sparkfun Qwiic Hat](https://www.sparkfun.com/products/14459)
 
 * a simple SMD to DIL converter board together with a 3d printed cover. You can download the
-  cover as ready to print [STL](as5048.stl), or copy the Fusion 360 [part](https://a360.co/2Eg3loC).
+  cover as ready to print [STL](as5048.stl).
   The test axis with a magnet consists of two Lego parts.
 
 ## Example output

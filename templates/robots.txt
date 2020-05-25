@@ -1,2 +1,4 @@
-# https://uwe-arzt.de
-User-agent: *
+User-agent: * 
+Allow: *
+Disallow:
+Sitemap: https://uwe-arzt.de/sitemap.xml
