@@ -9,9 +9,6 @@ aliases = [
 [taxonomies]
 categories = ["cad"]
 +++
-**Update
-The drawings are now available online, see my [blogpost](@/2015/bicycle-parts-onshape/index.md).
-Update**
 
 My new cyclocross bicycle needed lighting, because it is used everyday for my way to work.
 It is equipped with a hub dynamo but does not have mounting holes for lights.
