@@ -21,6 +21,6 @@ aliases = [
 
 # warning settings
 
-```rust
+```rs
 #[warn(missing_debug_implementations, rust_2018_idioms, missing docs)]
 ```
