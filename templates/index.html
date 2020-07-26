@@ -9,7 +9,7 @@
   <!-- index.html -->
   {% for page in paginator.pages %}
     <article class="index">
-      <p class='post-date'>Published {{ page.date }}</p>
+      <p class='post-date'>{{ page.date }}</p>
       <a class="post-link" href="{{ page.permalink | safe }}">
         <h2 class= "post-title">{{ page.title }}</h2>
       </a>

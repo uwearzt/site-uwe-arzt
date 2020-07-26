@@ -3,7 +3,8 @@ title = "LPCXpresso LPC1769 commandline Development on Mac OS X"
 date = 2013-01-15
 
 aliases = [
-  "424c3fb4"
+  "424c3fb4",
+  "/2013/01/15/lpcxpresso-lpc1769-commandline-development-on-mac-os-x/"
 ]
 
 [taxonomies]
@@ -130,7 +131,6 @@ break main
 monitor reset
 continue
 ```
-
 
 <div class="comments">
 <hr class="comments-ruler" />

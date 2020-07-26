@@ -6,7 +6,8 @@
 # set -e
 # set -x
 
-export PATH=/Users/uwe/repo/rust/zola/target/debug:$PATH
+#export PATH=/Users/uwe/repo/rust/zola/target/debug:$PATH
+export PATH=/Users/uwe/repo/rust/zola/target/release:$PATH
 echo "---------------------------------------------------------------------"
 type zola
 zola --version

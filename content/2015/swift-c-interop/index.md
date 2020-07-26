@@ -13,13 +13,15 @@ categories = ["programming"]
 project_url = "https://github.com/uwearzt/Swift-C-Interop.git"
 +++
 
-I started to learn Swift 2.0, an how to integrate with C. Therefore i have created a small Swift-C Interoperabilty
-project, which can be found on [github](https://github.com/uwearzt/Swift-C-Interop.git).
+I started to learn Swift 2.0, and how to integrate with C. Therefore i have
+created a small Swift-C Interoperability project, which can be found on
+[github](https://github.com/uwearzt/Swift-C-Interop.git).
 
 As soon as i will start to wrap some C/C++ Libs, more examples will be added.
 
-There was also a nice Swift compiler crash, which you can test with your environment too, just clone my github
-project, uncomment the line leading to the compiler crash and comment the correct line.
+There was also a nice Swift compiler crash, which you can test with your
+environment too, just clone my github project, uncomment the line leading to
+the compiler crash and comment the correct line.
 
 <!-- more -->
 

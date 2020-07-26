@@ -11,8 +11,7 @@ aliases = [
 categories = ["linux"]
 +++
 
-A friend of mine wanted to install the (very beta)
-<s>Swift Compiler]</s> for the
+A friend of mine wanted to install the (very beta) <s>Swift Compiler</s> for the
 [Raspberry Pi](https://www.raspberrypi.org) in his classroom. He is going to teach some
 Swift Coding on the RPi. Because we had to install on multiple machines we decided to go
 with Ansible.

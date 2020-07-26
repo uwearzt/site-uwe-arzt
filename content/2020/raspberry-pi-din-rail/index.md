@@ -22,6 +22,7 @@ The plate without Raspberry Pi
 ![RPI 4 plate](rpi_plate.jpg)
 
 You can download the
-[Rhino 3D](https://github.com/uwearzt/rhino3d/raw/master/drawings/rpi/dinrailmount.3dm)
-from my github repo, or get the
+[Fusion 360](https://github.com/uwearzt/fusion360/blob/master/parts/Lab/RaspberryPi/DINRailMount.f3d)
+or [Step](https://github.com/uwearzt/fusion360/blob/master/parts/Lab/RaspberryPi/DINRailMount.step)
+files from my github repo, or get the
 [STL](https://www.prusaprinters.org/prints/34223-raspberry-pi-4-din-rail-mount).
