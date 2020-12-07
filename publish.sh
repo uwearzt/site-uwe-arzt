@@ -33,7 +33,7 @@ do
   case $option in
     Yes)
       rsync -r -c --delete --progress  public/* ${SERVER}:${DIR}/
-      ssh ${SERVER} "chown www-data:www-data ${DIR}"
+      ssh ${SERVER} "chown -R www-data:www-data ${DIR}"
       break;;
     No)
       echo "Not uploading"

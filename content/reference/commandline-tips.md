@@ -57,5 +57,5 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 | git log --oneline --graph --color --all --decorate | nice commandline commit graph |
 | git remote -v                                      | show remotes |
 | git remote add upstream ```remoteurl```            | add additional remote |
-| git fetch upstream                                 | fetch the uostream changes (repo forked from) |
-| git merge upstream/master                          | merge the uostream changes (repo forked from) |
+| git fetch upstream                                 | fetch the upstream changes (repo forked from) |
+| git merge upstream/master                          | merge the upstream changes (repo forked from) |

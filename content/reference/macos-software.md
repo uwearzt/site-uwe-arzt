@@ -28,7 +28,7 @@ software...
 
 | Name | Description |
 |---|---|
-| Rhino3D | |
+| [FreeCAD](https://freecadweb.org/) | 3D CAD package |
 
 ## Network/Internet
 
