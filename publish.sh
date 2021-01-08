@@ -1,16 +1,15 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------
-# Copyright 2018-2020 Uwe Arzt, mail@uwe-arzt.de
+# Copyright 2018-2021 Uwe Arzt, mail@uwe-arzt.de
 # SPDX-License-Identifier: Apache-2.0
 # ------------------------------------------------------------------------------
 # set -e
 # set -x
 
-#export PATH=/Users/uwe/repo/rust/zola/target/debug:$PATH
-export PATH=/Users/uwe/repo/rust/zola/target/release:$PATH
+. zola.sh
 echo "---------------------------------------------------------------------"
-type zola
-zola --version
+echo $ZOLA
+$ZOLA --version
 echo "---------------------------------------------------------------------"
 
 # ------------------------------------------------------------------------------
@@ -18,8 +17,8 @@ SERVER=hetzner01
 DIR=/var/www/site-uwe-arzt
 
 # ------------------------------------------------------------------------------
-zola check
-zola build
+$ZOLA check
+$ZOLA build
 
 # ------------------------------------------------------------------------------
 echo "-------------------------------------------------------------------------"
