@@ -53,6 +53,7 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 
 | command                                            |   |
 |----------------------------------------------------|---|
+| git status --ignored                               | show ignored files too |
 | git clean -f -d                                    | remove all untracked files and directories |
 | git log --oneline --graph --color --all --decorate | nice commandline commit graph |
 | git remote -v                                      | show remotes |
