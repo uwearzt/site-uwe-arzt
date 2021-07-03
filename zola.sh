@@ -6,4 +6,4 @@
 # set -e
 # set -x
 
-ZOLA=/Users/uwe/repo/web/zola-evan-brass/target/debug/zola
+ZOLA=/Users/uwe/repo/web/zola/target/debug/zola

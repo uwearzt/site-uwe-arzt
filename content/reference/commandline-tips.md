@@ -10,7 +10,7 @@ aliases = [
 Here is a collection of Commandline Quick Tips, i use often. It will be supplemented, every time i
 find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 
-### tmux keyboard commands
+## tmux
 
 | key        | mapping |
 |------------|---|
@@ -21,35 +21,15 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 | ctrl+b c   | create a new windows |
 | ctrl+b c   | create a new windows |
 
-### screen keyboard commands
+## minicom
 
-#### running session
-
-| key        | mapping |
+| parameter  |   |
 |------------|---|
-| ctrl+a d   | detach from screen session |
-| ctrl+a n   | next screen |
-| ctrl+a p   | previous screen |
-| ctrl+a c   | create screen |
-| ctrl+a "   | list screens |
-| ctrl+a i   | info |
-| ctrl+a k   | kill |
-| ctrl+a A   | rename |
-| ctrl+a ESC | activate scroll back buffer |
+| --device /dev/cu.    | serial device e.g /dev/cu.ttyUSB0 |
+| --baudrate 9600      |  |
+| --capturefile=<FILE> | capture to file  |
 
-#### startup
-
-| key                    | mapping |
-|------------------------|---|
-| -S [name]              | start session with [name] |
-| -L                     | create Log |
-| -list                  | list all sessions |
-| -r [name]              | reattach session [name] |
-| -D -r [name]           | reattach session [name] after connection lost |
-| -D -r [name]           | reattach session [name] after connection lost |
-| /dev/cu.serial [speed] | attach to serial port |
-
-### git/github commands
+## git/github
 
 | command                                            |   |
 |----------------------------------------------------|---|
@@ -60,3 +40,9 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 | git remote add upstream ```remoteurl```            | add additional remote |
 | git fetch upstream                                 | fetch the upstream changes (repo forked from) |
 | git merge upstream/master                          | merge the upstream changes (repo forked from) |
+
+## WOL
+
+```bash
+wakeonlan -i 192.168.20.255 AC:87:A3:19:BF:D9
+```
