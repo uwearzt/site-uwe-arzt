@@ -6,4 +6,5 @@
 # set -e
 # set -x
 
-ZOLA=/Users/uwe/repo/web/zola/target/debug/zola
+ZOLA=/opt/homebrew/bin/zola
+# ZOLA=/Users/uwe/repo/web/zola/target/debug/zola

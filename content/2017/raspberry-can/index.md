@@ -10,8 +10,8 @@ aliases = [
 [taxonomies]
 categories = ["linux"]
 +++
-I needed to install my
-[CAN Board](http://skpang.co.uk/catalog/pican2-canbus-board-for-raspberry-pi-23-p-1475.html)
+I needed to install a CAN interface board, available e.g.
+[CAN Board](https://wiki.seeedstudio.com/2-Channel-CAN-BUS-FD-Shield-for-Raspberry-Pi/)
 on my Raspberry after some time not using it.
 Because most of the copy/paste stuff is for the older distribution(s), here how to install
 with Stretch (in my case `2017-11-29-raspbian-stretch.img`).
@@ -23,7 +23,7 @@ dtparam=spi=on
 dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
 ```
 
-2. Add file `/etc/network/interfaces.d/can0`
+1. Add file `/etc/network/interfaces.d/can0`
 
 ```bash
 auto can0
