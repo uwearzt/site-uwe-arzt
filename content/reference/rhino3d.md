@@ -20,11 +20,16 @@ aliases = [
 
 | Shortcut            | Command |
 | ------------------- | --- |
-| &#x2318; &#x232b;   | Delete
-| &#x2318; A          | Select all |
 | &#x21e7; &#x2318; E | Zoom extents |
 | &#x2325; &#x2318; E | Zoom extents all |
 | &#x2303; &#x2318; F | Full screen |
+| &#x2318; F1         | Maximize Viewport Top |
+| &#x2318; F2         | Maximize Viewport Front |
+| &#x2318; F3         | Maximize Viewport Right |
+| &#x2318; &#x232b;   | Delete
+| &#x2318; A          | Select all |
+| &#x2318; G          | Group |
+| &#x21e7; &#x2318; G | Ungroup |
 | &#x2318; J          | Join |
 | &#x2303; &#x21e7; S | Split |
 | &#x2318; T          | Trim |
