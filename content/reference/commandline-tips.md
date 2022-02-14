@@ -34,7 +34,6 @@ find a new Tip. Normally this tips work flawless on Linux and Mac OS X.
 | ```tmux ls```| list sessions |
 | ```tmux attach-session -t session_name``` | attach to session |
 
-
 ## minicom
 
 | parameter  |   |

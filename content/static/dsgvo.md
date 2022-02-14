@@ -308,12 +308,4 @@ Wir binden die Videos der Plattform “YouTube” des Anbieters Google LLC, 1600
 Mountain View, CA 94043, USA, ein. Datenschutzerklärung: https://www.google.com/policies/privacy/,
 Opt-Out: https://adssettings.google.com/authenticated.
 
-## Google ReCaptcha
-
-Wir binden die Funktion zur Erkennung von Bots, z.B. bei Eingaben in Onlineformularen ("ReCaptcha")
-des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein.
-Datenschutzerklärung: https://www.google.com/policies/privacy/,
-Opt-Out: https://adssettings.google.com/authenticated.
-
-
 Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke: https://datenschutz-generator.de/
