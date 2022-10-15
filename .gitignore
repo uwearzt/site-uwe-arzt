@@ -2,3 +2,4 @@ public
 .vscode
 *.pdf
 *.css
+.DS_store

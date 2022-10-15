@@ -1,10 +1,9 @@
-{% import "_macros.html" as macros %}
-
-<!-- Copyright 2019-2021 Uwe Arzt, mail@uwe-arzt.de -->
+<!-- Copyright 2019-2022 Uwe Arzt, mail@uwe-arzt.de -->
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<!-- html class="no-js" lang="en" -->
+<html lang="en">
 
 <head>
   <link rel="stylesheet" media="screen" href="{{ get_url(path="screen.css") }}" />
@@ -19,7 +18,7 @@
   <link rel="icon" href="/graphics/icon-96x96.png" />
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Security-Policy" content="default-src https:" />
+  <!-- meta http-equiv="Content-Security-Policy" content="default-src https:" / -->
   <meta http-equiv="Referrer-Policy" content="same-origin" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,11 +47,6 @@
     <div id="main">
       <hr />
       <nav>
-        <ul>
-          <li>
-            <a class="icon home-icon" href="/" title="Go to homepage">Home</a>
-          </li>
-        </ul>
         <p>Projects</p>
         <ul>
           <li><a href="https://github.com/uwearzt/knx_roomsensor_rs">Roomsensor</a></li>
@@ -67,7 +61,7 @@
           <li><a href="{{ get_url(path="/reference/linux-tips") }}/">Linux tips</a></li>
           <li><a href="{{ get_url(path="/reference/rhino3d") }}/">Rhino 3D tips</a></li>
         </ul>
-        <p>Archived projects</p>
+        <p>Old projects</p>
         <ul>
           <li><a href="https://github.com/uwearzt/LaborUSB">LaborUSB</a></li>
         </ul>
@@ -100,7 +94,7 @@
     <footer>
       <hr />
       <p>
-        © Copyright 2007-2021 by <a href="mailto:mail@uwe-arzt.de">mail@uwe-arzt.de</a>
+        © Copyright 2007-2022 by <a href="mailto:mail@uwe-arzt.de">mail@uwe-arzt.de</a>
         under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a>
       </p>
     </footer>

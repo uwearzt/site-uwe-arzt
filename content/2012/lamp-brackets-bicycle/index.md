@@ -32,7 +32,7 @@ if you need a copy of them, you can
 * [Vorderlichthalter.3dm](Vorderlichthalter.3dm)
 * [Ruecklichthalter.3dm](Ruecklichthalter.3dm)
 
-* download the STL files and print it for yourself, i.e. with a [Ultimaker](https://www.ultimaker.com).
+* download the STL files and print it for yourself.
 * [lampenhalter_vorne_oben.stl](lampenhalter_vorne_oben.stl)
 * [lampenhalter_vorne_unten.stl](lampenhalter_vorne_unten.stl)
 * [lampenhalter_hinten.stl](lampenhalter_hinten.stl)

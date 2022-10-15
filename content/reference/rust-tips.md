@@ -26,6 +26,12 @@ aliases = [
 | cargo uninstall [crate]        | Uninstall [crate] |
 | cargo install --list           | List all installed crates |
 
+## cargo plugins
+
+| plugin | description |
+|---|---|
+| expand | expand Rust macros |
+
 ## warning settings
 
 ```rs

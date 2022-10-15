@@ -12,7 +12,7 @@ aliases = [
 categories = ["linux"]
 +++
 
-These days i exchanged my aging [FritzBox](https://www.avm.de) with a [Ubiquiti EdgeRouter Lite](https://www.ubnt.com/edgemax/edgerouter-lite/).
+These days i exchanged my aging [FritzBox](https://www.avm.de) with a ~~Ubiquiti EdgeRouter Lite~~(not available anymore).
 
 Most of the configuration including IPsec is pretty straightforward. The only thing which took a little bit more time is the "Zwangstrennung" (daily shutdown) of the PPPoE connection from my provider. I do the daily reconnect for my connection at 4 am every day.
 
