@@ -31,9 +31,17 @@ aliases = [
 | plugin | description |
 |---|---|
 | expand | expand Rust macros |
+| outdated | check for outdated dependencies |
+| bloat | space used by functions in executable |
+| audit | check for security vulnerabilities in libs |
+| deb | create debian package |
 
 ## warning settings
 
+See also the [Lint Listing](https://doc.rust-lang.org/rustc/lints/listing/index.html)
+in the Rust Documentation
+
 ```rs
-#[warn(missing_debug_implementations, rust_2018_idioms, missing docs)]
+#[warn(missing_debug_implementations)]
+#[warn(missing_docs)]
 ```
